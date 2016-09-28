@@ -309,6 +309,17 @@ label {
           padding-left: 15px;
           padding-right: 15px; } }
 
+.btn {
+  border-radius: 0;
+  text-align: center;
+  transition: all .3s;
+  box-shadow: none; }
+  .btn:hover, .btn:focus {
+    opacity: .5;
+    box-shadow: none; }
+  .btn:active, .btn.active {
+    box-shadow: none; }
+
 .form-group {
   margin-bottom: 0; }
 
@@ -521,28 +532,46 @@ select.form-control {
     width: 500px;
     margin-left: -584px; }
     #content #visual .bx-wrapper .bx-controls .bx-controls-direction .bx-prev {
-      text-indent: -99999px;
       display: inline-block;
-      width: 40px;
-      height: 40px;
-      color: #fff;
       text-align: center;
-      margin-right: 1px;
-      background-color: #fff;
-      background-image: url(/assets/images/main/prev_btn.png);
-      background-repeat: no-repeat;
-      background-position: 50% 50%; }
+      margin-right: 1px; }
+      #content #visual .bx-wrapper .bx-controls .bx-controls-direction .bx-prev span {
+        display: block;
+        width: 40px;
+        height: 40px;
+        font-size: 15px;
+        vertical-align: top;
+        line-height: 40px;
+        color: #333;
+        background-color: #fff; }
+      #content #visual .bx-wrapper .bx-controls .bx-controls-direction .bx-prev:focus {
+        text-decoration: none; }
+        #content #visual .bx-wrapper .bx-controls .bx-controls-direction .bx-prev:focus span {
+          text-decoration: none;
+          color: #fff;
+          background-color: #d90c1c; }
+      #content #visual .bx-wrapper .bx-controls .bx-controls-direction .bx-prev:hover {
+        text-decoration: none; }
     #content #visual .bx-wrapper .bx-controls .bx-controls-direction .bx-next {
-      text-indent: -99999px;
       display: inline-block;
-      width: 40px;
-      height: 40px;
-      color: #fff;
-      text-align: center;
-      background-color: #fff;
-      background-image: url(/assets/images/main/next_btn.png);
-      background-repeat: no-repeat;
-      background-position: 50% 50%; }
+      text-align: center; }
+      #content #visual .bx-wrapper .bx-controls .bx-controls-direction .bx-next span {
+        display: block;
+        width: 40px;
+        height: 40px;
+        font-size: 15px;
+        vertical-align: top;
+        line-height: 40px;
+        color: #333;
+        background-color: #fff; }
+      #content #visual .bx-wrapper .bx-controls .bx-controls-direction .bx-next:focus {
+        text-decoration: none; }
+        #content #visual .bx-wrapper .bx-controls .bx-controls-direction .bx-next:focus span {
+          text-decoration: none;
+          color: #fff;
+          background-color: #d90c1c; }
+      #content #visual .bx-wrapper .bx-controls .bx-controls-direction .bx-next:hover {
+        text-decoration: none; }
 #content .business {
   padding: 100px 0 69px; }
   #content .business h2 {
@@ -551,7 +580,7 @@ select.form-control {
     text-align: center;
     font-weight: bold;
     font-family: 'Gotham', serif;
-    letter-spacing: 5px; }
+    letter-spacing: 4px; }
   #content .business hr {
     width: 74px;
     border-top: 2px solid #333;
@@ -559,11 +588,34 @@ select.form-control {
     margin: 20px auto 50px; }
   #content .business ul li {
     margin-bottom: 30px; }
+    #content .business ul li:hover a h3, #content .business ul li:focus a h3 {
+      display: none; }
+    #content .business ul li:hover a .hover-details, #content .business ul li:focus a .hover-details {
+      display: block; }
     #content .business ul li a {
       position: relative;
       display: block;
       width: 570px;
       height: 250px; }
+      #content .business ul li a .hover-details {
+        display: none;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 139px;
+        padding: 25px 29px;
+        background-color: rgba(217, 12, 28, 0.8); }
+        #content .business ul li a .hover-details h4 {
+          font-size: 30px;
+          color: #fff;
+          letter-spacing: -3px;
+          margin-bottom: 15px; }
+        #content .business ul li a .hover-details p {
+          font-size: 13px;
+          color: #fff;
+          line-height: 22px;
+          letter-spacing: -1.5px; }
       #content .business ul li a h3 {
         position: absolute;
         bottom: 30px;
@@ -607,7 +659,7 @@ select.form-control {
     text-align: center;
     font-weight: bold;
     font-family: 'Gotham', serif;
-    letter-spacing: 5px; }
+    letter-spacing: 4px; }
   #content .news hr {
     width: 74px;
     border-top: 2px solid #333;
@@ -615,9 +667,15 @@ select.form-control {
     margin: 20px auto 50px; }
   #content .news ul > li {
     margin-bottom: 30px; }
+    #content .news ul > li .hover-box {
+      width: 370px;
+      height: 448px;
+      border: 1px solid #ebebeb; }
+      #content .news ul > li .hover-box:hover, #content .news ul > li .hover-box:focus {
+        border-color: #34427d; }
     #content .news ul > li .item {
       position: relative;
-      width: 370px;
+      width: 368px;
       height: 270px; }
       #content .news ul > li .item span {
         position: absolute;
@@ -632,7 +690,7 @@ select.form-control {
         text-align: center;
         background-color: #34427d; }
     #content .news ul > li .details {
-      width: 370px;
+      width: 368px;
       height: 176px;
       padding: 23px 20px 25px;
       background-color: #fff; }
@@ -662,7 +720,7 @@ select.form-control {
     #content .news ul > li .notice-info {
       position: relative;
       float: left;
-      width: 370px;
+      width: 368px;
       height: 446px;
       padding: 29px 27px;
       background-color: #fff; }
@@ -691,6 +749,10 @@ select.form-control {
           border-bottom: 0; }
         #content .news ul > li .notice-info ul li a {
           overflow: hidden; }
+          #content .news ul > li .notice-info ul li a:hover, #content .news ul > li .notice-info ul li a:focus {
+            text-decoration: none; }
+            #content .news ul > li .notice-info ul li a:hover h5, #content .news ul > li .notice-info ul li a:focus h5 {
+              color: #e60012; }
           #content .news ul > li .notice-info ul li a h5 {
             width: 240px;
             float: left;
@@ -764,7 +826,7 @@ select.form-control {
     text-align: center;
     font-weight: bold;
     font-family: 'Gotham', serif;
-    letter-spacing: 5px; }
+    letter-spacing: 4px; }
   #content .partner hr {
     width: 74px;
     border-top: 2px solid #333;
@@ -773,13 +835,34 @@ select.form-control {
   #content .partner .bx-wrapper {
     position: relative; }
     #content .partner .bx-wrapper .bx-viewport .slider li {
-      text-align: center;
       height: 60px;
       line-height: 60px; }
       #content .partner .bx-wrapper .bx-viewport .slider li a {
-        display: inline-block; }
-        #content .partner .bx-wrapper .bx-viewport .slider li a img {
-          display: inline-block; }
+        display: block;
+        width: 172px;
+        height: 60px;
+        background-repeat: no-repeat;
+        background-position: 50% 50%; }
+    #content .partner .bx-wrapper .bx-viewport .slider .partner-1 a {
+      background-image: url(/assets/images/main/partner_img01.jpg); }
+      #content .partner .bx-wrapper .bx-viewport .slider .partner-1 a:hover, #content .partner .bx-wrapper .bx-viewport .slider .partner-1 a:focus {
+        background-image: url(/assets/images/main/partner_hover_img01.jpg); }
+    #content .partner .bx-wrapper .bx-viewport .slider .partner-2 a {
+      background-image: url(/assets/images/main/partner_img02.jpg); }
+      #content .partner .bx-wrapper .bx-viewport .slider .partner-2 a:hover, #content .partner .bx-wrapper .bx-viewport .slider .partner-2 a:focus {
+        background-image: url(/assets/images/main/partner_hover_img02.jpg); }
+    #content .partner .bx-wrapper .bx-viewport .slider .partner-3 a {
+      background-image: url(/assets/images/main/partner_img03.jpg); }
+      #content .partner .bx-wrapper .bx-viewport .slider .partner-3 a:hover, #content .partner .bx-wrapper .bx-viewport .slider .partner-3 a:focus {
+        background-image: url(/assets/images/main/partner_hover_img03.jpg); }
+    #content .partner .bx-wrapper .bx-viewport .slider .partner-4 a {
+      background-image: url(/assets/images/main/partner_img04.jpg); }
+      #content .partner .bx-wrapper .bx-viewport .slider .partner-4 a:hover, #content .partner .bx-wrapper .bx-viewport .slider .partner-4 a:focus {
+        background-image: url(/assets/images/main/partner_hover_img04.jpg); }
+    #content .partner .bx-wrapper .bx-viewport .slider .partner-5 a {
+      background-image: url(/assets/images/main/partner_img05.jpg); }
+      #content .partner .bx-wrapper .bx-viewport .slider .partner-5 a:hover, #content .partner .bx-wrapper .bx-viewport .slider .partner-5 a:focus {
+        background-image: url(/assets/images/main/partner_hover_img05.jpg); }
     #content .partner .bx-wrapper .bx-controls {
       position: absolute;
       top: 0;
@@ -814,7 +897,103 @@ select.form-control {
           background-position: 50% 50%; }
 
 #footer {
-  height: 500px;
+  overflow: hidden;
   background-color: #1f1f1f; }
+  #footer .introduce {
+    float: left;
+    width: 877px;
+    margin: 50px 0;
+    border-right: 1px solid #2f2f2f; }
+    #footer .introduce > ul > li {
+      display: inline-block;
+      width: 19.5%;
+      vertical-align: top; }
+      #footer .introduce > ul > li h4 {
+        margin-bottom: 20px; }
+        #footer .introduce > ul > li h4 a {
+          font-size: 15px;
+          color: #d5d5d5;
+          font-weight: bold;
+          line-height: 30px; }
+      #footer .introduce > ul > li ul li a {
+        font-size: 14px;
+        color: #777;
+        font-weight: bold;
+        line-height: 30px; }
+  #footer .company {
+    float: left;
+    width: 293px;
+    margin: 50px 0;
+    padding-left: 39px; }
+    #footer .company h2 {
+      padding-top: 17px;
+      padding-left: 27px;
+      margin-bottom: 32px; }
+      #footer .company h2 a img {
+        vertical-align: top; }
+    #footer .company dl {
+      line-height: 25px; }
+      #footer .company dl dt {
+        display: inline-block;
+        font-size: 13px;
+        color: #999;
+        font-weight: bold;
+        line-height: 25px; }
+        #footer .company dl dt:after {
+          content: ":"; }
+        #footer .company dl dt:nth-of-type(2) {
+          margin-left: 10px; }
+      #footer .company dl dd {
+        display: inline-block;
+        font-size: 13px;
+        color: #999;
+        font-weight: bold;
+        line-height: 25px;
+        letter-spacing: -1px; }
+    #footer .company ul {
+      margin-top: 37px; }
+      #footer .company ul li {
+        display: inline-block; }
+        #footer .company ul li:after {
+          content: "|";
+          padding: 0 4px 0 10px; }
+        #footer .company ul li:last-child:after {
+          content: "";
+          padding: 0; }
+        #footer .company ul li a {
+          font-size: 13px;
+          color: #999;
+          letter-spacing: -1px;
+          font-weight: bold; }
+  #footer .copyright {
+    border-top: 1px solid #2e2e2e;
+    padding: 26px 0; }
+    #footer .copyright p {
+      float: left;
+      font-size: 13px;
+      color: #999;
+      text-align: left; }
+      #footer .copyright p a {
+        color: #999; }
+    #footer .copyright .dropup {
+      float: right; }
+      #footer .copyright .dropup .btn {
+        display: block;
+        width: 170px;
+        height: 40px;
+        font-size: 13px;
+        color: #999;
+        text-align: left;
+        border: 1px solid #303030;
+        border-radius: 0;
+        background-color: #333; }
+        #footer .copyright .dropup .btn span {
+          margin-top: 7px;
+          float: right; }
+      #footer .copyright .dropup .dropdown-menu {
+        width: 170px;
+        border-radius: 0; }
+        #footer .copyright .dropup .dropdown-menu li a {
+          line-height: 26px; }
 
 /*# sourceMappingURL=default.css.map */
