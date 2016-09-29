@@ -1,0 +1,203 @@
+@import "https://fonts.googleapis.com/css?family=Lato:300,400,700";
+.gotham {
+  font-family: 'Gotham', sans-serif; }
+
+.lato, .content section .section-header p {
+  font-family: 'Lato', sans-serif; }
+
+.content {
+  padding-bottom: 68px;
+  background-color: #f3f3f3; }
+  .content section {
+    background-image: url(/assets/images/sub/sub_visual01.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 0; }
+    .content section .section-header {
+      text-align: center;
+      padding: 54px 0; }
+      .content section .section-header h2 {
+        font-size: 50px;
+        color: #fff;
+        font-weight: bold;
+        letter-spacing: -1px;
+        vertical-align: top; }
+      .content section .section-header hr {
+        width: 37px;
+        border-top: 2px solid #fff;
+        display: block;
+        margin: 23px auto 20px; }
+      .content section .section-header p {
+        font-size: 16px;
+        color: #fff;
+        font-weight: bold;
+        line-height: 22px; }
+    .content section .section-content {
+      max-width: 1260px;
+      min-height: 600px;
+      padding: 30px 0;
+      margin: 0 auto;
+      background-color: #fff; }
+      .content section .section-content h3 {
+        margin: 60px 0;
+        font-size: 42px;
+        color: #333;
+        font-weight: 400; }
+      .content section .section-content .page-path {
+        width: 100%;
+        height: 40px;
+        border: 1px solid #ccc; }
+        .content section .section-content .page-path > ul > li {
+          float: left; }
+          .content section .section-content .page-path > ul > li:nth-of-type(2) a {
+            display: inline-block;
+            width: 130px;
+            height: 38px;
+            text-align: left;
+            font-size: 14px;
+            font-weight: 400;
+            color: #333;
+            padding: 9px 0;
+            padding-left: 20px;
+            border-right: 1px solid #ccc; }
+            .content section .section-content .page-path > ul > li:nth-of-type(2) a:hover, .content section .section-content .page-path > ul > li:nth-of-type(2) a:focus {
+              text-decoration: none; }
+        .content section .section-content .page-path > ul .home {
+          border-right: 1px solid #ccc; }
+          .content section .section-content .page-path > ul .home a {
+            display: block;
+            width: 39px;
+            height: 38px; }
+            .content section .section-content .page-path > ul .home a span {
+              display: block;
+              width: 39px;
+              height: 38px;
+              background-image: url(/assets/images/sub/home_btn.png);
+              background-repeat: no-repeat;
+              background-position: 50% 11px; }
+        .content section .section-content .page-path > ul .dropdown {
+          border-right: 1px solid #ccc; }
+          .content section .section-content .page-path > ul .dropdown .btn {
+            width: 195px;
+            height: 38px;
+            text-align: left;
+            font-size: 14px;
+            color: #333;
+            padding: 8px 20px 8px 20px;
+            border: 0; }
+            .content section .section-content .page-path > ul .dropdown .btn:hover, .content section .section-content .page-path > ul .dropdown .btn:focus {
+              box-shadow: none;
+              opacity: 1;
+              background-color: #fff; }
+            .content section .section-content .page-path > ul .dropdown .btn span {
+              float: right;
+              font-size: 13px;
+              color: #777;
+              margin-top: 2px; }
+          .content section .section-content .page-path > ul .dropdown .dropdown-menu {
+            width: 197px;
+            border-radius: 0;
+            margin-left: -1px;
+            border-color: #ccc; }
+            .content section .section-content .page-path > ul .dropdown .dropdown-menu li {
+              font-size: 14px;
+              color: #333; }
+              .content section .section-content .page-path > ul .dropdown .dropdown-menu li a {
+                line-height: 26px; }
+
+.civil-construction li a {
+  display: inline-block;
+  border: 1px solid #fff; }
+  .civil-construction li a:hover, .civil-construction li a:focus {
+    text-decoration: none;
+    border-color: #34427d; }
+  .civil-construction li a .details h4 {
+    max-width: 370px;
+    font-size: 16px;
+    color: #333;
+    text-align: left;
+    font-weight: 400;
+    letter-spacing: -2px;
+    padding: 11px 0;
+    text-indent: 2px; }
+  .civil-construction li a .details dl {
+    max-width: 370px;
+    overflow: hidden;
+    border-top: 1px solid #dadada;
+    border-bottom: 1px solid #dadada; }
+    .civil-construction li a .details dl dt {
+      float: left;
+      clear: both;
+      width: 94px;
+      font-size: 16px;
+      color: #333;
+      font-weight: 400;
+      line-height: 29px;
+      text-align: left;
+      padding: 2px 0;
+      padding-left: 19px;
+      letter-spacing: -1.5px;
+      background-color: #f6f6f6; }
+    .civil-construction li a .details dl dd {
+      float: left;
+      font-size: 16px;
+      color: #6c6c6c;
+      font-weight: 300;
+      line-height: 29px;
+      letter-spacing: -1.5px;
+      padding: 2px 0;
+      padding-left: 19px; }
+
+.inquiry {
+  text-align: center;
+  padding: 0 136px; }
+  .inquiry li {
+    display: inline-block;
+    border-right: 1px solid #ccc; }
+    .inquiry li:last-child {
+      border-right: 0; }
+    .inquiry li div h4 {
+      font-size: 24px;
+      font-weight: 400;
+      text-align: center;
+      margin-bottom: 15px;
+      padding-top: 67px; }
+    .inquiry li div dl {
+      overflow: hidden; }
+      .inquiry li div dl dt {
+        float: left;
+        clear: both;
+        font-size: 16px;
+        font-weight: 400;
+        color: #333;
+        line-height: 29px; }
+      .inquiry li div dl dd {
+        float: left;
+        font-size: 16px;
+        color: #6b6b6b;
+        font-weight: 300;
+        line-height: 29px;
+        letter-spacing: -1px; }
+  .inquiry .company div h4 {
+    background-image: url(/assets/images/sub/inquiry_img01.png);
+    background-repeat: no-repeat;
+    background-position: 50% 0; }
+  .inquiry .company div dl dt {
+    width: 70px; }
+  .inquiry .call-center div {
+    padding: 0 50px; }
+    .inquiry .call-center div h4 {
+      background-image: url(/assets/images/sub/inquiry_img02.png);
+      background-repeat: no-repeat;
+      background-position: 50% 0; }
+    .inquiry .call-center div dl dt {
+      width: 57px; }
+  .inquiry .e-mail div h4 {
+    background-image: url(/assets/images/sub/inquiry_img03.png);
+    background-repeat: no-repeat;
+    background-position: 50% 0; }
+  .inquiry .e-mail div dl {
+    padding-left: 10px; }
+    .inquiry .e-mail div dl dt {
+      width: 77px; }
+
+/*# sourceMappingURL=sub.css.map */
