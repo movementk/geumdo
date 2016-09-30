@@ -1,7 +1,7 @@
 <a href="#gnb" class="skip-nav sr-only sr-only-focusable">주메뉴로 건너뛰기</a>
 <a href="#content" class="skip-nav sr-only sr-only-focusable">컨텐츠로 건너뛰기</a>
 <header id="header">
-    <div class="top-menu">
+    <div class="top-menu visible-lg">
         <ul>
             <li>
                 <a href="#">HOME</a>
@@ -20,12 +20,27 @@
     <nav id="gnb" tabindex="-1">
         <div class="wrapper">
             <div class="container">
-                <p class="main-logo">
-                    <a href="/">
+                <a href="/">
+                    <p class="visible-xs main-logo">
+                        <img src="/assets/images/main/md_logo.jpg" alt="금도건설 로고">
+                    </p>
+                    <p class="visible-sm main-logo">
+                        <img src="/assets/images/main/md_logo.jpg" alt="금도건설 로고">
+                    </p>
+                    <p class="visible-md main-logo">
+                        <img src="/assets/images/main/md_logo.jpg" alt="금도건설 로고">
+                    </p>
+                    <p class="visible-lg main-logo">
                         <img src="/assets/images/main/logo.jpg" alt="금도건설 로고">
-                    </a>
-                </p>
-                <ul>
+                    </p>
+                </a>
+                <div class="hidden-lg col-xs-2 md-menu">
+                    <button type="button" class="btn btn-menu" aria-hidden="true">
+                        <span class="bar"></span>
+                        <span class="sr-only">메뉴열기</span>
+                    </button>
+                </div>
+                <ul class="visible-lg lg-menu">
                     <li>
                         <a href="#">회사소개</a>
                         <ul>

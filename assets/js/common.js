@@ -10,7 +10,7 @@
 /* Main Visual Slider */
 (function($) {
     $('#visual > ul').bxSlider({
-        auto: true,
+        auto: false,
         controls: true,
         prevText: '<span class="glyphicon glyphicon-menu-left"></span>',
         nextText: '<span class="glyphicon glyphicon-menu-right"></span>'

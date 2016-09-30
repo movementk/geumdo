@@ -6,24 +6,15 @@
 .lato {
   font-family: 'Lato', sans-serif; }
 
-body {
-  font-family: 'Noto Sans CJK KR', sans-serif;
-  min-width: 1200px; }
-
 html {
-  min-width: 992px; }
+  min-width: 320px; }
 
 body {
-  min-width: 1200px;
+  min-width: 320px;
   color: #666;
   font-size: 13px;
-  font-weight: 300; }
-  @media (max-width: 991px) {
-    body {
-      min-width: 768px; } }
-  @media (max-width: 767px) {
-    body {
-      min-width: 320px; } }
+  font-weight: 300;
+  font-family: 'Noto Sans CJK KR', sans-serif; }
 
 a {
   color: #666; }
@@ -56,7 +47,7 @@ label {
 
 .container,
 .container-fluid {
-  width: 1200px;
+  max-width: 1200px;
   padding-left: 10px;
   padding-right: 10px; }
   .container .row,
@@ -354,6 +345,15 @@ select.form-control {
   position: relative;
   height: 127px;
   z-index: 1; }
+  @media (max-width: 319px) {
+    #header {
+      height: 55px; } }
+  @media (max-width: 991px) {
+    #header {
+      height: 55px; } }
+  @media (max-width: 1199px) {
+    #header {
+      height: 55px; } }
   #header .top-menu {
     text-align: right;
     border-bottom: 1px solid #e5e5e5; }
@@ -392,6 +392,26 @@ select.form-control {
     height: 91px;
     overflow: hidden;
     background-color: #fff; }
+    @media (max-width: 319px) {
+      #header #gnb {
+        position: absolute;
+        top: 0;
+        height: 55px; } }
+    @media (max-width: 767px) {
+      #header #gnb {
+        position: absolute;
+        top: 0;
+        height: 55px; } }
+    @media (max-width: 991px) {
+      #header #gnb {
+        position: absolute;
+        top: 0;
+        height: 55px; } }
+    @media (max-width: 1199px) {
+      #header #gnb {
+        position: absolute;
+        top: 0;
+        height: 55px; } }
     #header #gnb.opened {
       height: auto; }
       #header #gnb.opened .wrapper .container > ul > li > ul {
@@ -400,20 +420,63 @@ select.form-control {
       height: 91px;
       border-bottom: 3px solid #d90c1c;
       background-color: #fff; }
+      @media (max-width: 320px) {
+        #header #gnb .wrapper {
+          height: 55px; } }
+      @media (max-width: 992px) {
+        #header #gnb .wrapper {
+          height: 55px; } }
+      @media (max-width: 1200px) {
+        #header #gnb .wrapper {
+          height: 55px; } }
       #header #gnb .wrapper .container {
         position: relative; }
         #header #gnb .wrapper .container .main-logo {
-          position: absolute;
-          top: 24px;
-          left: 15px; }
-        #header #gnb .wrapper .container > ul {
+          float: left;
+          margin-top: 24px; }
+          @media (max-width: 320px) {
+            #header #gnb .wrapper .container .main-logo {
+              float: left;
+              marin-left: 10px;
+              margin-top: 14px; } }
+          @media (max-width: 768px) {
+            #header #gnb .wrapper .container .main-logo {
+              float: left;
+              marin-left: 22px;
+              margin-top: 14px; } }
+          @media (max-width: 992px) {
+            #header #gnb .wrapper .container .main-logo {
+              float: left;
+              marin-left: 22px;
+              margin-top: 14px; } }
+          @media (max-width: 1200px) {
+            #header #gnb .wrapper .container .main-logo {
+              float: left;
+              marin-left: 22px;
+              margin-top: 14px; } }
+        #header #gnb .wrapper .container .md-menu {
+          float: right;
+          text-align: right;
+          margin-top: 16px;
+          padding: 0; }
+          #header #gnb .wrapper .container .md-menu .btn-menu {
+            background-color: #fff;
+            padding: 0; }
+            #header #gnb .wrapper .container .md-menu .btn-menu .bar {
+              width: 22px;
+              height: 15px;
+              display: block;
+              background-image: url(/assets/images/main/bar_btn.png);
+              background-repeat: no-repeat;
+              background-position: 0 0; }
+        #header #gnb .wrapper .container > .lg-menu {
           float: right;
           margin-left: -15px;
           margin-right: -15px; }
-          #header #gnb .wrapper .container > ul > li {
+          #header #gnb .wrapper .container > .lg-menu > li {
             float: left;
             width: 162px; }
-            #header #gnb .wrapper .container > ul > li > a {
+            #header #gnb .wrapper .container > .lg-menu > li > a {
               display: block;
               font-size: 18px;
               color: #222;
@@ -421,127 +484,121 @@ select.form-control {
               text-align: center;
               line-height: 91px;
               text-decoration: none; }
-            #header #gnb .wrapper .container > ul > li > ul {
+            #header #gnb .wrapper .container > .lg-menu > li > ul {
               display: none;
               position: relative;
               min-height: 210px;
               padding-top: 25px;
               padding-bottom: 25px;
               height: 100%; }
-              #header #gnb .wrapper .container > ul > li > ul > li > a {
+              #header #gnb .wrapper .container > .lg-menu > li > ul > li > a {
                 display: block;
                 text-align: center;
                 font-size: 14px;
                 color: #222;
                 line-height: 35px; }
-            #header #gnb .wrapper .container > ul > li:focus > a, #header #gnb .wrapper .container > ul > li:hover > a {
+            #header #gnb .wrapper .container > .lg-menu > li:focus > a, #header #gnb .wrapper .container > .lg-menu > li:hover > a {
               color: #222; }
-            #header #gnb .wrapper .container > ul > li:focus > ul, #header #gnb .wrapper .container > ul > li:hover > ul {
+            #header #gnb .wrapper .container > .lg-menu > li:focus > ul, #header #gnb .wrapper .container > .lg-menu > li:hover > ul {
               background-color: #f1f1f1; }
-              #header #gnb .wrapper .container > ul > li:focus > ul > li > a, #header #gnb .wrapper .container > ul > li:hover > ul > li > a {
+              #header #gnb .wrapper .container > .lg-menu > li:focus > ul > li > a, #header #gnb .wrapper .container > .lg-menu > li:hover > ul > li > a {
                 color: #222; }
-                #header #gnb .wrapper .container > ul > li:focus > ul > li > a:hover, #header #gnb .wrapper .container > ul > li:hover > ul > li > a:hover {
+                #header #gnb .wrapper .container > .lg-menu > li:focus > ul > li > a:hover, #header #gnb .wrapper .container > .lg-menu > li:hover > ul > li > a:hover {
                   color: #d90c1c; }
 
 /* Footer */
 #footer {
-  overflow: hidden;
   background-color: #1f1f1f; }
-  #footer .introduce {
-    float: left;
-    width: 877px;
+  #footer .foot-nav .introduce {
     margin: 50px 0;
     border-right: 1px solid #2f2f2f; }
-    #footer .introduce > ul > li {
+    #footer .foot-nav .introduce > ul > li {
       display: inline-block;
       width: 19.5%;
       vertical-align: top; }
-      #footer .introduce > ul > li h4 {
+      #footer .foot-nav .introduce > ul > li h4 {
         margin-bottom: 20px; }
-        #footer .introduce > ul > li h4 a {
+        #footer .foot-nav .introduce > ul > li h4 a {
           font-size: 15px;
           color: #d5d5d5;
           font-weight: 400;
           line-height: 30px; }
-      #footer .introduce > ul > li ul li a {
+      #footer .foot-nav .introduce > ul > li ul li a {
         font-size: 14px;
         color: #777;
         font-weight: 400;
         line-height: 30px; }
-  #footer .company {
-    float: left;
-    width: 293px;
+  #footer .foot-nav .company {
     margin: 50px 0;
     padding-left: 39px; }
-    #footer .company h2 {
+    #footer .foot-nav .company h2 {
       padding-top: 17px;
       padding-left: 27px;
       margin-bottom: 32px; }
-      #footer .company h2 a img {
+      #footer .foot-nav .company h2 a img {
         vertical-align: top; }
-    #footer .company dl {
+    #footer .foot-nav .company dl {
       line-height: 25px; }
-      #footer .company dl dt {
+      #footer .foot-nav .company dl dt {
         display: inline-block;
         font-size: 13px;
         color: #999;
         font-weight: 400;
         line-height: 25px; }
-        #footer .company dl dt:after {
+        #footer .foot-nav .company dl dt:after {
           content: ":"; }
-        #footer .company dl dt:nth-of-type(2) {
+        #footer .foot-nav .company dl dt:nth-of-type(2) {
           margin-left: 7px; }
-      #footer .company dl dd {
+      #footer .foot-nav .company dl dd {
         display: inline-block;
         font-size: 13px;
         color: #999;
         font-weight: 400;
         line-height: 25px;
         letter-spacing: -1px; }
-    #footer .company ul {
+    #footer .foot-nav .company ul {
       margin-top: 37px; }
-      #footer .company ul li {
+      #footer .foot-nav .company ul li {
         display: inline-block; }
-        #footer .company ul li:after {
+        #footer .foot-nav .company ul li:after {
           content: "|";
           padding: 0 4px 0 10px; }
-        #footer .company ul li:last-child:after {
+        #footer .foot-nav .company ul li:last-child:after {
           content: "";
           padding: 0; }
-        #footer .company ul li a {
+        #footer .foot-nav .company ul li a {
           font-size: 13px;
           color: #999;
           letter-spacing: -1px;
           font-weight: 400; }
   #footer .copyright {
     border-top: 1px solid #2e2e2e;
-    padding: 26px 0; }
+    padding: 13px 0; }
     #footer .copyright p {
-      float: left;
       font-size: 13px;
       color: #999;
-      text-align: left; }
+      text-align: left;
+      height: 40px;
+      line-height: 40px; }
       #footer .copyright p a {
         color: #999; }
-    #footer .copyright .dropup {
-      float: right; }
-      #footer .copyright .dropup .btn {
-        display: block;
-        width: 170px;
-        height: 40px;
-        font-size: 13px;
-        color: #999;
-        text-align: left;
-        border: 1px solid #303030;
-        border-radius: 0;
-        background-color: #333; }
-        #footer .copyright .dropup .btn span {
-          margin-top: 7px;
-          float: right; }
-      #footer .copyright .dropup .dropdown-menu {
-        width: 170px;
-        border-radius: 0; }
-        #footer .copyright .dropup .dropdown-menu li a {
-          line-height: 26px; }
+    #footer .copyright .dropup .btn {
+      display: block;
+      width: 170px;
+      height: 40px;
+      font-size: 13px;
+      color: #999;
+      text-align: left;
+      border: 1px solid #303030;
+      border-radius: 0;
+      background-color: #333; }
+      #footer .copyright .dropup .btn span {
+        margin-top: 7px;
+        float: right; }
+    #footer .copyright .dropup .dropdown-menu {
+      width: 170px;
+      border-radius: 0; }
+      #footer .copyright .dropup .dropdown-menu li a {
+        line-height: 26px; }
 
 /*# sourceMappingURL=default.css.map */

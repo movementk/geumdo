@@ -5,8 +5,8 @@
     <?php require_once($_SERVER["DOCUMENT_ROOT"].'/inc/header.php'); ?>
     <main id="content" tabindex="-1">
         <div id="visual">
-            <ul>
-                <li>
+            <ul class="row">
+                <li class="col-xs-12">
                     <div class="container">
                         <div class="project">
                             <h2>PROJECT 1</h2>
@@ -24,7 +24,7 @@
                         </div>
                     </div>
                 </li>
-                <li>
+                <li class="col-xs-12">
                     <div class="container">
                         <div class="project">
                             <h2>PROJECT 2</h2>
@@ -42,7 +42,7 @@
                         </div>
                     </div>
                 </li>
-                <li>
+                <li class="col-xs-12">
                     <div class="container">
                         <div class="project">
                             <h2>PROJECT 3</h2>
@@ -67,7 +67,7 @@
                 <h2>BUSINESS AREA</h2>
                 <hr>
                 <ul class="row">
-                    <li class="col-md-12 col-lg-6">
+                    <li class="col-sm-6 col-lg-6">
                         <a href="#">
                             <h3>토목사업<br><small>CIVIL WORKD</small></h3>
                             <div class="hover-details">
@@ -79,7 +79,7 @@
                             </div>
                         </a>
                     </li>
-                    <li class="col-md-12 col-lg-6">
+                    <li class="col-sm-6 col-lg-6">
                         <a href="#">
                             <h3>건축사업<br><small>BUILDNG WORKS</small></h3>
                             <div class="hover-details">
@@ -91,7 +91,7 @@
                             </div>
                         </a>
                     </li>
-                    <li class="col-md-12 col-lg-6">
+                    <li class="col-sm-6 col-lg-6">
                         <a href="#">
                             <h3>민자사업<br><small>BUILD-TRANSFER-LEASE</small></h3>
                             <div class="hover-details">
@@ -103,7 +103,7 @@
                             </div>
                         </a>
                     </li>
-                    <li class="col-md-12 col-lg-6">
+                    <li class="col-sm-6 col-lg-6">
                         <a href="#">
                             <h3>주택사업<br><small>DEVELOPMENT WORK</small></h3>
                             <div class="hover-details">
@@ -209,19 +209,22 @@
             <ul class="row">
                 <li class="col-md-12 col-lg-6"></li>
                 <li class="col-md-12 col-lg-6">
-                    <h3>김포 고촌 솔리힐 더테라스</h3>
-                    <hr>
-                    <p>
-                        산림에서 얻은 자연의 소재를 활용하여 부드럽고 자연스러운 단지 연출과<br>
-                        시간이 지날수록 가치를 더하는 자연과 같은 경관계획을 통해 아름답고 풍요로운<br>
-                        공간을 계획하고자 합니다.
-                    </p>
-                    <p class="more-btn">
-                        <a href="#" class="btn" role="button">자세히보기</a>
-                    </p>
+                    <div>
+                        <h3>김포 고촌 솔리힐 더테라스</h3>
+                        <hr>
+                        <p>
+                            산림에서 얻은 자연의 소재를 활용하여 부드럽고 자연스러운 단지 연출과<br>
+                            시간이 지날수록 가치를 더하는 자연과 같은 경관계획을 통해 아름답고 풍요로운<br>
+                            공간을 계획하고자 합니다.
+                        </p>
+                        <p class="more-btn">
+                            <a href="#" class="btn" role="button">자세히보기</a>
+                        </p>
+                    </div>
                 </li>
             </ul>
         </div>
+<!--
         <div class="partner">
             <div class="container">
                 <h2>PARTNER</h2>
@@ -255,6 +258,7 @@
                 </ul>
             </div>
         </div>
+-->
     </main>
     <?php require_once($_SERVER["DOCUMENT_ROOT"].'/inc/footer.php'); ?>
     <?php require_once($_SERVER["DOCUMENT_ROOT"].'/inc/docfoot.php'); ?>

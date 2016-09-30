@@ -15,64 +15,75 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%; }
-    #content #visual .bx-wrapper .bx-viewport > ul > li .container {
-      position: relative; }
-      #content #visual .bx-wrapper .bx-viewport > ul > li .container .project {
-        position: absolute;
-        top: 40px;
-        left: 15px;
-        width: 400px;
-        height: 350px;
-        padding-left: 40px;
-        background-color: rgba(0, 0, 0, 0.8); }
-        #content #visual .bx-wrapper .bx-viewport > ul > li .container .project h2 {
-          font-size: 18px;
+    #content #visual .bx-wrapper .bx-viewport > ul > li .container .project {
+      margin-top: 40px;
+      margin-left: 15px;
+      width: 400px;
+      height: 350px;
+      padding-left: 40px;
+      background-color: rgba(0, 0, 0, 0.8); }
+      @media (max-width: 320px) {
+        #content #visual .bx-wrapper .bx-viewport > ul > li .container .project {
+          margin: 0 auto !important;
+          margin-top: 58px !important;
+          width: 279px !important; } }
+      @media (max-width: 992px) {
+        #content #visual .bx-wrapper .bx-viewport > ul > li .container .project {
+          width: 336px;
+          margin-top: 75px;
+          margin-left: 22px; } }
+      @media (max-width: 1200px) {
+        #content #visual .bx-wrapper .bx-viewport > ul > li .container .project {
+          margin-top: 75px;
+          margin-left: 22px; } }
+      #content #visual .bx-wrapper .bx-viewport > ul > li .container .project h2 {
+        font-size: 18px;
+        color: #fff;
+        font-family: 'Times', sans-serif;
+        text-indent: 9px;
+        padding-top: 37px;
+        border-left: 1px solid #a5a7a5;
+        margin-bottom: 18px; }
+      #content #visual .bx-wrapper .bx-viewport > ul > li .container .project h3 {
+        color: #fff;
+        font-size: 40px;
+        display: inline-block;
+        letter-spacing: -4px; }
+        #content #visual .bx-wrapper .bx-viewport > ul > li .container .project h3 small {
           color: #fff;
-          font-family: 'Times', sans-serif;
-          text-indent: 9px;
-          padding-top: 37px;
-          border-left: 1px solid #a5a7a5;
-          margin-bottom: 18px; }
-        #content #visual .bx-wrapper .bx-viewport > ul > li .container .project h3 {
-          color: #fff;
-          font-size: 40px;
+          opacity: .4;
+          letter-spacing: -2px;
+          font-size: 15px; }
+      #content #visual .bx-wrapper .bx-viewport > ul > li .container .project > ul {
+        margin-top: 29px;
+        margin-bottom: 55px; }
+        #content #visual .bx-wrapper .bx-viewport > ul > li .container .project > ul > li {
           display: inline-block;
-          letter-spacing: -4px; }
-          #content #visual .bx-wrapper .bx-viewport > ul > li .container .project h3 small {
-            color: #fff;
-            opacity: .4;
-            letter-spacing: -2px;
-            font-size: 15px; }
-        #content #visual .bx-wrapper .bx-viewport > ul > li .container .project > ul {
-          margin-top: 29px;
-          margin-bottom: 55px; }
-          #content #visual .bx-wrapper .bx-viewport > ul > li .container .project > ul > li {
-            display: inline-block;
-            color: #fff;
-            font-size: 15px;
-            font-weight: 400; }
-            #content #visual .bx-wrapper .bx-viewport > ul > li .container .project > ul > li:after {
-              content: "|";
-              font-size: 10px;
-              padding: 0 10px 0 13px;
-              opacity: .5; }
-            #content #visual .bx-wrapper .bx-viewport > ul > li .container .project > ul > li:last-child:after {
-              content: "";
-              padding: 0; }
-        #content #visual .bx-wrapper .bx-viewport > ul > li .container .project .btn-view .btn {
-          width: 130px;
-          height: 40px;
-          font-size: 13px;
           color: #fff;
-          border: 1px solid #fff;
-          border-radius: 0;
-          line-height: 40px;
-          padding: 0;
-          padding-left: 20px;
-          text-align: left;
-          background-image: url(/assets/images/main/view_plus.png);
-          background-repeat: no-repeat;
-          background-position: 97px 50%; }
+          font-size: 15px;
+          font-weight: 400; }
+          #content #visual .bx-wrapper .bx-viewport > ul > li .container .project > ul > li:after {
+            content: "|";
+            font-size: 10px;
+            padding: 0 10px 0 13px;
+            opacity: .5; }
+          #content #visual .bx-wrapper .bx-viewport > ul > li .container .project > ul > li:last-child:after {
+            content: "";
+            padding: 0; }
+      #content #visual .bx-wrapper .bx-viewport > ul > li .container .project .btn-view .btn {
+        width: 130px;
+        height: 40px;
+        font-size: 13px;
+        color: #fff;
+        border: 1px solid #fff;
+        border-radius: 0;
+        line-height: 40px;
+        padding: 0;
+        padding-left: 20px;
+        text-align: left;
+        background-image: url(/assets/images/main/view_plus.png);
+        background-repeat: no-repeat;
+        background-position: 97px 50%; }
   #content #visual .bx-wrapper .bx-controls .bx-default-pager {
     position: absolute;
     bottom: 30px;
@@ -162,7 +173,6 @@
     #content .business ul li a {
       position: relative;
       display: block;
-      width: 570px;
       height: 250px; }
       #content .business ul li a .hover-details {
         display: none;
@@ -346,44 +356,46 @@
             overflow: hidden;
             white-space: nowrap;
             text-overflow: ellipsis; }
-#content .the-terrace ul li {
-  width: 50%;
-  height: 470px; }
-  #content .the-terrace ul li:nth-of-type(1) {
-    background-image: url(/assets/images/main/the_terrace_bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 50%; }
-  #content .the-terrace ul li:nth-of-type(2) {
-    position: relative;
-    padding: 110px 87px 0 87px;
-    background-color: #282c47; }
-    #content .the-terrace ul li:nth-of-type(2) h3 {
-      font-size: 35px;
-      color: #fff;
-      font-weight: bold;
-      letter-spacing: -3px; }
-    #content .the-terrace ul li:nth-of-type(2) hr {
-      width: 53px;
-      border-top: 2px solid #fff;
-      display: block;
-      margin: 25px 0 30px 0; }
-    #content .the-terrace ul li:nth-of-type(2) p {
-      font-size: 16px;
-      color: #fff;
-      line-height: 25px;
-      letter-spacing: -2px; }
-    #content .the-terrace ul li:nth-of-type(2) .more-btn {
-      margin-top: 40px; }
-      #content .the-terrace ul li:nth-of-type(2) .more-btn .btn {
-        width: 150px;
-        height: 50px;
-        font-size: 16px;
-        color: #fff;
-        text-align: center;
-        padding: 12px 0;
-        border-radius: 0;
-        border: 1px solid #fff; }
+#content .the-terrace ul {
+  margin: 0; }
+  #content .the-terrace ul li {
+    height: 470px; }
+    #content .the-terrace ul li:nth-of-type(1) {
+      background-image: url(/assets/images/main/the_terrace_bg.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 50% 50%; }
+    #content .the-terrace ul li:nth-of-type(2) {
+      background-color: #282c47; }
+      #content .the-terrace ul li:nth-of-type(2) div {
+        position: relative;
+        padding: 110px 87px 0 87px; }
+        #content .the-terrace ul li:nth-of-type(2) div h3 {
+          font-size: 35px;
+          color: #fff;
+          font-weight: bold;
+          letter-spacing: -3px; }
+        #content .the-terrace ul li:nth-of-type(2) div hr {
+          width: 53px;
+          border-top: 2px solid #fff;
+          display: block;
+          margin: 25px 0 30px 0; }
+        #content .the-terrace ul li:nth-of-type(2) div p {
+          font-size: 16px;
+          color: #fff;
+          line-height: 25px;
+          letter-spacing: -2px; }
+        #content .the-terrace ul li:nth-of-type(2) div .more-btn {
+          margin-top: 40px; }
+          #content .the-terrace ul li:nth-of-type(2) div .more-btn .btn {
+            width: 150px;
+            height: 50px;
+            font-size: 16px;
+            color: #fff;
+            text-align: center;
+            padding: 13px 0;
+            border-radius: 0;
+            border: 1px solid #fff; }
 #content .partner {
   padding: 100px 0; }
   #content .partner h2 {
