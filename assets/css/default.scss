@@ -48,15 +48,15 @@ label {
     padding-left: 10px;
     padding-right: 10px;
     .row {
-        margin-left: -10px;
-        margin-right: -10px;
+        margin-left: -5px !important;
+        margin-right: -5px !important;
         @for $i from 1 through 12 {
             .col-xs-#{$i},
             .col-sm-#{$i},
             .col-md-#{$i},
             .col-lg-#{$i} {
-                padding-left: 10px;
-                padding-right: 10px;
+                padding-left: 5px;
+                padding-right: 5px;
             }
         }
     }
@@ -332,6 +332,18 @@ select.form-control {
 /* Footer */
 #footer {
     background-color: #1f1f1f;
+    @media (max-width: $xs){
+        text-align: center;
+    }
+    @media (max-width: $sm){
+        text-align: center;
+    }
+    @media (max-width: $md){
+        text-align: center;
+    }
+    @media (max-width: $lg){
+        text-align: center;
+    }
     .foot-nav {
         .introduce {
             margin: 50px 0;
@@ -366,6 +378,22 @@ select.form-control {
         .company {
             margin: 50px 0;
             padding-left: 39px;
+            @media (max-width: $xs){
+                padding: 0;
+                margin-bottom: 0;
+            }
+            @media (max-width: $sm){
+                padding: 0;
+                margin-bottom: 0;
+            }
+            @media (max-width: $md){
+                padding: 0;
+                margin-bottom: 0;
+            }
+            @media (max-width: $lg){
+                padding: 0;
+                margin-bottom: 0;
+            }
             h2 {
                 padding-top: 17px;
                 padding-left: 27px;
@@ -378,6 +406,29 @@ select.form-control {
             }
             dl {
                 line-height: 25px;
+                &:nth-of-type(1) {
+                    margin-right: 10px;
+                }
+                @media (max-width: $xs){
+                    margin-top: 10px;
+                    display: inline-block;
+                    text-align: center;
+                }
+                @media (max-width: $sm){
+                    margin-top: 10px;
+                    display: inline-block;
+                    text-align: center;
+                }
+                @media (max-width: $md){
+                    margin-top: 10px;
+                    display: inline-block;
+                    text-align: center;
+                }
+                @media (max-width: $lg){
+                    margin-top: 10px;
+                    display: inline-block;
+                    text-align: center;
+                }
                 dt {
                     display: inline-block;
                     font-size: 13px;
@@ -425,17 +476,68 @@ select.form-control {
     .copyright {
         border-top: 1px solid #2e2e2e;
         padding: 13px 0;
+        @media (max-width: $xs){
+            border: 0;
+            padding-top: 0;
+        }
+        @media (max-width: $sm){
+            border: 0;
+            padding-top: 0;
+        }
+        @media (max-width: $md){
+            border: 0;
+            padding-top: 0;
+        }
+        @media (max-width: $lg){
+            border: 0;
+            padding-top: 0;
+        }
         p {
             font-size: 13px;
             color: #999;
             text-align: left;
-            height: 40px;
             line-height: 40px;
             a {
                 color: #999;
             }
+            @media (max-width: $xs){
+                line-height: 26px;
+                text-align: center;
+            }
+            @media (max-width: $sm){
+                line-height: 26px;
+                text-align: center;
+            }
+            @media (max-width: $md){
+                line-height: 26px;
+                text-align: center;
+            }
+            @media (max-width: $lg){
+                line-height: 26px;
+                text-align: center;
+            }
         }
         .dropup {
+            @media (max-width: $xs){
+                margin-top: 10px;
+                display: inline-block;
+                padding-bottom: 25px;
+            }
+            @media (max-width: $sm){
+                margin-top: 10px;
+                display: inline-block;
+                padding-bottom: 25px;
+            }
+            @media (max-width: $md){
+                margin-top: 10px;
+                display: inline-block;
+                padding-bottom: 25px;
+            }
+            @media (max-width: $lg){
+                margin-top: 10px;
+                display: inline-block;
+                padding-bottom: 25px;
+            }
             .btn {
                 display: block;
                 width: 170px;

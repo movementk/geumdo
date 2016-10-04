@@ -67,49 +67,49 @@
                 <h2>BUSINESS AREA</h2>
                 <hr>
                 <ul class="row">
-                    <li class="col-sm-6 col-lg-6">
+                    <li class="col-xs-6 col-sm-6 col-lg-6">
                         <a href="#">
                             <h3>토목사업<br><small>CIVIL WORKD</small></h3>
                             <div class="hover-details">
                                 <h4 class="hover-txt">토목사업</h4>
                                 <p>
-                                    금도건설은 앞으로도 친환경적이며 과학적인 건설을 통해 인간과 자연이 함께하는<br>
+                                    금도건설은 앞으로도 친환경적이며 과학적인 건설을 통해 인간과 자연이 함께하는<br class="hidden-sm hidden-xs">
                                     시설물의시공에 앞장서겠습니다.
                                 </p>
                             </div>
                         </a>
                     </li>
-                    <li class="col-sm-6 col-lg-6">
+                    <li class="col-xs-6 col-sm-6 col-lg-6">
                         <a href="#">
                             <h3>건축사업<br><small>BUILDNG WORKS</small></h3>
                             <div class="hover-details">
                                 <h4 class="hover-txt">건축사업</h4>
                                 <p>
-                                    삶의 질 향상과 주거문화 개선에 앞장서며 보다 살기좋은 세상을 구현하는데 최선의 노력을 다하는 <br>
+                                    삶의 질 향상과 주거문화 개선에 앞장서며 보다 살기좋은 세상을 구현하는데 최선의 노력을 다하는 <br class="hidden-sm hidden-xs">
                                     금도건설이 되겠습니다.
                                 </p>
                             </div>
                         </a>
                     </li>
-                    <li class="col-sm-6 col-lg-6">
+                    <li class="col-xs-6 col-sm-6 col-lg-6">
                         <a href="#">
                             <h3>민자사업<br><small>BUILD-TRANSFER-LEASE</small></h3>
                             <div class="hover-details">
                                 <h4 class="hover-txt">민자사업</h4>
                                 <p>
-                                    금도건설은 우수한 인력과 신기술, 신공법, 실용신안 등의 건설기술개발을 통한 차별화된<br>
+                                    금도건설은 우수한 인력과 신기술, 신공법, 실용신안 등의 건설기술개발을 통한 차별화된<br class="hidden-sm hidden-xs">
                                     기술축적을 통하여 건설 발전에 한걸음 앞으로 나아가겠습니다.
                                 </p>
                             </div>
                         </a>
                     </li>
-                    <li class="col-sm-6 col-lg-6">
+                    <li class="col-xs-6 col-sm-6 col-lg-6">
                         <a href="#">
                             <h3>주택사업<br><small>DEVELOPMENT WORK</small></h3>
                             <div class="hover-details">
                                 <h4 class="hover-txt">주택사업</h4>
                                 <p>
-                                    금도건설은 열정적인 자세와 혁신을 통한 꾸준한 가치창조에 끊임없이 도전하며,<br>
+                                    금도건설은 열정적인 자세와 혁신을 통한 꾸준한 가치창조에 끊임없이 도전하며,<br class="hidden-sm hidden-xs">
                                     세계일류의 NAME VALUE 실현을 목표로 더욱더 노력하겠습니다.
                                 </p>
                             </div>
@@ -122,8 +122,8 @@
             <div class="container">
                 <h2>NEWS</h2>
                 <hr>
-                <ul class="row">
-                    <li class="col-md-12 col-lg-4">
+                <ul class="row news-list">
+                    <li class="col-md-6 col-sm-6 col-lg-4">
                         <div class="hover-box">
                             <div class="item">
                                 <p>
@@ -143,7 +143,7 @@
                             </div>
                         </div>
                     </li>
-                    <li class="col-md-12 col-lg-4">
+                    <li class="col-md-6 col-sm-6 col-lg-4 hidden-xs">
                         <div class="hover-box">
                             <div class="item">
                                 <p>
@@ -163,15 +163,17 @@
                             </div>
                         </div>
                     </li>
-                    <li class="col-md-12 col-lg-4">
+                    <li class="col-md-12 col-lg-4 notice">
                         <div class="hover-box">
                             <div class="notice-info">
                                 <h4>공지사항 <a href="#"><span class="more"></span></a></h4>
                                 <ul>
                                     <li>
                                         <a href="#">
-                                            <h5 class="title">근무기강확립 실천사항</h5>
-                                            <span class="date">2016-07-25</span>
+                                            <h5 class="title">
+                                                근무기강확립 실천사항
+                                                <span class="date">2016-07-25</span>
+                                            </h5>
                                             <p>
                                                 2014년 새롭게 시작하는 마음으로 어려운 시기를 극복하고<br>
                                                 새롭게 도약하는 선진기업을 만들기 위해 다음과 같이 근무...
@@ -180,18 +182,22 @@
                                     </li>
                                     <li>
                                         <a href="#">
-                                            <h5 class="title">[알림] 당사 그룹웨어 시스템 실천사항..실천사항..</h5>
-                                            <span class="date">2016-07-25</span>
+                                            <h5 class="title">
+                                                근무기강확립 실천사항근무기강확립 실천사항
+                                                <span class="date">2016-07-25</span>
+                                            </h5>
                                             <p>
                                                 2014년 새롭게 시작하는 마음으로 어려운 시기를 극복하고<br>
                                                 새롭게 도약하는 선진기업을 만들기 위해 다음과 같이 근무...
                                             </p>
                                         </a>
                                     </li>
-                                    <li>
+                                    <li class="hidden-xs">
                                         <a href="#">
-                                            <h5 class="title">근무기강확립 실천사항</h5>
-                                            <span class="date">2016-07-25</span>
+                                            <h5 class="title">
+                                                근무기강확립 실천사항
+                                                <span class="date">2016-07-25</span>
+                                            </h5>
                                             <p>
                                                 2014년 새롭게 시작하는 마음으로 어려운 시기를 극복하고<br>
                                                 새롭게 도약하는 선진기업을 만들기 위해 다음과 같이 근무...
@@ -213,8 +219,8 @@
                         <h3>김포 고촌 솔리힐 더테라스</h3>
                         <hr>
                         <p>
-                            산림에서 얻은 자연의 소재를 활용하여 부드럽고 자연스러운 단지 연출과<br>
-                            시간이 지날수록 가치를 더하는 자연과 같은 경관계획을 통해 아름답고 풍요로운<br>
+                            산림에서 얻은 자연의 소재를 활용하여 부드럽고 자연스러운 단지 연출과<br class="hidden-sm hidden-xs">
+                            시간이 지날수록 가치를 더하는 자연과 같은 경관계획을 통해 아름답고 풍요로운<br class="hidden-sm hidden-xs">
                             공간을 계획하고자 합니다.
                         </p>
                         <p class="more-btn">
@@ -224,7 +230,7 @@
                 </li>
             </ul>
         </div>
-<!--
+
         <div class="partner">
             <div class="container">
                 <h2>PARTNER</h2>
@@ -258,7 +264,7 @@
                 </ul>
             </div>
         </div>
--->
+
     </main>
     <?php require_once($_SERVER["DOCUMENT_ROOT"].'/inc/footer.php'); ?>
     <?php require_once($_SERVER["DOCUMENT_ROOT"].'/inc/docfoot.php'); ?>
