@@ -52,8 +52,8 @@ label {
   padding-right: 10px; }
   .container .row,
   .container-fluid .row {
-    margin-left: -10px;
-    margin-right: -10px; }
+    margin-left: -5px !important;
+    margin-right: -5px !important; }
     .container .row .col-xs-1,
     .container .row .col-sm-1,
     .container .row .col-md-1,
@@ -62,8 +62,8 @@ label {
     .container-fluid .row .col-sm-1,
     .container-fluid .row .col-md-1,
     .container-fluid .row .col-lg-1 {
-      padding-left: 10px;
-      padding-right: 10px; }
+      padding-left: 5px;
+      padding-right: 5px; }
     .container .row .col-xs-2,
     .container .row .col-sm-2,
     .container .row .col-md-2,
@@ -72,8 +72,8 @@ label {
     .container-fluid .row .col-sm-2,
     .container-fluid .row .col-md-2,
     .container-fluid .row .col-lg-2 {
-      padding-left: 10px;
-      padding-right: 10px; }
+      padding-left: 5px;
+      padding-right: 5px; }
     .container .row .col-xs-3,
     .container .row .col-sm-3,
     .container .row .col-md-3,
@@ -82,8 +82,8 @@ label {
     .container-fluid .row .col-sm-3,
     .container-fluid .row .col-md-3,
     .container-fluid .row .col-lg-3 {
-      padding-left: 10px;
-      padding-right: 10px; }
+      padding-left: 5px;
+      padding-right: 5px; }
     .container .row .col-xs-4,
     .container .row .col-sm-4,
     .container .row .col-md-4,
@@ -92,8 +92,8 @@ label {
     .container-fluid .row .col-sm-4,
     .container-fluid .row .col-md-4,
     .container-fluid .row .col-lg-4 {
-      padding-left: 10px;
-      padding-right: 10px; }
+      padding-left: 5px;
+      padding-right: 5px; }
     .container .row .col-xs-5,
     .container .row .col-sm-5,
     .container .row .col-md-5,
@@ -102,8 +102,8 @@ label {
     .container-fluid .row .col-sm-5,
     .container-fluid .row .col-md-5,
     .container-fluid .row .col-lg-5 {
-      padding-left: 10px;
-      padding-right: 10px; }
+      padding-left: 5px;
+      padding-right: 5px; }
     .container .row .col-xs-6,
     .container .row .col-sm-6,
     .container .row .col-md-6,
@@ -112,8 +112,8 @@ label {
     .container-fluid .row .col-sm-6,
     .container-fluid .row .col-md-6,
     .container-fluid .row .col-lg-6 {
-      padding-left: 10px;
-      padding-right: 10px; }
+      padding-left: 5px;
+      padding-right: 5px; }
     .container .row .col-xs-7,
     .container .row .col-sm-7,
     .container .row .col-md-7,
@@ -122,8 +122,8 @@ label {
     .container-fluid .row .col-sm-7,
     .container-fluid .row .col-md-7,
     .container-fluid .row .col-lg-7 {
-      padding-left: 10px;
-      padding-right: 10px; }
+      padding-left: 5px;
+      padding-right: 5px; }
     .container .row .col-xs-8,
     .container .row .col-sm-8,
     .container .row .col-md-8,
@@ -132,8 +132,8 @@ label {
     .container-fluid .row .col-sm-8,
     .container-fluid .row .col-md-8,
     .container-fluid .row .col-lg-8 {
-      padding-left: 10px;
-      padding-right: 10px; }
+      padding-left: 5px;
+      padding-right: 5px; }
     .container .row .col-xs-9,
     .container .row .col-sm-9,
     .container .row .col-md-9,
@@ -142,8 +142,8 @@ label {
     .container-fluid .row .col-sm-9,
     .container-fluid .row .col-md-9,
     .container-fluid .row .col-lg-9 {
-      padding-left: 10px;
-      padding-right: 10px; }
+      padding-left: 5px;
+      padding-right: 5px; }
     .container .row .col-xs-10,
     .container .row .col-sm-10,
     .container .row .col-md-10,
@@ -152,8 +152,8 @@ label {
     .container-fluid .row .col-sm-10,
     .container-fluid .row .col-md-10,
     .container-fluid .row .col-lg-10 {
-      padding-left: 10px;
-      padding-right: 10px; }
+      padding-left: 5px;
+      padding-right: 5px; }
     .container .row .col-xs-11,
     .container .row .col-sm-11,
     .container .row .col-md-11,
@@ -162,8 +162,8 @@ label {
     .container-fluid .row .col-sm-11,
     .container-fluid .row .col-md-11,
     .container-fluid .row .col-lg-11 {
-      padding-left: 10px;
-      padding-right: 10px; }
+      padding-left: 5px;
+      padding-right: 5px; }
     .container .row .col-xs-12,
     .container .row .col-sm-12,
     .container .row .col-md-12,
@@ -172,8 +172,8 @@ label {
     .container-fluid .row .col-sm-12,
     .container-fluid .row .col-md-12,
     .container-fluid .row .col-lg-12 {
-      padding-left: 10px;
-      padding-right: 10px; }
+      padding-left: 5px;
+      padding-right: 5px; }
   @media (min-width: 1200px) {
     .container,
     .container-fluid {
@@ -509,6 +509,18 @@ select.form-control {
 /* Footer */
 #footer {
   background-color: #1f1f1f; }
+  @media (max-width: 320px) {
+    #footer {
+      text-align: center; } }
+  @media (max-width: 768px) {
+    #footer {
+      text-align: center; } }
+  @media (max-width: 992px) {
+    #footer {
+      text-align: center; } }
+  @media (max-width: 1200px) {
+    #footer {
+      text-align: center; } }
   #footer .foot-nav .introduce {
     margin: 50px 0;
     border-right: 1px solid #2f2f2f; }
@@ -531,6 +543,22 @@ select.form-control {
   #footer .foot-nav .company {
     margin: 50px 0;
     padding-left: 39px; }
+    @media (max-width: 320px) {
+      #footer .foot-nav .company {
+        padding: 0;
+        margin-bottom: 0; } }
+    @media (max-width: 768px) {
+      #footer .foot-nav .company {
+        padding: 0;
+        margin-bottom: 0; } }
+    @media (max-width: 992px) {
+      #footer .foot-nav .company {
+        padding: 0;
+        margin-bottom: 0; } }
+    @media (max-width: 1200px) {
+      #footer .foot-nav .company {
+        padding: 0;
+        margin-bottom: 0; } }
     #footer .foot-nav .company h2 {
       padding-top: 17px;
       padding-left: 27px;
@@ -539,6 +567,28 @@ select.form-control {
         vertical-align: top; }
     #footer .foot-nav .company dl {
       line-height: 25px; }
+      #footer .foot-nav .company dl:nth-of-type(1) {
+        margin-right: 10px; }
+      @media (max-width: 320px) {
+        #footer .foot-nav .company dl {
+          margin-top: 10px;
+          display: inline-block;
+          text-align: center; } }
+      @media (max-width: 768px) {
+        #footer .foot-nav .company dl {
+          margin-top: 10px;
+          display: inline-block;
+          text-align: center; } }
+      @media (max-width: 992px) {
+        #footer .foot-nav .company dl {
+          margin-top: 10px;
+          display: inline-block;
+          text-align: center; } }
+      @media (max-width: 1200px) {
+        #footer .foot-nav .company dl {
+          margin-top: 10px;
+          display: inline-block;
+          text-align: center; } }
       #footer .foot-nav .company dl dt {
         display: inline-block;
         font-size: 13px;
@@ -574,14 +624,65 @@ select.form-control {
   #footer .copyright {
     border-top: 1px solid #2e2e2e;
     padding: 13px 0; }
+    @media (max-width: 320px) {
+      #footer .copyright {
+        border: 0;
+        padding-top: 0; } }
+    @media (max-width: 768px) {
+      #footer .copyright {
+        border: 0;
+        padding-top: 0; } }
+    @media (max-width: 992px) {
+      #footer .copyright {
+        border: 0;
+        padding-top: 0; } }
+    @media (max-width: 1200px) {
+      #footer .copyright {
+        border: 0;
+        padding-top: 0; } }
     #footer .copyright p {
       font-size: 13px;
       color: #999;
       text-align: left;
-      height: 40px;
       line-height: 40px; }
       #footer .copyright p a {
         color: #999; }
+      @media (max-width: 320px) {
+        #footer .copyright p {
+          line-height: 26px;
+          text-align: center; } }
+      @media (max-width: 768px) {
+        #footer .copyright p {
+          line-height: 26px;
+          text-align: center; } }
+      @media (max-width: 992px) {
+        #footer .copyright p {
+          line-height: 26px;
+          text-align: center; } }
+      @media (max-width: 1200px) {
+        #footer .copyright p {
+          line-height: 26px;
+          text-align: center; } }
+    @media (max-width: 320px) {
+      #footer .copyright .dropup {
+        margin-top: 10px;
+        display: inline-block;
+        padding-bottom: 25px; } }
+    @media (max-width: 768px) {
+      #footer .copyright .dropup {
+        margin-top: 10px;
+        display: inline-block;
+        padding-bottom: 25px; } }
+    @media (max-width: 992px) {
+      #footer .copyright .dropup {
+        margin-top: 10px;
+        display: inline-block;
+        padding-bottom: 25px; } }
+    @media (max-width: 1200px) {
+      #footer .copyright .dropup {
+        margin-top: 10px;
+        display: inline-block;
+        padding-bottom: 25px; } }
     #footer .copyright .dropup .btn {
       display: block;
       width: 170px;
