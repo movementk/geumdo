@@ -20,6 +20,8 @@
                                 width: 400px;
                                 height: 350px;
                                 padding-left: 40px;
+                                margin-top: 75px;
+                                margin-left: 22px;
                                 background-color:rgba(0, 0, 0, 0.8);
                                 @media (max-width: $sm) {
                                     margin-top: 58px !important;
@@ -30,12 +32,6 @@
                                 }
                                 @media (max-width: $md) {
                                     width: 336px;
-                                    margin-top: 75px;
-                                    margin-left: 22px;
-                                }
-                                @media (max-width: $lg) {
-                                    margin-top: 75px;
-                                    margin-left: 22px;
                                 }
                                 h2 {
                                     font-size: 18px;

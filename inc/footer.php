@@ -88,7 +88,7 @@
             <div class="row">
                 <div class="col-lg-9">
                     <p>
-                        COPYRIGHT(C) 2016 BY (주)금도건설 ALL RIGHT RESERVED.<br class="hidden-lg"> SITE BY <a href="http://www.movementk.com">MOVEMENT K GROUP.</a>
+                        COPYRIGHT(C) 2016 BY (주)금도건설<br class="visible-xs"> ALL RIGHT RESERVED.<br class="hidden-lg hidden-xs"> SITE BY <a href="http://www.movementk.com">MOVEMENT K GROUP.</a>
                     </p>
                 </div>
                 <div class="col-lg-3">

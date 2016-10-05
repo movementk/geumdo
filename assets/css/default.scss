@@ -332,9 +332,6 @@ select.form-control {
 /* Footer */
 #footer {
     background-color: #1f1f1f;
-    @media (max-width: $xs){
-        text-align: center;
-    }
     @media (max-width: $sm){
         text-align: center;
     }
@@ -378,12 +375,9 @@ select.form-control {
         .company {
             margin: 50px 0;
             padding-left: 39px;
-            @media (max-width: $xs){
-                padding: 0;
-                margin-bottom: 0;
-            }
             @media (max-width: $sm){
                 padding: 0;
+                margin-top: 30px !important;
                 margin-bottom: 0;
             }
             @media (max-width: $md){
@@ -407,15 +401,15 @@ select.form-control {
             dl {
                 line-height: 25px;
                 &:nth-of-type(1) {
-                    margin-right: 10px;
-                }
-                @media (max-width: $xs){
-                    margin-top: 10px;
-                    display: inline-block;
-                    text-align: center;
+                    @media (max-width: $md){
+                        margin-right: 10px;
+                    }
+                    @media (max-width: $lg){
+                        margin-right: 10px;
+                    }
                 }
                 @media (max-width: $sm){
-                    margin-top: 10px;
+                    margin-top: 0 !important;
                     display: inline-block;
                     text-align: center;
                 }
@@ -453,6 +447,10 @@ select.form-control {
             }
             ul {
                 margin-top: 37px;
+                @media (max-width: $sm){
+                    margin-top: 30px !important;
+                    margin-bottom: 25px;
+                }
                 li {
                     display: inline-block;
                     &:after {
@@ -476,13 +474,9 @@ select.form-control {
     .copyright {
         border-top: 1px solid #2e2e2e;
         padding: 13px 0;
-        @media (max-width: $xs){
-            border: 0;
-            padding-top: 0;
-        }
         @media (max-width: $sm){
             border: 0;
-            padding-top: 0;
+            padding: 0;
         }
         @media (max-width: $md){
             border: 0;
@@ -518,13 +512,8 @@ select.form-control {
             }
         }
         .dropup {
-            @media (max-width: $xs){
-                margin-top: 10px;
-                display: inline-block;
-                padding-bottom: 25px;
-            }
             @media (max-width: $sm){
-                margin-top: 10px;
+                margin-top: 32px !important;
                 display: inline-block;
                 padding-bottom: 25px;
             }

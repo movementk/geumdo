@@ -1,0 +1,204 @@
+@import "https://fonts.googleapis.com/css?family=Lato:300,400,700";
+.gotham, .ceo-greetings .section-content .greetings h4 {
+  font-family: 'Gotham', sans-serif; }
+
+.lato {
+  font-family: 'Lato', sans-serif; }
+
+@media (max-width: 767px) {
+  .ceo-greetings {
+    background-size: 100% auto;
+    background-position: 50% 125px; } }
+.ceo-greetings .section-content .greetings {
+  padding-left: 27px;
+  border-left: 4px solid #d90c1c; }
+  @media (max-width: 767px) {
+    .ceo-greetings .section-content .greetings {
+      padding-left: 10px;
+      border-left: 2px solid #d90c1c; } }
+  .ceo-greetings .section-content .greetings small {
+    vertical-align: top;
+    font-size: 14px;
+    color: #b1b1b1;
+    font-weight: bold; }
+    @media (max-width: 767px) {
+      .ceo-greetings .section-content .greetings small {
+        font-size: 11px; } }
+  .ceo-greetings .section-content .greetings h4 {
+    font-size: 38px;
+    color: #d90c1c;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 25px; }
+    @media (max-width: 767px) {
+      .ceo-greetings .section-content .greetings h4 {
+        font-size: 18px !important;
+        letter-spacing: -1px;
+        margin-bottom: 15px; } }
+  .ceo-greetings .section-content .greetings p {
+    font-size: 24px;
+    color: #333;
+    line-height: 35px;
+    font-weight: 400;
+    letter-spacing: -1px;
+    position: relative; }
+    @media (max-width: 767px) {
+      .ceo-greetings .section-content .greetings p {
+        font-size: 13px;
+        line-height: 16px; } }
+.ceo-greetings .section-content .greeting-bg {
+  margin-top: -200px; }
+  @media (max-width: 1199px) {
+    .ceo-greetings .section-content .greeting-bg {
+      margin-top: -160px; } }
+  @media (max-width: 767px) {
+    .ceo-greetings .section-content .greeting-bg {
+      margin-top: -50px;
+      margin-bottom: -30px; } }
+.ceo-greetings .section-content .geumdo-ceo {
+  margin-top: 55px; }
+  @media (max-width: 767px) {
+    .ceo-greetings .section-content .geumdo-ceo {
+      margin-top: 30px; } }
+  .ceo-greetings .section-content .geumdo-ceo > div {
+    font-size: 16px;
+    color: #6c6c6c;
+    line-height: 30px;
+    letter-spacing: 1px; }
+    @media (max-width: 767px) {
+      .ceo-greetings .section-content .geumdo-ceo > div {
+        font-size: 13px;
+        line-height: 18px; } }
+    @media (max-width: 1199px) {
+      .ceo-greetings .section-content .geumdo-ceo > div:first-child {
+        margin-bottom: 20px; } }
+    @media (max-width: 767px) {
+      .ceo-greetings .section-content .geumdo-ceo > div:first-child {
+        margin-bottom: 20px; } }
+    .ceo-greetings .section-content .geumdo-ceo > div .ceo {
+      margin-top: 33px;
+      text-align: right; }
+      @media (max-width: 767px) {
+        .ceo-greetings .section-content .geumdo-ceo > div .ceo {
+          font-size: 12px; } }
+      .ceo-greetings .section-content .geumdo-ceo > div .ceo img {
+        margin-left: 15px;
+        vertical-align: baseline; }
+        @media (max-width: 767px) {
+          .ceo-greetings .section-content .geumdo-ceo > div .ceo img {
+            width: 60px; } }
+
+.summary .company {
+  padding-bottom: 40px; }
+  @media (max-width: 768px) {
+    .summary .company {
+      padding-bottom: 20px; } }
+  .summary .company .info p {
+    font-size: 16px;
+    color: #6c6c6c;
+    line-height: 29px; }
+    @media (max-width: 992px) {
+      .summary .company .info p {
+        font-size: 13px;
+        line-height: 18px; } }
+  .summary .company .info .table-wrap {
+    margin-top: 35px; }
+    @media (max-width: 992px) {
+      .summary .company .info .table-wrap {
+        margin-top: 20px; } }
+    .summary .company .info .table-wrap .table.table-bordered {
+      margin-bottom: 0;
+      border: 0;
+      border-top: 3px solid #333; }
+      @media (max-width: 992px) {
+        .summary .company .info .table-wrap .table.table-bordered {
+          border-top: 2px solid #333; } }
+      .summary .company .info .table-wrap .table.table-bordered tbody th {
+        table-layout: inherit;
+        font-size: 16px;
+        color: #333;
+        text-align: center;
+        font-weight: 400;
+        vertical-align: middle;
+        border-left: 0;
+        border-color: #bbb;
+        background-color: #fafafa; }
+        @media (max-width: 992px) {
+          .summary .company .info .table-wrap .table.table-bordered tbody th {
+            font-size: 13px; } }
+        .summary .company .info .table-wrap .table.table-bordered tbody th small {
+          font-size: 12px; }
+          @media (max-width: 992px) {
+            .summary .company .info .table-wrap .table.table-bordered tbody th small {
+              font-size: 10px; } }
+      .summary .company .info .table-wrap .table.table-bordered tbody td {
+        font-size: 16px;
+        color: #6c6c6c;
+        text-align: left;
+        padding: 8px 0 9px 20px;
+        border-color: #bbb;
+        border-right: 0;
+        vertical-align: middle; }
+        @media (max-width: 992px) {
+          .summary .company .info .table-wrap .table.table-bordered tbody td {
+            font-size: 13px; } }
+        @media (max-width: 768px) {
+          .summary .company .info .table-wrap .table.table-bordered tbody td {
+            letter-spacing: -1px;
+            padding-left: 10px; } }
+      .summary .company .info .table-wrap .table.table-bordered tbody .tx-align {
+        padding-left: 0;
+        padding-right: 0;
+        text-align: center; }
+  .summary .company .motto {
+    height: 416px;
+    text-align: center;
+    background-image: url(/assets/images/introduce/summary_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 0; }
+    @media (max-width: 1200px) {
+      .summary .company .motto {
+        margin-left: 30px; } }
+    @media (max-width: 992px) {
+      .summary .company .motto {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 30px;
+        background-size: cover;
+        background-position: 50% 100%; } }
+    @media (max-width: 768px) {
+      .summary .company .motto {
+        height: 300px; } }
+    .summary .company .motto hr {
+      width: 219px;
+      display: inline-block;
+      margin: 100px 0 30px;
+      border-top: 3px solid #fff; }
+      @media (max-width: 768px) {
+        .summary .company .motto hr {
+          width: 160px;
+          margin: 70px 0 30px; } }
+    .summary .company .motto ul li {
+      font-size: 39px;
+      color: #fff;
+      line-height: 50px;
+      text-align: center; }
+      @media (max-width: 768px) {
+        .summary .company .motto ul li {
+          font-size: 29px;
+          line-height: 40px; } }
+
+.group {
+  padding-bottom: 40px; }
+  @media (max-width: 992px) {
+    .group {
+      padding-bottom: 0; } }
+  .group .section-content .group-table-img {
+    text-align: center; }
+    .group .section-content .group-table-img img {
+      display: inline-block; }
+      @media (max-width: 320px) {
+        .group .section-content .group-table-img img {
+          width: 300px; } }
+
+/*# sourceMappingURL=introduce.css.map */
