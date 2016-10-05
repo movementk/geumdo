@@ -509,9 +509,6 @@ select.form-control {
 /* Footer */
 #footer {
   background-color: #1f1f1f; }
-  @media (max-width: 320px) {
-    #footer {
-      text-align: center; } }
   @media (max-width: 768px) {
     #footer {
       text-align: center; } }
@@ -543,13 +540,10 @@ select.form-control {
   #footer .foot-nav .company {
     margin: 50px 0;
     padding-left: 39px; }
-    @media (max-width: 320px) {
-      #footer .foot-nav .company {
-        padding: 0;
-        margin-bottom: 0; } }
     @media (max-width: 768px) {
       #footer .foot-nav .company {
         padding: 0;
+        margin-top: 30px !important;
         margin-bottom: 0; } }
     @media (max-width: 992px) {
       #footer .foot-nav .company {
@@ -567,16 +561,15 @@ select.form-control {
         vertical-align: top; }
     #footer .foot-nav .company dl {
       line-height: 25px; }
-      #footer .foot-nav .company dl:nth-of-type(1) {
-        margin-right: 10px; }
-      @media (max-width: 320px) {
-        #footer .foot-nav .company dl {
-          margin-top: 10px;
-          display: inline-block;
-          text-align: center; } }
+      @media (max-width: 992px) {
+        #footer .foot-nav .company dl:nth-of-type(1) {
+          margin-right: 10px; } }
+      @media (max-width: 1200px) {
+        #footer .foot-nav .company dl:nth-of-type(1) {
+          margin-right: 10px; } }
       @media (max-width: 768px) {
         #footer .foot-nav .company dl {
-          margin-top: 10px;
+          margin-top: 0 !important;
           display: inline-block;
           text-align: center; } }
       @media (max-width: 992px) {
@@ -608,6 +601,10 @@ select.form-control {
         letter-spacing: -1px; }
     #footer .foot-nav .company ul {
       margin-top: 37px; }
+      @media (max-width: 768px) {
+        #footer .foot-nav .company ul {
+          margin-top: 30px !important;
+          margin-bottom: 25px; } }
       #footer .foot-nav .company ul li {
         display: inline-block; }
         #footer .foot-nav .company ul li:after {
@@ -624,14 +621,10 @@ select.form-control {
   #footer .copyright {
     border-top: 1px solid #2e2e2e;
     padding: 13px 0; }
-    @media (max-width: 320px) {
-      #footer .copyright {
-        border: 0;
-        padding-top: 0; } }
     @media (max-width: 768px) {
       #footer .copyright {
         border: 0;
-        padding-top: 0; } }
+        padding: 0; } }
     @media (max-width: 992px) {
       #footer .copyright {
         border: 0;
@@ -663,14 +656,9 @@ select.form-control {
         #footer .copyright p {
           line-height: 26px;
           text-align: center; } }
-    @media (max-width: 320px) {
-      #footer .copyright .dropup {
-        margin-top: 10px;
-        display: inline-block;
-        padding-bottom: 25px; } }
     @media (max-width: 768px) {
       #footer .copyright .dropup {
-        margin-top: 10px;
+        margin-top: 32px !important;
         display: inline-block;
         padding-bottom: 25px; } }
     @media (max-width: 992px) {

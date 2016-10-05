@@ -21,6 +21,8 @@
       width: 400px;
       height: 350px;
       padding-left: 40px;
+      margin-top: 75px;
+      margin-left: 22px;
       background-color: rgba(0, 0, 0, 0.8); }
       @media (max-width: 768px) {
         #content #visual .bx-wrapper .bx-viewport > ul > li .container .project {
@@ -31,13 +33,7 @@
           width: 279px !important; } }
       @media (max-width: 992px) {
         #content #visual .bx-wrapper .bx-viewport > ul > li .container .project {
-          width: 336px;
-          margin-top: 75px;
-          margin-left: 22px; } }
-      @media (max-width: 1200px) {
-        #content #visual .bx-wrapper .bx-viewport > ul > li .container .project {
-          margin-top: 75px;
-          margin-left: 22px; } }
+          width: 336px; } }
       #content #visual .bx-wrapper .bx-viewport > ul > li .container .project h2 {
         font-size: 18px;
         color: #fff;
