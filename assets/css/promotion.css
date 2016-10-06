@@ -1,0 +1,31 @@
+@import "https://fonts.googleapis.com/css?family=Lato:300,400,700";
+.gotham {
+  font-family: 'Gotham', sans-serif; }
+
+.lato {
+  font-family: 'Lato', sans-serif; }
+
+.rnd {
+  padding-bottom: 40px; }
+  @media (max-width: 768px) {
+    .rnd {
+      padding-bottom: 0; } }
+  .rnd .section-content .rnd-txt {
+    font-size: 16px;
+    color: #6c6c6c;
+    line-height: 29px;
+    text-align: center;
+    margin-bottom: 50px; }
+    @media (max-width: 768px) {
+      .rnd .section-content .rnd-txt {
+        font-size: 14px;
+        line-height: 20px;
+        text-align: left;
+        margin-bottom: 30px; } }
+  @media (max-width: 768px) {
+    .rnd .section-content .rnd-img {
+      padding: 0 15px; } }
+  .rnd .section-content .rnd-img img {
+    margin: 0 auto; }
+
+/*# sourceMappingURL=promotion.css.map */
