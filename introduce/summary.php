@@ -31,9 +31,9 @@
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
                                     <li><a href="/introduce/summary.php">회사개요</a></li>
                                     <li><a href="/introduce/ceo_greetings.php">CEO 인사말</a></li>
-                                    <li><a href="#">회사연혁</a></li>
-                                    <li><a href="#">운영조직</a></li>
-                                    <li><a href="#">찾아오시는길</a></li>
+                                    <li><a href="/introduce/hostory.php">회사연혁</a></li>
+                                    <li><a href="/introduce/group.php">운영조직</a></li>
+                                    <li><a href="/introduce/location.php">찾아오시는길</a></li>
                                 </ul>
                             </li>
                         </ul>

@@ -5,6 +5,9 @@
     background-image: url(/assets/images/sub/sub_visual01.jpg);
     background-repeat: no-repeat;
     background-position: 50% 0;
+    @media (max-width: $md) {
+        background-position: 50% -50px;
+    }
     .page-header {
         text-align: center;
         padding: 54px 0;

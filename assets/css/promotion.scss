@@ -1,0 +1,30 @@
+@import 'common';
+.rnd {
+    padding-bottom: 40px;
+    @media (max-width: $sm) {
+        padding-bottom: 0;
+    }
+    .section-content {
+        .rnd-txt {
+            font-size: 16px;
+            color: #6c6c6c;
+            line-height: 29px;
+            text-align: center;
+            margin-bottom: 50px;
+            @media (max-width: $sm) {
+                font-size: 14px;
+                line-height: 20px;
+                text-align: left;
+                margin-bottom: 30px;
+            }
+        }
+        .rnd-img {
+            @media (max-width: $sm) {
+                padding: 0 15px;
+            }
+            img {
+                margin: 0 auto;
+            }
+        }
+    }
+}

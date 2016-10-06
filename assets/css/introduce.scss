@@ -1,8 +1,5 @@
 @import 'common';
 .ceo-greetings {
-    //background-image: url(/assets/images/introduce/greetings_bg.png);
-    //background-repeat: no-repeat;
-    //background-position: 50% 180px;
     @media (max-width: $sm - 1) {
         background-size: 100% auto;
         background-position: 50% 125px;
@@ -236,8 +233,349 @@
         }
     }
 }
-
-
+.location {
+    padding-bottom: 40px;
+    @media (max-width: $md) {
+        padding-bottom: 0;
+    }
+    .section-content {
+        .maps {
+            text-align: center;
+            margin-bottom: 30px;
+            img {
+                display: inline-block;
+            }
+        }
+        .inquiry-info {
+            li {
+                border-right: 1px solid #ccc;
+                &:last-child {
+                    border: 0;
+                }
+                @media (max-width: $md) {
+                    text-align: center;
+                    border-right: 0;
+                    border-bottom: 1px solid #ccc;
+                    padding-bottom: 20px;
+                    margin-bottom: 30px;
+                    &:last-child {
+                        padding-bottom: 0;
+                        margin-bottom: 0;
+                    }
+                }
+                div {
+                    h4 {
+                        font-size: 24px;
+                        color: #333;
+                        font-weight: 400;
+                        text-align: center;
+                        margin-bottom: 15px;
+                        padding-top: 67px;
+                        @media (max-width: $sm) {
+                            font-size: 18px;
+                            margin-bottom: 10px;
+                        }
+                    }
+                    dl {
+                        overflow: hidden;
+                        @media (max-width: $md) {
+                            display: inline-block;
+                            padding-left: 0 !important;
+                            text-align: left;
+                        }
+                        dt {
+                            float: left;
+                            clear: both;
+                            font-size: 16px;
+                            color: #333;
+                            line-height: 29px;
+                            font-weight: 400px;
+                            @media (max-width: $sm) {
+                                font-size: 13px;
+                                line-height: 20px;
+                            }
+                        }
+                        dd {
+                            float: left;
+                            font-size: 16px;
+                            color: #6b6b6b;
+                            line-height: 29px;
+                            font-weight: 400px;
+                            @media (max-width: $sm) {
+                                font-size: 13px;
+                                line-height: 18px;
+                            }
+                        }
+                    }
+                }
+                .office {
+                    h4 {
+                        background-image: url(/assets/images/introduce/inquiry_img01.png);
+                        background-repeat: no-repeat;
+                        background-position: 50% 0;
+                    }
+                    dl {
+                        padding-left: 48px;
+                        @media (max-width: $lg) {
+                            padding-left: 15px;
+                        }
+                        dt {
+                            width: 70px;
+                        }
+                    }
+                }
+                .call-center {
+                    h4 {
+                        background-image: url(/assets/images/introduce/inquiry_img02.png);
+                        background-repeat: no-repeat;
+                        background-position: 50% 0;
+                    }
+                    dl {
+                        padding-left: 90px;
+                        @media (max-width: $lg) {
+                            padding-left: 60px;
+                        }
+                        dt {
+                            width: 57px;
+                        }
+                    }
+                }
+                .email-inquiry {
+                    h4 {
+                        background-image: url(/assets/images/introduce/inquiry_img03.png);
+                        background-repeat: no-repeat;
+                        background-position: 50% 0;
+                    }
+                    dl {
+                        padding-left: 65px;
+                        @media (max-width: $lg) {
+                            padding-left: 45px;
+                        }
+                        dt {
+                            width: 77px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.history {
+    padding-bottom: 40px;
+    @midea (max-width: $md) {
+        padding-bottom: 0;
+    }
+    .section-content {
+        .geumdo-history {
+            .present {
+                h4 {
+                    width: 100%;
+                    font-size: 30px;
+                    color: $rc;
+                    font-weight: 300;
+                    padding-top: 29px;
+                    border-top: 2px solid $rc;
+                    @media (max-width: $md) {
+                        font-size: 18px;
+                        padding-top: 20px;
+                    }
+                }
+                .present-dl {
+                    border-top: 2px solid #333;
+                    @media (max-width: $md) {
+                        border-top: 0;
+                    }
+                }
+                dl {
+                    overflow: hidden;
+                    padding: 29px 0;
+                    margin-left: -25px;
+                    border-bottom: 1px dotted #ccc;
+                    &:last-child {
+                        border-bottom: 0;
+                    }
+                    @media (max-width: $lg) {
+                        margin-left: -5px;
+                    }
+                    @media (max-width: $md) {
+                        margin-left: 0;
+                        padding: 20px 0;
+                    }
+                    dt {
+                        float: left;
+                        clear: both;
+                        width: 60px;
+                        font-size: 16px;
+                        color: #333;
+                        font-weight: 400;
+                        vertical-align: top;
+                        @media (max-width: $md) {
+                            font-size: 13px;
+                        }
+                        &:before {
+                            content: "·";
+                            margin-top: -5px;
+                            font-size: 13px;
+                            color: #333;
+                        }
+                    }
+                    dd {
+                        float: left;
+                        ol {
+                            li {
+                                &:last-child {
+                                    margin-bottom: 0;
+                                }
+                                h5 {
+                                    display: inline-block;
+                                    width: 55px;
+                                    font-size: 16px;
+                                    color: #333;
+                                    font-weight: 400;
+                                    vertical-align: top;
+                                    margin-top: 3px;
+                                    @media (max-width: $md) {
+                                        font-size: 13px;
+                                        margin-top: 2px;
+                                    }
+                                }
+                                p {
+                                    display: inline-block;
+                                    font-size: 16px;
+                                    color: #6c6c6c;
+                                    font-weight: 400;
+                                    line-height: 29px;
+                                    margin-top: -2px;
+                                    letter-spacing: -1px;
+                                    @media (max-width: $md) {
+                                        font-size: 13px;
+                                        line-height: 22px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .history-info {
+                border-top: 1px solid #dadada;
+                &:last-child {
+                    border-bottom: 1px solid #dadada;
+                }
+                h4 {
+                    width: 100%;
+                    font-size: 30px;
+                    color: $rc;
+                    font-weight: 300;
+                    padding-top: 29px;
+                    @media (max-width: $md) {
+                        font-size: 18px;
+                        padding-top: 20px;
+                    }
+                }
+                dl {
+                    overflow: hidden;
+                    padding: 29px 0;
+                    margin-left: -25px;
+                    border-bottom: 1px dotted #ccc;
+                    &:last-child {
+                        border-bottom: 0;
+                    }
+                    @media (max-width: $lg) {
+                        margin-left: -5px;
+                    }
+                    @media (max-width: $md) {
+                        margin-left: 0;
+                        padding: 20px 0;
+                    }
+                    dt {
+                        float: left;
+                        clear: both;
+                        width: 60px;
+                        font-size: 16px;
+                        color: #333;
+                        font-weight: 400;
+                        vertical-align: top;
+                        @media (max-width: $md) {
+                            font-size: 13px;
+                        }
+                        &:before {
+                            content: "·";
+                            margin-top: -5px;
+                            font-size: 13px;
+                            color: #333;
+                        }
+                    }
+                    dd {
+                        float: left;
+                        ol {
+                            li {
+                                &:last-child {
+                                    margin-bottom: 0;
+                                }
+                                h5 {
+                                    display: inline-block;
+                                    width: 55px;
+                                    font-size: 16px;
+                                    color: #333;
+                                    font-weight: 400;
+                                    vertical-align: top;
+                                    margin-top: 3px;
+                                    @media (max-width: $md) {
+                                        font-size: 13px;
+                                        margin-top: 2px;
+                                    }
+                                }
+                                p {
+                                    display: inline-block;
+                                    font-size: 16px;
+                                    color: #6c6c6c;
+                                    font-weight: 400;
+                                    line-height: 29px;
+                                    margin-top: -2px;
+                                    letter-spacing: -1px;
+                                    @media (max-width: $md) {
+                                        font-size: 13px;
+                                        line-height: 22px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .challenge {
+                text-align: center;
+                p {
+                    font-size: 24px;
+                    color: #333;
+                    line-height: 35px;
+                    font-weight: 400;
+                    text-align: left;
+                    margin-bottom: 50px;
+                    margin-top: -10px;
+                    @media (max-width: $lg) {
+                        font-size: 24px;
+                        margin-top: 30px;
+                        margin-bottom: 30px;
+                    }
+                    @media (max-width: $md) {
+                        font-size: 18px;
+                    }
+                }
+                span {
+                    display: block;
+                    @media (max-width: $sm) {
+                        padding: 0 30px;
+                    }
+                    img {
+                        display: inline-block;
+                    }
+                }
+            }
+        }
+    }
+}
 
 
 

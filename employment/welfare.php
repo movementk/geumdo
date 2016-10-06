@@ -1,12 +1,12 @@
 <?php require_once($_SERVER["DOCUMENT_ROOT"].'/inc/dochead.php'); ?>
 <link href="/assets/css/sub.css" rel="stylesheet">
-<link href="/assets/css/introduce.css" rel="stylesheet">
+<link href="/assets/css/employment.css" rel="stylesheet">
 </head>
 <body>
     <?php require_once($_SERVER["DOCUMENT_ROOT"].'/inc/header.php'); ?>
-    <main class="content introduce" tabindex="-1">
+    <main class="content employment" tabindex="-1">
         <div class="page-header">
-            <h2>회사소개</h2>
+            <h2>채용정보</h2>
             <hr>
             <p>
                 THE HOPE TO BUILD<br>
@@ -15,39 +15,40 @@
         </div>
         <div class="page-content">
             <div class="container">
-                <section class="group">
+                <section class="welfare">
                     <!-- page-path -->
                     <div class="page-path">
                         <ul>
                             <li class="home hidden-xs"><a href="/"><span></span></a></li>
                             <li>
-                                <a href="#">회사소개</a>
+                                <a href="#">채용정보</a>
                             </li>
                             <li class="dropdown">
                                 <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                                    운영조직
+                                    복리후생
                                     <span class="glyphicon glyphicon-menu-down"></span>
                                 </button>
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                                    <li><a href="/introduce/summary.php">회사개요</a></li>
-                                    <li><a href="/introduce/ceo_greetings.php">CEO 인사말</a></li>
-                                    <li><a href="/introduce/hostory.php">회사연혁</a></li>
-                                    <li><a href="/introduce/group.php">운영조직</a></li>
-                                    <li><a href="/introduce/location.php">찾아오시는길</a></li>
+                                    <li><a href="/employment/talented.php">인재상</a></li>
+                                    <li><a href="/employment/welfare.php">복리후생</a></li>
+                                    <li><a href="/employment/resume.php">이력서 등록</a></li>
+                                    <li><a href="#">채용정보</a></li>
+                                    <li><a href="#">채용결과확인</a></li>
                                 </ul>
                             </li>
                         </ul>
                     </div><!-- //page-path -->
                     <div class="section-header">
-                        <h3>운영조직</h3>
+                        <h3>인재상</h3>
                     </div>
                     <!-- Section-Content -->
                     <div class="section-content">
-                        <p class="group-table-img visible-lg visible-md">
-                            <img src="/assets/images/introduce/group_table_lg.jpg" class="img-responsive" alt="금도건설 운영조직표">
+                        <p class="welfare-txt">
+                            (주)금도건설은 기업과 더불어 전 구성원이 풍요로운 생활, 안정된 생활, 활기찬 생활을 할 수 있도록 무형의 급여라 할 수 있는 다양한 복리후생제도를 마련하고 있습니다.
                         </p>
-                        <p class="img-responsive group-table-img visible-sm visible-xs">
-                            <img src="/assets/images/introduce/group_table_md.jpg" class="img-responsive" alt="금도건설 운영조직표">
+                        <p class="welfare-img">
+                            <img src="/assets/images/employment/welfare_img_lg.jpg" class="img-responsive hidden-xs" alt="안정된 생활, 풍요로운 생활, 활기찬 생활">
+                            <img src="/assets/images/employment/welfare_img_sm.jpg" class="img-responsive visible-xs" alt="안정된 생활, 풍요로운 생활, 활기찬 생활">
                         </p>
                     </div><!-- //Section-Content -->
                 </section>

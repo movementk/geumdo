@@ -44,12 +44,12 @@ label {
 }
 .container,
 .container-fluid {
-    max-width: 1200px;
+    max-width: 1200px !important;
     padding-left: 10px;
     padding-right: 10px;
     .row {
-        margin-left: -5px !important;
-        margin-right: -5px !important;
+        margin-left: -5px;
+        margin-right: -5px;
         @for $i from 1 through 12 {
             .col-xs-#{$i},
             .col-sm-#{$i},
@@ -61,6 +61,7 @@ label {
         }
     }
     @media (min-width: $lg) {
+        width: 1200px;
         padding-left: 15px;
         padding-right: 15px;
         .row {
