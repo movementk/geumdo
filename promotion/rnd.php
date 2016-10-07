@@ -29,11 +29,10 @@
                                     <span class="glyphicon glyphicon-menu-down"></span>
                                 </button>
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                                    <li><a href="/employment/talented.php">인재상</a></li>
-                                    <li><a href="/employment/welfare.php">복리후생</a></li>
-                                    <li><a href="/employment/resume.php">이력서 등록</a></li>
-                                    <li><a href="#">채용정보</a></li>
-                                    <li><a href="#">채용결과확인</a></li>
+                                    <li><a href="#">CI소개</a></li>
+                                    <li><a href="/promotion/rnd.php">R&amp;D센터</a></li>
+                                    <li><a href="#">인증 및 상호</a></li>
+                                    <li><a href="/promotion/partner.php">관계사 현황</a></li>
                                 </ul>
                             </li>
                         </ul>
