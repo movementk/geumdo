@@ -7,6 +7,7 @@
         $('#gnb').removeClass('opened');
     });
 })(jQuery);
+
 /* Main Visual Slider */
 (function($) {
     $('#visual > ul').bxSlider({
@@ -18,18 +19,6 @@
 })(jQuery);
 
 
-
-
-/* Partner Slider
-var partnerSlider = $('.partner .slider').bxSlider({
-    minSlides: 5,
-    maxSlides: 5,
-    slideWidth: 170,
-    slideMargin: 30,
-    pager: false,
-    controls: true
-});
-*/
 (function($) {
     var onedayDefaultOptions = {
         pager: false,
@@ -87,3 +76,33 @@ var partnerSlider = $('.partner .slider').bxSlider({
         }
     });
 })(jQuery);
+
+// 모바일 GNB
+//(function($) {
+//    $(document).on('click', '#nav .gnb > li > a', function(e) {
+//        if ($(this).parent().hasClass('active')) {
+//            $(this).parent().removeClass('active');
+//        } else {
+//            $(this).parent().siblings('.active').removeClass('active');
+//            $(this).parent().addClass('active');
+//        }
+//        e.preventDefault();
+//    });
+//
+//    $(document).on('click', '#nav .nav-backdrop, #nav .btn-nav-close', function() {
+//        $('body').removeClass('nav-opened');
+//        $('#nav').addClass('collapsed');
+//    });
+//
+//    $(document).on('click', '#header .btn-menu', function() {
+//        $('body').addClass('nav-opened');
+//        $('#nav').removeClass('collapsed');
+//    });
+//
+//})(jQuery);
+
+
+
+
+
+

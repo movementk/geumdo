@@ -168,7 +168,6 @@
     .resume .section-content .write .table-wrap .table tbody tr:first-child th {
       border-top: 2px solid #333; }
     .resume .section-content .write .table-wrap .table tbody tr:first-child td {
-      border-left: 2px solid #fff;
       border-top: 2px solid #d90c1c; }
     .resume .section-content .write .table-wrap .table tbody tr th {
       font-size: 16px;
@@ -254,5 +253,243 @@
       margin-right: 4px; }
     .resume .section-content .write .btn-area p .btn-gray {
       background-color: #999; }
+
+.recruit {
+  padding-bottom: 40px; }
+  .recruit div h4 {
+    font-size: 24px;
+    color: #333;
+    font-weight: 400;
+    margin-top: 70px;
+    margin-bottom: 20px; }
+    .recruit div h4:before {
+      content: "·";
+      padding-right: 15px; }
+    .recruit div h4 small {
+      font-size: 16px;
+      color: #6c6c6c;
+      display: inline-block;
+      margin-left: 18px; }
+  .recruit div .table-wrap .table {
+    border: 0; }
+    .recruit div .table-wrap .table th {
+      vertical-align: middle;
+      text-align: center;
+      border: 0;
+      border-bottom: 1px solid #fff;
+      background-color: #f6f6f6;
+      font-size: 16px;
+      font-weight: 400;
+      color: #333; }
+      .recruit div .table-wrap .table th lable {
+        font-size: 16px;
+        color: #333;
+        margin-bottom: 0; }
+    .recruit div .table-wrap .table .thb {
+      border-bottom: 1px solid #dadada; }
+    .recruit div .table-wrap .table .rc-border {
+      border-top: 2px solid #d90c1c; }
+    .recruit div .table-wrap .table .rr-border {
+      border-top: 2px solid #333; }
+    .recruit div .table-wrap .table td {
+      vertical-align: middle;
+      border: 0;
+      border-bottom: 1px solid #dadada;
+      padding: 5px 30px;
+      padding-left: 30px; }
+      .recruit div .table-wrap .table td .form-control {
+        border-radius: 0;
+        border: 1px solid #dadada;
+        width: 100%;
+        height: 35px;
+        box-shadow: none; }
+      .recruit div .table-wrap .table td label {
+        font-size: 16px; }
+  .recruit div .table-wrap .btn-area {
+    margin-top: 30px;
+    text-align: right; }
+    .recruit div .table-wrap .btn-area p .btn {
+      width: 120px;
+      height: 35px;
+      border-radius: 0;
+      font-size: 16px;
+      color: #fff;
+      display: inline-block; }
+    .recruit div .table-wrap .btn-area p .btn-addition {
+      background-color: #d90c1c; }
+    .recruit div .table-wrap .btn-area p .btn-del {
+      background-color: #999; }
+  .recruit .basics-info h4 {
+    margin-top: 0; }
+  .recruit .basics-info .table-wrap .table tbody tr td select {
+    display: inline-block;
+    width: 90px;
+    height: 35px;
+    padding-left: 13px;
+    font-size: 16px;
+    border: 1px solid #dadada; }
+  .recruit .basics-info .table-wrap .table tbody tr .birthday .form-control {
+    background-image: url(/assets/images/employment/calendar_btn.gif);
+    background-repeat: no-repeat;
+    background-position: 95% 50%; }
+  .recruit .basics-info .table-wrap .table tbody tr .sex p {
+    display: inline-block; }
+    .recruit .basics-info .table-wrap .table tbody tr .sex p .radio {
+      display: inline-block;
+      vertical-align: middle;
+      margin-top: -4px;
+      margin-right: 7px; }
+    .recruit .basics-info .table-wrap .table tbody tr .sex p:first-child {
+      margin-right: 30px; }
+  .recruit .basics-info .table-wrap .table tbody tr .call .form-control {
+    width: 125px;
+    display: inline-block; }
+  .recruit .basics-info .table-wrap .table tbody tr .file .form-control {
+    width: 300px;
+    display: inline-block; }
+  .recruit .basics-info .table-wrap .table tbody tr .file .file-btn {
+    margin-left: 5px;
+    display: inline-block; }
+    .recruit .basics-info .table-wrap .table tbody tr .file .file-btn .btn {
+      vertical-align: middle;
+      width: 100px;
+      height: 35px;
+      margin-top: -7px;
+      font-size: 16px;
+      color: #333;
+      text-align: center;
+      border: 1px solid #a9acb4;
+      background-color: #f1f1f3; }
+  .recruit .basics-info .table-wrap .table tbody tr .addr .form-control {
+    display: inline-block; }
+    .recruit .basics-info .table-wrap .table tbody tr .addr .form-control:nth-of-type(4) {
+      margin-top: 5px; }
+  .recruit .basics-info .table-wrap .table tbody tr .addr .addr-input {
+    width: 125px; }
+  .recruit .basics-info .table-wrap .table tbody tr .addr .btn-address {
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-left: 5px; }
+    .recruit .basics-info .table-wrap .table tbody tr .addr .btn-address .btn-addr {
+      font-size: 16px;
+      color: #333;
+      height: 34px;
+      border: 1px solid #a9acb4;
+      background-color: #f1f1f3; }
+  .recruit .basics-info .table-wrap .table tbody tr .income .form-control {
+    width: 370px; }
+  .recruit .military .table-wrap .table thead tr th {
+    border-bottom: 1px solid #333; }
+    .recruit .military .table-wrap .table thead tr th:first-child {
+      border-left: 0; }
+  .recruit .military .table-wrap .table tbody .period .form-control {
+    display: inline-block;
+    width: 256px;
+    background-image: url(/assets/images/employment/calendar_btn.gif);
+    background-repeat: no-repeat;
+    background-position: 95% 50%; }
+  .recruit .family .table-wrap .table thead tr th {
+    border-bottom: 1px solid #333; }
+    .recruit .family .table-wrap .table thead tr th:first-child {
+      border-left: 0; }
+  .recruit .family .table-wrap .table tbody .family-birth .form-control {
+    display: inline-block;
+    background-image: url(/assets/images/employment/calendar_btn.gif);
+    background-repeat: no-repeat;
+    background-position: 95% 50%; }
+  .recruit .family .table-wrap .table tbody .cohabit {
+    text-align: center; }
+    .recruit .family .table-wrap .table tbody .cohabit p {
+      display: inline-block; }
+      .recruit .family .table-wrap .table tbody .cohabit p:first-child {
+        margin-right: 30px; }
+      .recruit .family .table-wrap .table tbody .cohabit p .radio {
+        display: inline-block;
+        margin-right: 5px; }
+  .recruit .academic .table-wrap .table thead tr th {
+    border-bottom: 1px solid #333; }
+    .recruit .academic .table-wrap .table thead tr th:first-child {
+      border-left: 0; }
+  .recruit .academic .table-wrap .table tbody td select {
+    width: 100%;
+    height: 35px;
+    font-size: 16px;
+    padding-left: 13px;
+    border: 1px solid #dadada; }
+  .recruit .academic .table-wrap .table tbody .academic-period .form-control {
+    display: inline-block;
+    width: 147px;
+    background-image: url(/assets/images/employment/calendar_btn.gif);
+    background-repeat: no-repeat;
+    background-position: 95% 50%; }
+  .recruit .qualifiction .table-wrap .table thead tr th {
+    border-bottom: 1px solid #333; }
+    .recruit .qualifiction .table-wrap .table thead tr th:first-child {
+      border-left: 0; }
+  .recruit .qualifiction .table-wrap .table tbody td select {
+    width: 100%;
+    height: 35px;
+    font-size: 16px;
+    padding-left: 13px;
+    border: 1px solid #dadada; }
+  .recruit .qualifiction .table-wrap .table tbody .acquisition .form-control {
+    display: inline-block;
+    background-image: url(/assets/images/employment/calendar_btn.gif);
+    background-repeat: no-repeat;
+    background-position: 95% 50%; }
+  .recruit .language .table-wrap .table thead tr th {
+    border-bottom: 1px solid #333; }
+    .recruit .language .table-wrap .table thead tr th:first-child {
+      border-left: 0; }
+  .recruit .language .table-wrap .table tbody td select {
+    width: 100%;
+    height: 35px;
+    font-size: 16px;
+    padding-left: 13px;
+    border: 1px solid #dadada; }
+  .recruit .language .table-wrap .table tbody .enforcement-date .form-control {
+    display: inline-block;
+    background-image: url(/assets/images/employment/calendar_btn.gif);
+    background-repeat: no-repeat;
+    background-position: 95% 50%; }
+  .recruit .self-introduction .form-control {
+    height: 210px;
+    border-radius: 0;
+    font-size: 16px;
+    color: #6c6c6c; }
+  .recruit .document-attached {
+    margin-bottom: 70px;
+    overflow: hidden; }
+    .recruit .document-attached h4 {
+      float: left;
+      margin-right: 30px;
+      margin-bottom: 0; }
+    .recruit .document-attached .form-control {
+      float: left;
+      width: 300px;
+      height: 35px;
+      border-radius: 0;
+      margin-top: 68px; }
+    .recruit .document-attached .file-btn {
+      float: left;
+      margin-top: 68px;
+      margin-left: 5px; }
+      .recruit .document-attached .file-btn .btn {
+        width: 100px;
+        height: 35px;
+        font-size: 16px;
+        color: #333;
+        text-align: center;
+        border: 1px solid #a9acb4;
+        background-color: #f1f1f3; }
+  .recruit .btn-area p .btn-submission {
+    display: block;
+    width: 220px;
+    height: 35px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #d90c1c; }
 
 /*# sourceMappingURL=employment.css.map */
