@@ -274,10 +274,8 @@ select.form-control {
                         }
                     }
                 }
-                > .lg-menu {
+                > .menu-list {
                     float: right;
-                    margin-left: -15px;
-                    margin-right: -15px;
                     > li {
                         float: left;
                         width: 162px;
@@ -330,6 +328,131 @@ select.form-control {
         }
     }
 }
+#nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(#000, .6);
+    z-index: 900;
+    .nav-backdrop {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 901;
+    }
+    .nav-container {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 80%;
+        height: 100%;
+        background-color: #fff;
+        transition: all .3s;
+        z-index: 910;
+        .nav-content {
+            overflow: scroll;
+            height: 100%;
+            .nav-head {
+                width: 100%;
+                position: relative;
+                background-color: #fff;
+                h1 {
+                    width: 134px;
+                    text-align: left;
+                    padding-left: 22px;
+                    img {
+                        display: inline-block;
+                        width: 134px;
+                    }
+                }
+                .btn-nav-close {
+                    position: absolute;
+                    top: 0;
+                    right: 22px;
+                }
+            }
+            .gnb {
+                > li {
+                    overflow: hidden;
+                    border-bottom: 1px solid #dadada;
+                    > a {
+                        display: block;
+                        width: 100%;
+                        height: 36px;
+                        font-size: 13.3px;
+                        color: #333;
+                        font-weight: 600;
+                        line-height: 36px;
+                        padding-left: 20px;
+                        &:hover,
+                        &:focus {
+                            text-decoration: none;
+                        }
+                        .glyphicon {
+                            float: right;
+                            color: #999;
+                            line-height: 36px;
+                            padding-right: 20px;
+                        }
+                    }
+                    > ul {
+                        display: none;
+                        padding-top: 10px;
+                        padding-bottom: 10px;
+                        background-color: #f9f9f9;
+                        > li {
+                            > a {
+                                display: block;
+                                width: 100%;
+                                font-size: 12.6px;
+                                color: #333;
+                                font-weight: 400;
+                                line-height: 25px;
+                                padding-left: 38.66px;
+                            }
+                        }
+                    }
+                    &.active {
+                        border-bottom: 0;
+                        > ul {
+                            display: block;
+                            > li {
+                                a {
+                                    &:hover {
+                                        text-decoration: none;
+                                    }
+                                    &:focus {
+                                        text-decoration: none;
+                                        color: #9f080d;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.collapsed {
+        right: -100%;
+        .nav-container {
+            right: -270px;
+        }
+    }
+}
+body.nav-opened {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+
+
 /* Footer */
 #footer {
     background-color: #1f1f1f;
