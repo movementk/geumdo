@@ -8,18 +8,18 @@
 
 .talented {
   padding-bottom: 40px; }
-  @media (max-width: 992px) {
+  @media (max-width: 991px) {
     .talented {
       padding-bottom: 0; } }
   .talented .section-content .talented-txt {
     font-size: 16px;
     color: #6c6c6c;
     margin-bottom: 70px; }
-    @media (max-width: 768px) {
+    @media (max-width: 767px) {
       .talented .section-content .talented-txt {
         font-size: 13px;
         margin-bottom: 30px; } }
-  @media (max-width: 768px) {
+  @media (max-width: 767px) {
     .talented .section-content .talented-img {
       padding: 0 15px; } }
   .talented .section-content .talented-img img {
@@ -27,18 +27,18 @@
 
 .welfare {
   padding-bottom: 40px; }
-  @media (max-width: 992px) {
+  @media (max-width: 991px) {
     .welfare {
       padding-bottom: 0; } }
   .welfare .section-content .welfare-txt {
     font-size: 16px;
     color: #6c6c6c;
     margin-bottom: 70px; }
-    @media (max-width: 768px) {
+    @media (max-width: 767px) {
       .welfare .section-content .welfare-txt {
         font-size: 13px;
         margin-bottom: 30px; } }
-  @media (max-width: 768px) {
+  @media (max-width: 767px) {
     .welfare .section-content .welfare-img {
       padding: 0 15px; } }
   .welfare .section-content .welfare-img img {
@@ -46,7 +46,7 @@
 
 .resume {
   padding-bottom: 40px; }
-  @media (max-width: 992px) {
+  @media (max-width: 991px) {
     .resume {
       padding-bottom: 0; } }
   .resume .section-header h3 {
@@ -55,29 +55,29 @@
     font-size: 24px;
     color: #333;
     margin-bottom: 20px; }
-    @media (max-width: 992px) {
+    @media (max-width: 991px) {
       .resume .section-content div h4 {
         font-size: 18px;
         margin-bottom: 15px; } }
-    @media (max-width: 768px) {
+    @media (max-width: 767px) {
       .resume .section-content div h4 {
         font-size: 16px;
         margin-bottom: 15px; } }
     .resume .section-content div h4:before {
       content: "·";
       padding-right: 17px; }
-      @media (max-width: 992px) {
+      @media (max-width: 991px) {
         .resume .section-content div h4:before {
           padding-right: 10px; } }
-      @media (max-width: 768px) {
+      @media (max-width: 767px) {
         .resume .section-content div h4:before {
           padding-right: 10px; } }
   .resume .section-content .privacy {
     margin-bottom: 70px; }
-    @media (max-width: 992px) {
+    @media (max-width: 991px) {
       .resume .section-content .privacy {
         margin-bottom: 50px; } }
-    @media (max-width: 768px) {
+    @media (max-width: 767px) {
       .resume .section-content .privacy {
         margin-bottom: 30px; } }
     .resume .section-content .privacy .agree {
@@ -86,10 +86,10 @@
       height: 210px;
       border: 1px solid #dadada;
       padding: 35px; }
-      @media (max-width: 992px) {
+      @media (max-width: 991px) {
         .resume .section-content .privacy .agree {
           padding: 35px; } }
-      @media (max-width: 768px) {
+      @media (max-width: 767px) {
         .resume .section-content .privacy .agree {
           padding: 15px; } }
       .resume .section-content .privacy .agree h5 {
@@ -97,17 +97,17 @@
         color: #6c6c6c;
         font-weight: 400;
         line-height: 29px; }
-        @media (max-width: 992px) {
+        @media (max-width: 991px) {
           .resume .section-content .privacy .agree h5 {
             font-size: 14px;
             line-height: 20px; } }
-        @media (max-width: 768px) {
+        @media (max-width: 767px) {
           .resume .section-content .privacy .agree h5 {
             font-size: 13px;
             line-height: 18px; } }
       .resume .section-content .privacy .agree ul {
         margin-bottom: 30px; }
-        @media (max-width: 992px) {
+        @media (max-width: 991px) {
           .resume .section-content .privacy .agree ul {
             margin-bottom: 15px; } }
         .resume .section-content .privacy .agree ul li {
@@ -116,11 +116,11 @@
           color: #6c6c6c;
           line-height: 29px;
           padding-left: 10px; }
-          @media (max-width: 992px) {
+          @media (max-width: 991px) {
             .resume .section-content .privacy .agree ul li {
               font-size: 14px;
               line-height: 20px; } }
-          @media (max-width: 768px) {
+          @media (max-width: 767px) {
             .resume .section-content .privacy .agree ul li {
               font-size: 13px;
               line-height: 18px; } }
@@ -133,18 +133,18 @@
         font-size: 16px;
         color: #6c6c6c;
         line-height: 29px; }
-        @media (max-width: 992px) {
+        @media (max-width: 991px) {
           .resume .section-content .privacy .agree > p {
             font-size: 14px;
             line-height: 20px; } }
-        @media (max-width: 768px) {
+        @media (max-width: 767px) {
           .resume .section-content .privacy .agree > p {
             font-size: 13px;
             line-height: 18px; } }
     .resume .section-content .privacy .check {
       margin-top: 20px;
       text-align: right; }
-      @media (max-width: 992px) {
+      @media (max-width: 991px) {
         .resume .section-content .privacy .check {
           margin-top: 15px; } }
       .resume .section-content .privacy .check label {
@@ -152,7 +152,7 @@
         color: #6c6c6c;
         font-weight: 300;
         margin-bottom: 0; }
-        @media (max-width: 992px) {
+        @media (max-width: 991px) {
           .resume .section-content .privacy .check label {
             font-size: 13px; } }
         .resume .section-content .privacy .check label input {
@@ -162,7 +162,7 @@
   .resume .section-content .write .table-wrap .table {
     border: 0;
     margin-bottom: 30px; }
-    @media (max-width: 768px) {
+    @media (max-width: 767px) {
       .resume .section-content .write .table-wrap .table {
         margin-bottom: 15px; } }
     .resume .section-content .write .table-wrap .table tbody tr:first-child th {
@@ -177,10 +177,10 @@
       border: 0;
       border-bottom: 1px solid #fff;
       background-color: #f6f6f6; }
-      @media (max-width: 992px) {
+      @media (max-width: 991px) {
         .resume .section-content .write .table-wrap .table tbody tr th {
           font-size: 13px; } }
-      @media (max-width: 768px) {
+      @media (max-width: 767px) {
         .resume .section-content .write .table-wrap .table tbody tr th {
           font-size: 11px; } }
     .resume .section-content .write .table-wrap .table tbody tr .phone {
@@ -189,7 +189,7 @@
       padding: 5px 30px;
       border: 0;
       border-bottom: 1px solid #dadada; }
-      @media (max-width: 768px) {
+      @media (max-width: 767px) {
         .resume .section-content .write .table-wrap .table tbody tr td {
           padding-left: 5px;
           padding-right: 5px; } }
@@ -200,21 +200,21 @@
         border-radius: 0;
         border: 1px solid #dadada;
         box-shadow: none; }
-        @media (max-width: 992px) {
+        @media (max-width: 991px) {
           .resume .section-content .write .table-wrap .table tbody tr td .form-control {
             font-size: 13px;
             padding: 5px; } }
-        @media (max-width: 768px) {
+        @media (max-width: 767px) {
           .resume .section-content .write .table-wrap .table tbody tr td .form-control {
             font-size: 12px; } }
     .resume .section-content .write .table-wrap .table tbody tr .user-name .form-control {
       width: 20%; }
-      @media (max-width: 992px) {
+      @media (max-width: 991px) {
         .resume .section-content .write .table-wrap .table tbody tr .user-name .form-control {
           width: 50%; } }
     .resume .section-content .write .table-wrap .table tbody tr .call .form-control {
       width: 53%; }
-      @media (max-width: 992px) {
+      @media (max-width: 991px) {
         .resume .section-content .write .table-wrap .table tbody tr .call .form-control {
           width: 100%; } }
     .resume .section-content .write .table-wrap .table tbody tr .resume-file .form-control {
@@ -227,11 +227,11 @@
       margin-left: 20px;
       margin-top: 7px;
       display: inline-block; }
-      @media (max-width: 992px) {
+      @media (max-width: 991px) {
         .resume .section-content .write .table-wrap .table tbody tr .resume-file .attention {
           font-size: 13px;
           margin-left: 5px; } }
-      @media (max-width: 768px) {
+      @media (max-width: 767px) {
         .resume .section-content .write .table-wrap .table tbody tr .resume-file .attention {
           font-size: 11px; } }
   .resume .section-content .write .btn-area {
@@ -243,7 +243,7 @@
       color: #fff;
       text-align: center;
       display: inline-block; }
-      @media (max-width: 768px) {
+      @media (max-width: 767px) {
         .resume .section-content .write .btn-area p .btn {
           width: 80px;
           height: 30px;

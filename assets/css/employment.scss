@@ -1,7 +1,7 @@
 @import 'common';
 .talented {
     padding-bottom: 40px;
-    @media (max-width: $md) {
+    @media (max-width: $md - 1) {
         padding-bottom: 0;
     }
     .section-content {
@@ -9,13 +9,13 @@
             font-size: 16px;
             color: #6c6c6c;
             margin-bottom: 70px;
-            @media (max-width: $sm) {
+            @media (max-width: $sm - 1) {
                 font-size: 13px;
                 margin-bottom: 30px;
             }
         }
         .talented-img {
-            @media (max-width: $sm) {
+            @media (max-width: $sm - 1) {
                 padding: 0 15px;
             }
             img {
@@ -26,7 +26,7 @@
 }
 .welfare {
     padding-bottom: 40px;
-    @media (max-width: $md) {
+    @media (max-width: $md - 1) {
         padding-bottom: 0;
     }
     .section-content {
@@ -34,13 +34,13 @@
             font-size: 16px;
             color: #6c6c6c;
             margin-bottom: 70px;
-            @media (max-width: $sm) {
+            @media (max-width: $sm - 1) {
                 font-size: 13px;
                 margin-bottom: 30px;
             }
         }
         .welfare-img {
-            @media (max-width: $sm) {
+            @media (max-width: $sm - 1) {
                 padding: 0 15px;
             }
             img {
@@ -52,7 +52,7 @@
 
 .resume {
     padding-bottom: 40px;
-    @media (max-width: $md) {
+    @media (max-width: $md - 1) {
         padding-bottom: 0;
     }
     .section-header {
@@ -66,21 +66,21 @@
                 font-size: 24px;
                 color: #333;
                 margin-bottom: 20px;
-                @media (max-width: $md){
+                @media (max-width: $md - 1) {
                     font-size: 18px;
                     margin-bottom: 15px;
                 }
-                @media (max-width: $sm) {
+                @media (max-width: $sm - 1) {
                     font-size: 16px;
                     margin-bottom: 15px;
                 }
                 &:before {
                     content: "·";
                     padding-right: 17px;
-                    @media (max-width: $md){
+                    @media (max-width: $md - 1) {
                         padding-right: 10px;
                     }
-                    @media (max-width: $sm) {
+                    @media (max-width: $sm - 1) {
                         padding-right: 10px;
                     }
                 }
@@ -88,10 +88,10 @@
         }
         .privacy {
             margin-bottom: 70px;
-            @media (max-width: $md){
+            @media (max-width: $md - 1) {
                 margin-bottom: 50px;
             }
-            @media (max-width: $sm) {
+            @media (max-width: $sm - 1) {
                 margin-bottom: 30px;
             }
             .agree {
@@ -100,10 +100,10 @@
                 height: 210px;
                 border: 1px solid #dadada;
                 padding: 35px;
-                @media (max-width: $md){
+                @media (max-width: $md - 1) {
                     padding: 35px;
                 }
-                @media (max-width: $sm) {
+                @media (max-width: $sm - 1) {
                     padding: 15px;
                 }
                 h5 {
@@ -111,18 +111,18 @@
                     color: #6c6c6c;
                     font-weight: 400;
                     line-height: 29px;
-                    @media (max-width: $md){
+                    @media (max-width: $md - 1) {
                         font-size: 14px;
                         line-height: 20px;
                     }
-                    @media (max-width: $sm) {
+                    @media (max-width: $sm - 1) {
                         font-size: 13px;
                         line-height: 18px;
                     }
                 }
                 ul {
                     margin-bottom: 30px;
-                    @media (max-width: $md){
+                    @media (max-width: $md - 1) {
                         margin-bottom: 15px;
                     }
                     li {
@@ -131,11 +131,11 @@
                         color: #6c6c6c;
                         line-height: 29px;
                         padding-left: 10px;
-                        @media (max-width: $md){
+                        @media (max-width: $md - 1) {
                             font-size: 14px;
                             line-height: 20px;
                         }
-                        @media (max-width: $sm) {
+                        @media (max-width: $sm - 1) {
                             font-size: 13px;
                             line-height: 18px;
                         }
@@ -151,11 +151,11 @@
                     font-size: 16px;
                     color: #6c6c6c;
                     line-height: 29px;
-                    @media (max-width: $md){
+                    @media (max-width: $md - 1) {
                         font-size: 14px;
                         line-height: 20px;
                     }
-                    @media (max-width: $sm) {
+                    @media (max-width: $sm - 1) {
                         font-size: 13px;
                         line-height: 18px;
                     }
@@ -164,7 +164,7 @@
             .check {
                 margin-top: 20px;
                 text-align: right;
-                @media (max-width: $md){
+                @media (max-width: $md - 1) {
                     margin-top: 15px;
                 }
                 label {
@@ -172,7 +172,7 @@
                     color: #6c6c6c;
                     font-weight: 300;
                     margin-bottom: 0;
-                    @media (max-width: $md){
+                    @media (max-width: $md - 1) {
                         font-size: 13px;
                     }
                     input {
@@ -188,7 +188,7 @@
                 .table {
                     border: 0;
                     margin-bottom: 30px;
-                    @media (max-width: $sm) {
+                    @media (max-width: $sm - 1) {
                         margin-bottom: 15px;
                     }
                     tbody {
@@ -209,10 +209,10 @@
                                 border: 0;
                                 border-bottom: 1px solid #fff;
                                 background-color: #f6f6f6;
-                                @media (max-width: $md) {
+                                @media (max-width: $md - 1) {
                                     font-size: 13px;
                                 }
-                                @media (max-width: $sm) {
+                                @media (max-width: $sm - 1) {
                                     font-size: 11px;
                                 }
                             }
@@ -223,7 +223,7 @@
                                 padding: 5px 30px;
                                 border: 0;
                                 border-bottom: 1px solid #dadada;
-                                @media (max-width: $sm){
+                                @media (max-width: $sm - 1) {
                                     padding-left: 5px;
                                     padding-right: 5px;
                                 }
@@ -234,11 +234,11 @@
                                     border-radius: 0;
                                     border: 1px solid #dadada;
                                     box-shadow: none;
-                                    @media (max-width: $md){
+                                    @media (max-width: $md - 1) {
                                         font-size: 13px;
                                         padding: 5px;
                                     }
-                                    @media (max-width: $sm) {
+                                    @media (max-width: $sm - 1) {
                                         font-size: 12px;
                                     }
                                 }
@@ -246,7 +246,7 @@
                             .user-name {
                                 .form-control {
                                     width: 20%;
-                                    @media (max-width: $md){
+                                    @media (max-width: $md - 1) {
                                         width: 50%;
                                     }
                                 }
@@ -254,7 +254,7 @@
                             .call {
                                 .form-control {
                                     width: 53%;
-                                    @media (max-width: $md){
+                                    @media (max-width: $md - 1) {
                                         width: 100%;
                                     }
                                 }
@@ -271,11 +271,11 @@
                                     margin-left: 20px;
                                     margin-top: 7px;
                                     display: inline-block;
-                                    @media (max-width: $md){
+                                    @media (max-width: $md - 1) {
                                         font-size: 13px;
                                         margin-left: 5px;
                                     }
-                                    @media (max-width: $sm) {
+                                    @media (max-width: $sm - 1) {
                                         font-size: 11px;
                                     }
                                 }
@@ -294,7 +294,7 @@
                         color: #fff;
                         text-align: center;
                         display: inline-block;
-                        @media (max-width: $sm) {
+                        @media (max-width: $sm - 1) {
                             width: 80px;
                             height: 30px;
                             font-size: 13px;

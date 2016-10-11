@@ -128,13 +128,13 @@ select.form-control {
     position: relative;
     height: 127px;
     z-index: 1;
-    @media (max-width: $xs - 1px){
+    @media (max-width: $lg - 1px) {
         height: 55px;
     }
-    @media (max-width: $md - 1px){
+    @media (max-width: $md - 1px) {
         height: 55px;
     }
-    @media (max-width: $lg - 1px){
+    @media (max-width: $xs - 1px) {
         height: 55px;
     }
     .top-menu {
@@ -183,22 +183,12 @@ select.form-control {
         height: 91px;
         overflow: hidden;
         background-color: #fff;
-        @media (max-width: $xs - 1px){
+        @media (max-width: $lg - 1px) {
             position: absolute;
             top: 0;
             height: 55px;
         }
-        @media (max-width: $sm - 1px){
-            position: absolute;
-            top: 0;
-            height: 55px;
-        }
-        @media (max-width: $md - 1px){
-            position: absolute;
-            top: 0;
-            height: 55px;
-        }
-        @media (max-width: $lg - 1px){
+        @media (max-width: $md - 1px) {
             position: absolute;
             top: 0;
             height: 55px;
@@ -221,13 +211,10 @@ select.form-control {
             height: 91px;
             border-bottom: 3px solid $rc;
             background-color: #fff;
-            @media (max-width: $xs){
+            @media (max-width: $lg - 1) {
                 height: 55px;
             }
-            @media (max-width: $md){
-                height: 55px;
-            }
-            @media (max-width: $lg){
+            @media (max-width: $md - 1) {
                 height: 55px;
             }
             .container {
@@ -235,24 +222,19 @@ select.form-control {
                 .main-logo {
                     float: left;
                     margin-top: 24px;
-                    @media (max-width: $xs){
+                    @media (max-width: $lg - 1) {
+                        float: left;
+                        marin-left: 22px;
+                        margin-top: 14px;
+                    }
+                    @media (max-width: $sm - 1) {
+                        float: left;
+                        marin-left: 22px;
+                        margin-top: 14px;
+                    }
+                    @media (max-width: $xs - 1) {
                         float: left;
                         marin-left: 10px;
-                        margin-top: 14px;
-                    }
-                    @media (max-width: $sm){
-                        float: left;
-                        marin-left: 22px;
-                        margin-top: 14px;
-                    }
-                    @media (max-width: $md){
-                        float: left;
-                        marin-left: 22px;
-                        margin-top: 14px;
-                    }
-                    @media (max-width: $lg){
-                        float: left;
-                        marin-left: 22px;
                         margin-top: 14px;
                     }
                 }
@@ -456,13 +438,7 @@ body.nav-opened {
 /* Footer */
 #footer {
     background-color: #1f1f1f;
-    @media (max-width: $sm){
-        text-align: center;
-    }
-    @media (max-width: $md){
-        text-align: center;
-    }
-    @media (max-width: $lg){
+    @media (max-width: $lg - 1) {
         text-align: center;
     }
     .foot-nav {
@@ -499,17 +475,13 @@ body.nav-opened {
         .company {
             margin: 50px 0;
             padding-left: 39px;
-            @media (max-width: $sm){
-                padding: 0;
-                margin-top: 30px !important;
-                margin-bottom: 0;
-            }
-            @media (max-width: $md){
+            @media (max-width: $lg - 1) {
                 padding: 0;
                 margin-bottom: 0;
             }
-            @media (max-width: $lg){
+            @media (max-width: $sm - 1) {
                 padding: 0;
+                margin-top: 30px;
                 margin-bottom: 0;
             }
             h2 {
@@ -525,25 +497,17 @@ body.nav-opened {
             dl {
                 line-height: 25px;
                 &:nth-of-type(1) {
-                    @media (max-width: $md){
-                        margin-right: 10px;
-                    }
-                    @media (max-width: $lg){
+                    @media (max-width: $lg - 1) {
                         margin-right: 10px;
                     }
                 }
-                @media (max-width: $sm){
-                    margin-top: 0 !important;
-                    display: inline-block;
-                    text-align: center;
-                }
-                @media (max-width: $md){
+                @media (max-width: $lg - 1) {
                     margin-top: 10px;
                     display: inline-block;
                     text-align: center;
                 }
-                @media (max-width: $lg){
-                    margin-top: 10px;
+                @media (max-width: $sm - 1) {
+                    margin-top: 0;
                     display: inline-block;
                     text-align: center;
                 }
@@ -571,8 +535,8 @@ body.nav-opened {
             }
             ul {
                 margin-top: 37px;
-                @media (max-width: $sm){
-                    margin-top: 30px !important;
+                @media (max-width: $sm - 1) {
+                    margin-top: 30px;
                     margin-bottom: 25px;
                 }
                 li {
@@ -598,15 +562,7 @@ body.nav-opened {
     .copyright {
         border-top: 1px solid #2e2e2e;
         padding: 13px 0;
-        @media (max-width: $sm){
-            border: 0;
-            padding: 0;
-        }
-        @media (max-width: $md){
-            border: 0;
-            padding-top: 0;
-        }
-        @media (max-width: $lg){
+        @media (max-width: $lg - 1) {
             border: 0;
             padding-top: 0;
         }
@@ -618,36 +574,19 @@ body.nav-opened {
             a {
                 color: #999;
             }
-            @media (max-width: $xs){
-                line-height: 26px;
-                text-align: center;
-            }
-            @media (max-width: $sm){
-                line-height: 26px;
-                text-align: center;
-            }
-            @media (max-width: $md){
-                line-height: 26px;
-                text-align: center;
-            }
-            @media (max-width: $lg){
+            @media (max-width: $lg - 1) {
                 line-height: 26px;
                 text-align: center;
             }
         }
         .dropup {
-            @media (max-width: $sm){
-                margin-top: 32px !important;
-                display: inline-block;
-                padding-bottom: 25px;
-            }
-            @media (max-width: $md){
+            @media (max-width: $lg - 1) {
                 margin-top: 10px;
                 display: inline-block;
                 padding-bottom: 25px;
             }
-            @media (max-width: $lg){
-                margin-top: 10px;
+            @media (max-width: $sm - 1) {
+                margin-top: 32px;
                 display: inline-block;
                 padding-bottom: 25px;
             }
