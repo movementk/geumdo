@@ -97,7 +97,6 @@
     </main>
     <?php require_once($_SERVER["DOCUMENT_ROOT"].'/inc/footer.php'); ?>
     <?php require_once($_SERVER["DOCUMENT_ROOT"].'/inc/docfoot.php'); ?>
-    <script src="/assets/js/jquery.bxslider.min.js"></script>
     <script>
     (function($) {
         $('.slider-img .business-slider').bxSlider({
