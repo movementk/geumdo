@@ -5,8 +5,8 @@
     <?php require_once($_SERVER["DOCUMENT_ROOT"].'/inc/header.php'); ?>
     <main id="content" tabindex="-1">
         <div id="visual">
-            <ul class="row">
-                <li class="col-xs-12">
+            <ul>
+                <li>
                     <div class="container">
                         <div class="project">
                             <h2>PROJECT 1</h2>
@@ -24,7 +24,7 @@
                         </div>
                     </div>
                 </li>
-                <li class="col-xs-12">
+                <li>
                     <div class="container">
                         <div class="project">
                             <h2>PROJECT 2</h2>
@@ -42,7 +42,7 @@
                         </div>
                     </div>
                 </li>
-                <li class="col-xs-12">
+                <li>
                     <div class="container">
                         <div class="project">
                             <h2>PROJECT 3</h2>

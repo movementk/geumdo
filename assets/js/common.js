@@ -1,11 +1,28 @@
 /* GNB Event */
 (function($) {
-    $(document).on('mouseenter focusin', '#gnb .container > ul', function() {
-        $('#gnb').addClass('opened');
+
+    $(document).on('mouseenter focusin', '#gnb .container .menu', function() {
+        $('body').addClass('gnb-opened');
     });
-    $(document).on('mouseleave', '#gnb .container > ul', function() {
-        $('#gnb').removeClass('opened');
+
+    $(document).on('mouseleave', '#header', function() {
+        $('body').removeClass('gnb-opened');
     });
+
+    $(document).on('click', '#header .btn-menu', function() {
+        $('body').toggleClass('gnb-opened');
+    });
+
+    $(document).on('click', '#header #gnb .menu > ul > li > a', function(e) {
+        if ($(this).parent().hasClass('active')) {
+            $(this).parent().removeClass('active');
+        } else {
+            $(this).parent().siblings('.active').removeClass('active');
+            $(this).parent().addClass('active');
+        }
+        e.preventDefault();
+    });
+
 })(jQuery);
 
 /* Main Visual Slider */
