@@ -12,7 +12,7 @@
                         background-repeat: no-repeat;
                         background-size: cover;
                         background-position: 50% 50%;
-                        @media (max-width: $sm) {
+                        @media (max-width: $sm - 1) {
                             height: 374px;
                         }
                         .container {
@@ -23,15 +23,15 @@
                                 margin-top: 75px;
                                 margin-left: 22px;
                                 background-color:rgba(0, 0, 0, 0.8);
-                                @media (max-width: $sm) {
-                                    margin-top: 58px !important;
+                                @media (max-width: $md - 1) {
+                                    width: 336px;
+                                }
+                                @media (max-width: $sm - 1) {
+                                    margin-top: 58px;
                                     margin-left: 0;
                                     height: auto;
                                     padding-bottom: 28px;
-                                    width: 279px !important;
-                                }
-                                @media (max-width: $md) {
-                                    width: 336px;
+                                    width: 279px;
                                 }
                                 h2 {
                                     font-size: 18px;
@@ -41,7 +41,7 @@
                                     padding-top: 37px;
                                     border-left: 1px solid #a5a7a5;
                                     margin-bottom: 18px;
-                                    @media (max-width: $sm) {
+                                    @media (max-width: $sm - 1) {
                                         font-size: 12px;
                                     }
                                 }
@@ -56,7 +56,7 @@
                                         letter-spacing: -2px;
                                         font-size: 15px;
                                     }
-                                    @media (max-width: $sm) {
+                                    @media (max-width: $sm - 1) {
                                         font-size: 26px;
                                         letter-spacing: 0;
                                         small {
@@ -68,7 +68,7 @@
                                 > ul {
                                     margin-top: 29px;
                                     margin-bottom: 55px;
-                                    @media (max-width: $sm) {
+                                    @media (max-width: $sm - 1) {
                                         margin-top: 18px;
                                         margin-bottom: 38px;
                                     }
@@ -77,7 +77,7 @@
                                         color: #fff;
                                         font-size: 15px;
                                         font-weight: 400;
-                                        @media (max-width: $sm) {
+                                        @media (max-width: $sm - 1) {
                                             font-size: 11px;
                                         }
                                         &:after {
@@ -107,7 +107,7 @@
                                         background-image: url(/assets/images/main/view_plus.png);
                                         background-repeat: no-repeat;
                                         background-position: 97px 50%;
-                                        @media (max-width: $sm) {
+                                        @media (max-width: $sm - 1) {
                                             width: 92px;
                                             height: 26px;
                                             font-size: 12px;
@@ -129,7 +129,7 @@
                     bottom: 30px;
                     left: 48.5%;
                     text-align: center;
-                    @media (max-width: $sm) {
+                    @media (max-width: $sm - 1) {
                         bottom: 20px;
                     }
                     .bx-pager-item {
@@ -158,19 +158,19 @@
                     left: 50%;
                     width: 500px;
                     margin-left: -584px;
-                    @media (max-width: $sm) {
-                        display: none;
-                    }
-                    @media (max-width: $md) {
-                        position: absolute;
-                        bottom: 30px;
-                        left: 22px;
-                    }
-                    @media (max-width: $lg) {
+                    @media (max-width: $lg - 1) {
                         position: absolute;
                         bottom: 30px;
                         margin-left: 0;
                         left: 22px;
+                    }
+                    @media (max-width: $md - 1) {
+                        position: absolute;
+                        bottom: 30px;
+                        left: 22px;
+                    }
+                    @media (max-width: $sm - 1) {
+                        display: none;
                     }
                     .bx-prev {
                         display: inline-block;
@@ -229,16 +229,16 @@
     }
     .business {
         padding: 100px 0 69px;
-        @media (max-width: $sm) {
-            padding-top: 30px !important;
-            padding-bottom: 25px !important;
+        @media (max-width: $lg - 1) {
+            padding-top: 55px;
         }
-        @media (max-width: $md) {
+        @media (max-width: $md - 1) {
             padding-top: 10px;
             padding-bottom: 11px;
         }
-        @media (max-width: $lg) {
-            padding-top: 55px;
+        @media (max-width: $sm - 1) {
+            padding-top: 30px;
+            padding-bottom: 25px;
         }
         h2 {
             font-size: 35px;
@@ -247,7 +247,7 @@
             font-weight: bold;
             @extend .gotham;
             letter-spacing: 4px;
-            @media (max-width: $sm) {
+            @media (max-width: $sm - 1) {
                 font-size: 22px;
                 letter-spacing: 0;
             }
@@ -257,7 +257,7 @@
             border-top: 2px solid #333;
             display: block;
             margin: 20px auto 50px;
-            @media (max-width: $sm) {
+            @media (max-width: $sm - 1) {
                 margin-top: 10px;
                 margin-bottom: 30px;
             }
@@ -265,7 +265,7 @@
         ul {
             li {
                 margin-bottom: 30px;
-                @media (max-width: $sm) {
+                @media (max-width: $sm - 1) {
                     margin-bottom: 10px;
                 }
                 &:hover,
@@ -283,7 +283,7 @@
                     position: relative;
                     display: block;
                     height: 250px;
-                    @media (max-width: $sm) {
+                    @media (max-width: $sm - 1) {
                         height: 150px;
                     }
                     .hover-details {
@@ -295,7 +295,7 @@
                         height: 139px;
                         padding: 25px 29px;
                         background-color:rgba(217, 12, 28, 0.8);
-                        @media (max-width: $sm) {
+                        @media (max-width: $sm - 1) {
                             height: 100%;
                             padding: 40px 10px 10px;
                         }
@@ -304,7 +304,7 @@
                             color: #fff;
                             letter-spacing: -3px;
                             margin-bottom: 15px;
-                            @media (max-width: $sm) {
+                            @media (max-width: $sm - 1) {
                                 font-size: 16px;
                                 letter-spacing: 0;
                                 margin-bottom: 10px;
@@ -315,7 +315,7 @@
                             color: #fff;
                             line-height: 22px;
                             letter-spacing: -1.5px;
-                            @media (max-width: $sm) {
+                            @media (max-width: $sm - 1) {
                                 font-size: 10px;
                                 letter-spacing: 0;
                                 margin-bottom: 0;
@@ -330,7 +330,7 @@
                         font-size: 30px;
                         color: #fff;
                         letter-spacing: -3px;
-                        @media (max-width: $sm) {
+                        @media (max-width: $sm - 1) {
                             left: 14px;
                             bottom: 17px;
                             font-size: 16px;
@@ -343,7 +343,7 @@
                             opacity: .5;
                             margin-top: 10px;
                             letter-spacing: 0;
-                            @media (max-width: $sm) {
+                            @media (max-width: $sm - 1) {
                                 font-size: 11px;
                                 margin-top: 10px;
                                 font-weight: 300;
@@ -390,17 +390,17 @@
     .news {
         padding: 100px 0 69px;
         background-color: #ebebeb;
-        @media (max-width: $sm) {
-            padding-top: 30px !important;
-            padding-bottom: 30px !important;
+        @media (max-width: $lg - 1) {
+            padding-top: 55px;
+            padding-bottom: 33px;
         }
-        @media (max-width: $md) {
+        @media (max-width: $md - 1) {
             padding-top: 10px;
             padding-bottom: 33px;
         }
-        @media (max-width: $lg) {
-            padding-top: 55px;
-            padding-bottom: 33px;
+        @media (max-width: $sm - 1) {
+            padding-top: 30px;
+            padding-bottom: 30px;
         }
         h2 {
             font-size: 35px;
@@ -409,7 +409,7 @@
             font-weight: bold;
             @extend .gotham;
             letter-spacing: 4px;
-            @media (max-width: $sm) {
+            @media (max-width: $sm - 1) {
                 font-size: 22px;
                 letter-spacing: 0;
             }
@@ -419,7 +419,7 @@
             border-top: 2px solid #333;
             display: block;
             margin: 20px auto 50px;
-            @media (max-width: $sm) {
+            @media (max-width: $sm - 1) {
                 margin-top: 10px;
                 margin-bottom: 30px;
             }
@@ -428,7 +428,7 @@
             margin: 0 auto;
             > li {
                 margin-bottom: 30px;
-                @media (max-width: $sm) {
+                @media (max-width: $sm - 1) {
                     margin-bottom: 18px;
                 }
                 .hover-box {
@@ -459,7 +459,7 @@
                         padding: 14px 0;
                         text-align: center;
                         background-color: #34427d;
-                        @media (max-width: $sm) {
+                        @media (max-width: $sm - 1) {
                             width: 60px;
                             height: 60px;
                             font-size: 13px;
@@ -470,7 +470,7 @@
                     width: 100%;
                     padding: 23px 20px 25px;
                     background-color: #fff;
-                    @media (max-width: $sm) {
+                    @media (max-width: $sm - 1) {
                         padding: 20px;
                     }
                     a {
@@ -484,7 +484,7 @@
                             overflow: hidden;
                             white-space: nowrap;
                             text-overflow: ellipsis;
-                            @media (max-width: $sm) {
+                            @media (max-width: $sm - 1) {
                                 font-size: 15px;
                                 margin-bottom: 10px;
                             }
@@ -497,7 +497,7 @@
                             overflow: hidden;
                             white-space: nowrap;
                             text-overflow: ellipsis;
-                            @media (max-width: $sm) {
+                            @media (max-width: $sm - 1) {
                                 font-size: 12px;
                                 line-height: 18px;
                                 margin-bottom: 20px;
@@ -507,7 +507,7 @@
                             font-size: 13px;
                             color: #333;
                             opacity: .5;
-                            @media (max-width: $sm) {
+                            @media (max-width: $sm - 1) {
                                 font-size: 12px;
                             }
                         }
@@ -523,14 +523,14 @@
                         width: 100%;
                         padding: 28px 27px;
                         background-color: #fff;
-                        @media (max-width: $sm) {
+                        @media (max-width: $sm - 1) {
                             padding: 24px 19px 14px;
                         }
                         h4 {
                             font-size: 23px;
                             letter-spacing: -2px;
                             margin-bottom: 10px;
-                            @media (max-width: $sm) {
+                            @media (max-width: $sm - 1) {
                                 font-size: 18px;
                                 margin-bottom: 12px;
                             }
@@ -547,7 +547,7 @@
                                     background-image: url(/assets/images/main/plus_more.gif);
                                     background-repeat: no-repeat;
                                 }
-                                @media (max-width: $sm) {
+                                @media (max-width: $sm - 1) {
                                     position: absolute;
                                     top: 24px;
                                 }
@@ -558,7 +558,7 @@
                                 padding: 25.3px 0;
                                 margin-bottom: 0;
                                 border-bottom: 1px solid #ececec;
-                                @media (max-width: $sm) {
+                                @media (max-width: $sm - 1) {
                                     padding: 14px 0;
                                     &:nth-of-type(2) {
                                         padding-bottom: 0;
@@ -589,7 +589,7 @@
                                         white-space: nowrap;
                                         text-overflow: ellipsis;
                                         margin-bottom: 20px;
-                                        @media (max-width: $sm) {
+                                        @media (max-width: $sm - 1) {
                                             font-size: 13px;
                                             margin-bottom: 15px;
                                             padding-right: 27%;
@@ -602,7 +602,7 @@
                                             color: #333;
                                             opacity: .5;
                                             margin-right: 1px;
-                                            @media (max-width: $sm) {
+                                            @media (max-width: $sm - 1) {
                                                 font-size: 12px;
                                             }
                                         }
@@ -616,7 +616,7 @@
                                         overflow: hidden;
                                         white-space: nowrap;
                                         text-overflow: ellipsis;
-                                        @media (max-width: $sm) {
+                                        @media (max-width: $sm - 1) {
                                             font-size: 12px;
                                             line-height: 18px;
                                         }
@@ -640,19 +640,19 @@
                     background-repeat: no-repeat;
                     background-size: cover;
                     background-position: 50% 50%;
-                    @media (max-width: $sm) {
+                    @media (max-width: $sm - 1) {
                         height: 280px;
                     }
                 }
                 &:nth-of-type(2) {
                     background-color: #282c47;
-                    @media (max-width: $sm) {
+                    @media (max-width: $sm - 1) {
                         height: 247px;
                     }
                     div {
                         position: relative;
                         padding: 110px 87px 0 87px;
-                        @media (max-width: $sm) {
+                        @media (max-width: $sm - 1) {
                             padding: 34px 10px 30px;
                         }
                         h3 {
@@ -660,7 +660,7 @@
                             color: #fff;
                             font-weight: bold;
                             letter-spacing: -3px;
-                            @media (max-width: $sm) {
+                            @media (max-width: $sm - 1) {
                                 font-size: 18px;
                                 letter-spacing: 0;
                             }
@@ -670,7 +670,7 @@
                             border-top: 2px solid #fff;
                             display: block;
                             margin: 25px 0 30px 0;
-                            @media (max-width: $sm) {
+                            @media (max-width: $sm - 1) {
                                 width: 32px;
                                 margin: 16px 0 20px;
                             }
@@ -680,7 +680,7 @@
                             color: #fff;
                             line-height: 25px;
                             letter-spacing: -2px;
-                            @media (max-width: $sm) {
+                            @media (max-width: $sm - 1) {
                                 letter-spacing: 0;
                                 font-size: 12px;
                                 line-height: 18px;
@@ -689,7 +689,7 @@
                         .more-btn {
                             margin-top: 40px;
                             letter-spacing: 0;
-                            @media (max-width: $sm) {
+                            @media (max-width: $sm - 1) {
                                 margin-top: 24px;
                             }
                             .btn {
@@ -702,7 +702,7 @@
                                 padding: 13px 0;
                                 border-radius: 0;
                                 border: 1px solid #fff;
-                                @media (max-width: $sm) {
+                                @media (max-width: $sm - 1) {
                                     width: 89px;
                                     height: 30px;
                                     font-size: 12px;
@@ -717,7 +717,7 @@
     }
     .partner {
         padding: 100px 0;
-        @media (max-width: $sm) {
+        @media (max-width: $sm - 1) {
             padding-top: 30px !important;
             padding-bottom: 33px !important;
         }
@@ -728,7 +728,7 @@
             font-weight: bold;
             @extend .gotham;
             letter-spacing: 4px;
-            @media (max-width: $sm) {
+            @media (max-width: $sm - 1) {
                 font-size: 22px;
                 letter-spacing: 0;
             }
@@ -738,7 +738,7 @@
             border-top: 2px solid #333;
             display: block;
             margin: 20px auto 50px;
-            @media (max-width: $sm) {
+            @media (max-width: $sm - 1) {
                 margin-top: 10px;
                 margin-bottom: 30px;
             }
@@ -757,7 +757,7 @@
                             background-repeat: no-repeat;
                             background-position: 50% 50%;
                         }
-                        @media (max-width: $sm) {
+                        @media (max-width: $sm - 1) {
                             a {
                                 width: 100%;
                             }
@@ -771,7 +771,7 @@
                                 background-image: url(/assets/images/main/partner_hover_img01.jpg);
                             }
                         }
-                        @media (max-width: $sm) {
+                        @media (max-width: $sm - 1) {
                             a {
                                 background-size: 91px auto;
                             }
@@ -785,7 +785,7 @@
                                 background-image: url(/assets/images/main/partner_hover_img02.jpg);
                             }
                         }
-                        @media (max-width: $sm) {
+                        @media (max-width: $sm - 1) {
                             a {
                                 background-size: 88.5px auto;
                             }
@@ -799,7 +799,7 @@
                                 background-image: url(/assets/images/main/partner_hover_img03.jpg);
                             }
                         }
-                        @media (max-width: $sm) {
+                        @media (max-width: $sm - 1) {
                             a {
                                 background-size: 90px auto;
                             }
@@ -813,7 +813,7 @@
                                 background-image: url(/assets/images/main/partner_hover_img04.jpg);
                             }
                         }
-                        @media (max-width: $sm) {
+                        @media (max-width: $sm - 1) {
                             a {
                                 background-size: 77px auto;
                             }
@@ -827,7 +827,7 @@
                                 background-image: url(/assets/images/main/partner_hover_img05.jpg);
                             }
                         }
-                        @media (max-width: $sm) {
+                        @media (max-width: $sm - 1) {
                             a {
                                 background-size: 79.5px auto;
                             }

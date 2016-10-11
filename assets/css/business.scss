@@ -6,7 +6,7 @@
                 font-size: 38px;
                 color: $rc;
                 @extend .gotham;
-                @media (max-width: $md) {
+                @media (max-width: $md - 1) {
                     font-size: 18px;
                 }
                 small {
@@ -14,7 +14,7 @@
                     color: $rc;
                     font-weight: 400;
                     font-family: 'Noto Sans CJK KR', sans-serif;
-                    @media (max-width: $md) {
+                    @media (max-width: $md - 1) {
                         font-size: 14px;
                     }
                 }
@@ -23,14 +23,14 @@
                 font-size: 16px;
                 color: #6c6c6c;
                 margin: 20px 0 30px;
-                @media (max-width: $md) {
+                @media (max-width: $md - 1) {
                     font-size: 13px;
                     margin: 10px 0 15px;
                 }
             }
             ul {
                 li {
-                    @media (max-width: $md) {
+                    @media (max-width: $md - 1) {
                         &:last-child {
                             .work {
                                 margin-bottom: 0;
@@ -49,11 +49,11 @@
                                 font-size: 16px;
                                 color: #333;
                                 margin: 11px 0 13px;
-                                @media (max-width: $lg) {
+                                @media (max-width: $lg - 1) {
                                     font-size: 14px;
                                     margin: 10px 0;
                                 }
-                                @media (max-width: $md) {
+                                @media (max-width: $md - 1) {
                                     font-size: 13px;
                                 }
                             }
@@ -70,26 +70,26 @@
                                     color: #333;
                                     line-height: 29px;
                                     background-color: #f6f6f6;
-                                    @media (max-width: $lg) {
+                                    @media (max-width: $lg - 1) {
                                         font-size: 14px;
                                     }
-                                    @media (max-width: $md) {
+                                    @media (max-width: $md - 1) {
                                         font-size: 13px;
                                         line-height: 24px;
                                     }
-                                    @media (max-width: $sm) {
+                                    @media (max-width: $sm - 1) {
                                         font-size: 12px;
                                         line-height: 20px;
                                     }
                                     &:nth-of-type(1) {
                                         padding-top: 10px;
-                                        @media (max-width: $md) {
+                                        @media (max-width: $md - 1) {
                                             padding-top: 5px;
                                         }
                                     }
                                     &:nth-of-type(3) {
                                         padding-bottom: 10px;
-                                        @media (max-width: $md) {
+                                        @media (max-width: $md - 1) {
                                             padding-bottom: 5px;
                                         }
                                     }
@@ -100,30 +100,30 @@
                                     font-size: 16px;
                                     color: #6c6c6c;
                                     line-height: 29px;
-                                    @media (max-width: $lg) {
+                                    @media (max-width: $lg - 1) {
                                         font-size: 14px;
                                         padding-left: 10px;
                                         letter-spacing: -1px;
                                     }
-                                    @media (max-width: $md) {
+                                    @media (max-width: $md - 1) {
                                         font-size: 13px;
                                         padding-left: 10px;
                                         line-height: 24px;
                                     }
-                                    @media (max-width: $sm) {
+                                    @media (max-width: $sm - 1) {
                                         font-size: 12px;
                                         padding-left: 8px;
                                         line-height: 20px;
                                     }
                                     &:nth-of-type(1) {
                                         padding-top: 10px;
-                                        @media (max-width: $md) {
+                                        @media (max-width: $md - 1) {
                                             padding-top: 5px;
                                         }
                                     }
                                     &:nth-of-type(3) {
                                         padding-bottom: 10px;
-                                        @media (max-width: $md) {
+                                        @media (max-width: $md - 1) {
                                             padding-bottom: 5px;
                                         }
                                     }
@@ -136,3 +136,277 @@
         }
     }
 }
+.business-list {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 50px;
+    @media(max-width: $sm - 1) {
+        margin-bottom: 30px;
+    }
+    ul {
+        overflow: hidden;
+        position: absolute;
+        top: 0;
+        left: 0;
+        @media(max-width: $md - 1) {
+            width: 100%;
+        }
+        li {
+            float: left;
+            text-align: center;
+            @media(max-width: $md - 1) {
+                width: 25%;
+            }
+            &:first-child {
+                a {
+                    border-left: 1px solid #dadada;
+                }
+            }
+            a {
+                display: block;
+                width: 170px;
+                height: 40px;
+                line-height: 40px;
+                font-size: 16px;
+                color: #6c6c6c;
+                font-weight: 400;
+                background-color: #f2f2f2;
+                border-right: 1px solid #dadada;
+                border-top: 1px solid #dadada;
+                @media(max-width: $md - 1) {
+                    width: 100%;
+                }
+                @media(max-width: $sm - 1) {
+                    font-size: 13px;
+                }
+            }
+        }
+        .active {
+            a {
+                position: relative;
+                z-index: 99;
+                color: #333;
+                margin-bottom: 1px;
+                border-top: 2px solid #333;
+                border-left: 2px solid #333 !important;
+                border-right: 2px solid #333;
+                background-color: #fff;
+            }
+        }
+    }
+    .border-line {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 1px;
+        border-top: 1px solid #333;
+        z-index: 9;
+    }
+}
+
+
+
+.field-civil {
+    padding-bottom: 40px;
+    @media (max-width: $sm - 1) {
+        padding-bottom: 0;
+    }
+    .section-content {
+        .business-content {
+            h4 {
+                font-size: 24px;
+                color: #333;
+                line-height: 35px;
+                margin-bottom: 20px;
+                i {
+                    font-size: 24px;
+                    color: #d90c1c;
+                    line-height: 35px;
+                    font-style: normal;
+                }
+                @media (max-width: $md - 1) {
+                    font-size: 20px;
+                    line-height: 24px;
+                    margin-bottom: 15px;
+                    i {
+                        font-size: 20px;
+                        line-height: 24px;
+                    }
+                }
+                @media (max-width: $sm - 1) {
+                    font-size: 16px;
+                    line-height: 18px;
+                    margin-bottom: 10px;
+                    i {
+                        font-size: 16px;
+                        line-height: 18px;
+                    }
+                }
+            }
+            .business-txt {
+                font-size: 16px;
+                color: #6c6c6c;
+                @media (max-width: $md - 1) {
+                    font-size: 13px;
+                }
+            }
+            .btn-area {
+                margin-top: 50px;
+                @media (max-width: $md - 1) {
+                    margin-top: 30px;
+                    text-align: center;
+                }
+                p {
+                    .btn-red {
+                        width: 190px;
+                        height: 35px;
+                        font-size: 15px;
+                        color: #fff;
+                        background-color: $rc;
+                        @media (max-width: $md - 1) {
+                            width: 150px;
+                            height: 35px;
+                            font-size: 13px;
+                            padding: 9px 0;
+                        }
+                    }
+                }
+            }
+            .slider-img {
+                position: relative;
+                padding-left: 40px;
+                @media (max-width: $lg - 1) {
+                    margin-top: 40px;
+                    padding-left: 0;
+                }
+                @media (max-width: $md - 1) {
+                    margin-top: 30px;
+                }
+                .bx-wrapper {
+                    .bx-viewport {
+                        .business-slider {
+                            li {
+                                img {
+                                    width: 100%;
+                                }
+                            }
+                        }
+                    }
+                    .bx-controls {
+                        position: absolute;
+                        bottom: 0;
+                        left: 0;
+                        @media (max-width: $lg - 1) {
+                            position: relative;
+                            text-align: center;
+                        }
+                        .bx-pager-item {
+                            @media (max-width: $lg - 1) {
+                                display: inline-block;
+                                margin-right: 10px;
+                                margin-top: 10px;
+                                &:last-child {
+                                    margin-right: 0;
+                                }
+                            }
+                            a {
+                                font-size: 16px;
+                                color: #333;
+                                display: block;
+                                font-weight: 400;
+                                padding: 10px 0;
+                                border-bottom: 1px solid #dadada;
+                                &:hover ,
+                                &:focus {
+                                    text-decoration: none;
+                                }
+                                @media (max-width: $lg - 1) {
+                                    padding: 10px;
+                                    border: 0;
+                                    border: 1px solid #dadada;
+                                }
+                                @media (max-width: $sm - 1) {
+                                    font-size: 13px;
+                                    padding: 5px;
+                                }
+                                &:before {
+                                    font-size: 16px;
+                                    color: #333;
+                                    content: "0";
+                                    display: inline;
+                                    @media (max-width: $sm - 1) {
+                                        font-size: 13px;
+                                    }
+                                }
+                            }
+                            .active {
+                                @media (max-width: $lg - 1) {
+                                    background-color: $rc;
+                                    border-color: $rc;
+                                    color: #fff;
+                                    &:before {
+                                        color: #fff;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

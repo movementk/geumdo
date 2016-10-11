@@ -14,7 +14,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%; }
-    @media (max-width: 768px) {
+    @media (max-width: 767px) {
       #content #visual .bx-wrapper .bx-viewport > ul > li {
         height: 374px; } }
     #content #visual .bx-wrapper .bx-viewport > ul > li .container .project {
@@ -24,16 +24,16 @@
       margin-top: 75px;
       margin-left: 22px;
       background-color: rgba(0, 0, 0, 0.8); }
-      @media (max-width: 768px) {
+      @media (max-width: 991px) {
         #content #visual .bx-wrapper .bx-viewport > ul > li .container .project {
-          margin-top: 58px !important;
+          width: 336px; } }
+      @media (max-width: 767px) {
+        #content #visual .bx-wrapper .bx-viewport > ul > li .container .project {
+          margin-top: 58px;
           margin-left: 0;
           height: auto;
           padding-bottom: 28px;
-          width: 279px !important; } }
-      @media (max-width: 992px) {
-        #content #visual .bx-wrapper .bx-viewport > ul > li .container .project {
-          width: 336px; } }
+          width: 279px; } }
       #content #visual .bx-wrapper .bx-viewport > ul > li .container .project h2 {
         font-size: 18px;
         color: #fff;
@@ -42,7 +42,7 @@
         padding-top: 37px;
         border-left: 1px solid #a5a7a5;
         margin-bottom: 18px; }
-        @media (max-width: 768px) {
+        @media (max-width: 767px) {
           #content #visual .bx-wrapper .bx-viewport > ul > li .container .project h2 {
             font-size: 12px; } }
       #content #visual .bx-wrapper .bx-viewport > ul > li .container .project h3 {
@@ -55,7 +55,7 @@
           opacity: .4;
           letter-spacing: -2px;
           font-size: 15px; }
-        @media (max-width: 768px) {
+        @media (max-width: 767px) {
           #content #visual .bx-wrapper .bx-viewport > ul > li .container .project h3 {
             font-size: 26px;
             letter-spacing: 0; }
@@ -65,7 +65,7 @@
       #content #visual .bx-wrapper .bx-viewport > ul > li .container .project > ul {
         margin-top: 29px;
         margin-bottom: 55px; }
-        @media (max-width: 768px) {
+        @media (max-width: 767px) {
           #content #visual .bx-wrapper .bx-viewport > ul > li .container .project > ul {
             margin-top: 18px;
             margin-bottom: 38px; } }
@@ -74,7 +74,7 @@
           color: #fff;
           font-size: 15px;
           font-weight: 400; }
-          @media (max-width: 768px) {
+          @media (max-width: 767px) {
             #content #visual .bx-wrapper .bx-viewport > ul > li .container .project > ul > li {
               font-size: 11px; } }
           #content #visual .bx-wrapper .bx-viewport > ul > li .container .project > ul > li:after {
@@ -99,7 +99,7 @@
         background-image: url(/assets/images/main/view_plus.png);
         background-repeat: no-repeat;
         background-position: 97px 50%; }
-        @media (max-width: 768px) {
+        @media (max-width: 767px) {
           #content #visual .bx-wrapper .bx-viewport > ul > li .container .project .btn-view .btn {
             width: 92px;
             height: 26px;
@@ -113,7 +113,7 @@
     bottom: 30px;
     left: 48.5%;
     text-align: center; }
-    @media (max-width: 768px) {
+    @media (max-width: 767px) {
       #content #visual .bx-wrapper .bx-controls .bx-default-pager {
         bottom: 20px; } }
     #content #visual .bx-wrapper .bx-controls .bx-default-pager .bx-pager-item {
@@ -137,20 +137,20 @@
     left: 50%;
     width: 500px;
     margin-left: -584px; }
-    @media (max-width: 768px) {
-      #content #visual .bx-wrapper .bx-controls .bx-controls-direction {
-        display: none; } }
-    @media (max-width: 992px) {
-      #content #visual .bx-wrapper .bx-controls .bx-controls-direction {
-        position: absolute;
-        bottom: 30px;
-        left: 22px; } }
-    @media (max-width: 1200px) {
+    @media (max-width: 1199px) {
       #content #visual .bx-wrapper .bx-controls .bx-controls-direction {
         position: absolute;
         bottom: 30px;
         margin-left: 0;
         left: 22px; } }
+    @media (max-width: 991px) {
+      #content #visual .bx-wrapper .bx-controls .bx-controls-direction {
+        position: absolute;
+        bottom: 30px;
+        left: 22px; } }
+    @media (max-width: 767px) {
+      #content #visual .bx-wrapper .bx-controls .bx-controls-direction {
+        display: none; } }
     #content #visual .bx-wrapper .bx-controls .bx-controls-direction .bx-prev {
       display: inline-block;
       text-align: center;
@@ -194,24 +194,24 @@
         text-decoration: none; }
 #content .business {
   padding: 100px 0 69px; }
-  @media (max-width: 768px) {
+  @media (max-width: 1199px) {
     #content .business {
-      padding-top: 30px !important;
-      padding-bottom: 25px !important; } }
-  @media (max-width: 992px) {
+      padding-top: 55px; } }
+  @media (max-width: 991px) {
     #content .business {
       padding-top: 10px;
       padding-bottom: 11px; } }
-  @media (max-width: 1200px) {
+  @media (max-width: 767px) {
     #content .business {
-      padding-top: 55px; } }
+      padding-top: 30px;
+      padding-bottom: 25px; } }
   #content .business h2 {
     font-size: 35px;
     color: #333;
     text-align: center;
     font-weight: bold;
     letter-spacing: 4px; }
-    @media (max-width: 768px) {
+    @media (max-width: 767px) {
       #content .business h2 {
         font-size: 22px;
         letter-spacing: 0; } }
@@ -220,13 +220,13 @@
     border-top: 2px solid #333;
     display: block;
     margin: 20px auto 50px; }
-    @media (max-width: 768px) {
+    @media (max-width: 767px) {
       #content .business hr {
         margin-top: 10px;
         margin-bottom: 30px; } }
   #content .business ul li {
     margin-bottom: 30px; }
-    @media (max-width: 768px) {
+    @media (max-width: 767px) {
       #content .business ul li {
         margin-bottom: 10px; } }
     #content .business ul li:hover a h3, #content .business ul li:focus a h3 {
@@ -237,7 +237,7 @@
       position: relative;
       display: block;
       height: 250px; }
-      @media (max-width: 768px) {
+      @media (max-width: 767px) {
         #content .business ul li a {
           height: 150px; } }
       #content .business ul li a .hover-details {
@@ -249,7 +249,7 @@
         height: 139px;
         padding: 25px 29px;
         background-color: rgba(217, 12, 28, 0.8); }
-        @media (max-width: 768px) {
+        @media (max-width: 767px) {
           #content .business ul li a .hover-details {
             height: 100%;
             padding: 40px 10px 10px; } }
@@ -258,7 +258,7 @@
           color: #fff;
           letter-spacing: -3px;
           margin-bottom: 15px; }
-          @media (max-width: 768px) {
+          @media (max-width: 767px) {
             #content .business ul li a .hover-details h4 {
               font-size: 16px;
               letter-spacing: 0;
@@ -268,7 +268,7 @@
           color: #fff;
           line-height: 22px;
           letter-spacing: -1.5px; }
-          @media (max-width: 768px) {
+          @media (max-width: 767px) {
             #content .business ul li a .hover-details p {
               font-size: 10px;
               letter-spacing: 0;
@@ -281,7 +281,7 @@
         font-size: 30px;
         color: #fff;
         letter-spacing: -3px; }
-        @media (max-width: 768px) {
+        @media (max-width: 767px) {
           #content .business ul li a h3 {
             left: 14px;
             bottom: 17px;
@@ -294,7 +294,7 @@
           opacity: .5;
           margin-top: 10px;
           letter-spacing: 0; }
-          @media (max-width: 768px) {
+          @media (max-width: 767px) {
             #content .business ul li a h3 small {
               font-size: 11px;
               margin-top: 10px;
@@ -323,25 +323,25 @@
 #content .news {
   padding: 100px 0 69px;
   background-color: #ebebeb; }
-  @media (max-width: 768px) {
-    #content .news {
-      padding-top: 30px !important;
-      padding-bottom: 30px !important; } }
-  @media (max-width: 992px) {
-    #content .news {
-      padding-top: 10px;
-      padding-bottom: 33px; } }
-  @media (max-width: 1200px) {
+  @media (max-width: 1199px) {
     #content .news {
       padding-top: 55px;
       padding-bottom: 33px; } }
+  @media (max-width: 991px) {
+    #content .news {
+      padding-top: 10px;
+      padding-bottom: 33px; } }
+  @media (max-width: 767px) {
+    #content .news {
+      padding-top: 30px;
+      padding-bottom: 30px; } }
   #content .news h2 {
     font-size: 35px;
     color: #333;
     text-align: center;
     font-weight: bold;
     letter-spacing: 4px; }
-    @media (max-width: 768px) {
+    @media (max-width: 767px) {
       #content .news h2 {
         font-size: 22px;
         letter-spacing: 0; } }
@@ -350,7 +350,7 @@
     border-top: 2px solid #333;
     display: block;
     margin: 20px auto 50px; }
-    @media (max-width: 768px) {
+    @media (max-width: 767px) {
       #content .news hr {
         margin-top: 10px;
         margin-bottom: 30px; } }
@@ -358,7 +358,7 @@
     margin: 0 auto; }
     #content .news .news-list > li {
       margin-bottom: 30px; }
-      @media (max-width: 768px) {
+      @media (max-width: 767px) {
         #content .news .news-list > li {
           margin-bottom: 18px; } }
       #content .news .news-list > li .hover-box {
@@ -383,7 +383,7 @@
           padding: 14px 0;
           text-align: center;
           background-color: #34427d; }
-          @media (max-width: 768px) {
+          @media (max-width: 767px) {
             #content .news .news-list > li .item span {
               width: 60px;
               height: 60px;
@@ -392,7 +392,7 @@
         width: 100%;
         padding: 23px 20px 25px;
         background-color: #fff; }
-        @media (max-width: 768px) {
+        @media (max-width: 767px) {
           #content .news .news-list > li .details {
             padding: 20px; } }
         #content .news .news-list > li .details a h4 {
@@ -405,7 +405,7 @@
           overflow: hidden;
           white-space: nowrap;
           text-overflow: ellipsis; }
-          @media (max-width: 768px) {
+          @media (max-width: 767px) {
             #content .news .news-list > li .details a h4 {
               font-size: 15px;
               margin-bottom: 10px; } }
@@ -417,7 +417,7 @@
           overflow: hidden;
           white-space: nowrap;
           text-overflow: ellipsis; }
-          @media (max-width: 768px) {
+          @media (max-width: 767px) {
             #content .news .news-list > li .details a p {
               font-size: 12px;
               line-height: 18px;
@@ -426,7 +426,7 @@
           font-size: 13px;
           color: #333;
           opacity: .5; }
-          @media (max-width: 768px) {
+          @media (max-width: 767px) {
             #content .news .news-list > li .details a .date {
               font-size: 12px; } }
     #content .news .news-list .notice .hover-box {
@@ -437,14 +437,14 @@
         width: 100%;
         padding: 28px 27px;
         background-color: #fff; }
-        @media (max-width: 768px) {
+        @media (max-width: 767px) {
           #content .news .news-list .notice .hover-box .notice-info {
             padding: 24px 19px 14px; } }
         #content .news .news-list .notice .hover-box .notice-info h4 {
           font-size: 23px;
           letter-spacing: -2px;
           margin-bottom: 10px; }
-          @media (max-width: 768px) {
+          @media (max-width: 767px) {
             #content .news .news-list .notice .hover-box .notice-info h4 {
               font-size: 18px;
               margin-bottom: 12px; } }
@@ -460,7 +460,7 @@
               height: 16px;
               background-image: url(/assets/images/main/plus_more.gif);
               background-repeat: no-repeat; }
-            @media (max-width: 768px) {
+            @media (max-width: 767px) {
               #content .news .news-list .notice .hover-box .notice-info h4 a {
                 position: absolute;
                 top: 24px; } }
@@ -468,7 +468,7 @@
           padding: 25.3px 0;
           margin-bottom: 0;
           border-bottom: 1px solid #ececec; }
-          @media (max-width: 768px) {
+          @media (max-width: 767px) {
             #content .news .news-list .notice .hover-box .notice-info ul li {
               padding: 14px 0; }
               #content .news .news-list .notice .hover-box .notice-info ul li:nth-of-type(2) {
@@ -493,7 +493,7 @@
             white-space: nowrap;
             text-overflow: ellipsis;
             margin-bottom: 20px; }
-            @media (max-width: 768px) {
+            @media (max-width: 767px) {
               #content .news .news-list .notice .hover-box .notice-info ul li a .title {
                 font-size: 13px;
                 margin-bottom: 15px;
@@ -506,7 +506,7 @@
               color: #333;
               opacity: .5;
               margin-right: 1px; }
-              @media (max-width: 768px) {
+              @media (max-width: 767px) {
                 #content .news .news-list .notice .hover-box .notice-info ul li a .title .date {
                   font-size: 12px; } }
           #content .news .news-list .notice .hover-box .notice-info ul li a p {
@@ -518,7 +518,7 @@
             overflow: hidden;
             white-space: nowrap;
             text-overflow: ellipsis; }
-            @media (max-width: 768px) {
+            @media (max-width: 767px) {
               #content .news .news-list .notice .hover-box .notice-info ul li a p {
                 font-size: 12px;
                 line-height: 18px; } }
@@ -532,18 +532,18 @@
       background-repeat: no-repeat;
       background-size: cover;
       background-position: 50% 50%; }
-      @media (max-width: 768px) {
+      @media (max-width: 767px) {
         #content .the-terrace ul li:nth-of-type(1) {
           height: 280px; } }
     #content .the-terrace ul li:nth-of-type(2) {
       background-color: #282c47; }
-      @media (max-width: 768px) {
+      @media (max-width: 767px) {
         #content .the-terrace ul li:nth-of-type(2) {
           height: 247px; } }
       #content .the-terrace ul li:nth-of-type(2) div {
         position: relative;
         padding: 110px 87px 0 87px; }
-        @media (max-width: 768px) {
+        @media (max-width: 767px) {
           #content .the-terrace ul li:nth-of-type(2) div {
             padding: 34px 10px 30px; } }
         #content .the-terrace ul li:nth-of-type(2) div h3 {
@@ -551,7 +551,7 @@
           color: #fff;
           font-weight: bold;
           letter-spacing: -3px; }
-          @media (max-width: 768px) {
+          @media (max-width: 767px) {
             #content .the-terrace ul li:nth-of-type(2) div h3 {
               font-size: 18px;
               letter-spacing: 0; } }
@@ -560,7 +560,7 @@
           border-top: 2px solid #fff;
           display: block;
           margin: 25px 0 30px 0; }
-          @media (max-width: 768px) {
+          @media (max-width: 767px) {
             #content .the-terrace ul li:nth-of-type(2) div hr {
               width: 32px;
               margin: 16px 0 20px; } }
@@ -569,7 +569,7 @@
           color: #fff;
           line-height: 25px;
           letter-spacing: -2px; }
-          @media (max-width: 768px) {
+          @media (max-width: 767px) {
             #content .the-terrace ul li:nth-of-type(2) div p {
               letter-spacing: 0;
               font-size: 12px;
@@ -577,7 +577,7 @@
         #content .the-terrace ul li:nth-of-type(2) div .more-btn {
           margin-top: 40px;
           letter-spacing: 0; }
-          @media (max-width: 768px) {
+          @media (max-width: 767px) {
             #content .the-terrace ul li:nth-of-type(2) div .more-btn {
               margin-top: 24px; } }
           #content .the-terrace ul li:nth-of-type(2) div .more-btn .btn {
@@ -590,7 +590,7 @@
             padding: 13px 0;
             border-radius: 0;
             border: 1px solid #fff; }
-            @media (max-width: 768px) {
+            @media (max-width: 767px) {
               #content .the-terrace ul li:nth-of-type(2) div .more-btn .btn {
                 width: 89px;
                 height: 30px;
@@ -598,7 +598,7 @@
                 padding: 5px; } }
 #content .partner {
   padding: 100px 0; }
-  @media (max-width: 768px) {
+  @media (max-width: 767px) {
     #content .partner {
       padding-top: 30px !important;
       padding-bottom: 33px !important; } }
@@ -608,7 +608,7 @@
     text-align: center;
     font-weight: bold;
     letter-spacing: 4px; }
-    @media (max-width: 768px) {
+    @media (max-width: 767px) {
       #content .partner h2 {
         font-size: 22px;
         letter-spacing: 0; } }
@@ -617,7 +617,7 @@
     border-top: 2px solid #333;
     display: block;
     margin: 20px auto 50px; }
-    @media (max-width: 768px) {
+    @media (max-width: 767px) {
       #content .partner hr {
         margin-top: 10px;
         margin-bottom: 30px; } }
@@ -632,42 +632,42 @@
         height: 60px;
         background-repeat: no-repeat;
         background-position: 50% 50%; }
-      @media (max-width: 768px) {
+      @media (max-width: 767px) {
         #content .partner .bx-wrapper .bx-viewport .slider li a {
           width: 100%; } }
     #content .partner .bx-wrapper .bx-viewport .slider .partner-1 a {
       background-image: url(/assets/images/main/partner_img01.jpg); }
       #content .partner .bx-wrapper .bx-viewport .slider .partner-1 a:hover, #content .partner .bx-wrapper .bx-viewport .slider .partner-1 a:focus {
         background-image: url(/assets/images/main/partner_hover_img01.jpg); }
-    @media (max-width: 768px) {
+    @media (max-width: 767px) {
       #content .partner .bx-wrapper .bx-viewport .slider .partner-1 a {
         background-size: 91px auto; } }
     #content .partner .bx-wrapper .bx-viewport .slider .partner-2 a {
       background-image: url(/assets/images/main/partner_img02.jpg); }
       #content .partner .bx-wrapper .bx-viewport .slider .partner-2 a:hover, #content .partner .bx-wrapper .bx-viewport .slider .partner-2 a:focus {
         background-image: url(/assets/images/main/partner_hover_img02.jpg); }
-    @media (max-width: 768px) {
+    @media (max-width: 767px) {
       #content .partner .bx-wrapper .bx-viewport .slider .partner-2 a {
         background-size: 88.5px auto; } }
     #content .partner .bx-wrapper .bx-viewport .slider .partner-3 a {
       background-image: url(/assets/images/main/partner_img03.jpg); }
       #content .partner .bx-wrapper .bx-viewport .slider .partner-3 a:hover, #content .partner .bx-wrapper .bx-viewport .slider .partner-3 a:focus {
         background-image: url(/assets/images/main/partner_hover_img03.jpg); }
-    @media (max-width: 768px) {
+    @media (max-width: 767px) {
       #content .partner .bx-wrapper .bx-viewport .slider .partner-3 a {
         background-size: 90px auto; } }
     #content .partner .bx-wrapper .bx-viewport .slider .partner-4 a {
       background-image: url(/assets/images/main/partner_img04.jpg); }
       #content .partner .bx-wrapper .bx-viewport .slider .partner-4 a:hover, #content .partner .bx-wrapper .bx-viewport .slider .partner-4 a:focus {
         background-image: url(/assets/images/main/partner_hover_img04.jpg); }
-    @media (max-width: 768px) {
+    @media (max-width: 767px) {
       #content .partner .bx-wrapper .bx-viewport .slider .partner-4 a {
         background-size: 77px auto; } }
     #content .partner .bx-wrapper .bx-viewport .slider .partner-5 a {
       background-image: url(/assets/images/main/partner_img05.jpg); }
       #content .partner .bx-wrapper .bx-viewport .slider .partner-5 a:hover, #content .partner .bx-wrapper .bx-viewport .slider .partner-5 a:focus {
         background-image: url(/assets/images/main/partner_hover_img05.jpg); }
-    @media (max-width: 768px) {
+    @media (max-width: 767px) {
       #content .partner .bx-wrapper .bx-viewport .slider .partner-5 a {
         background-size: 79.5px auto; } }
     #content .partner .bx-wrapper .bx-controls {

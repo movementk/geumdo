@@ -7,7 +7,7 @@
 
 .rnd {
   padding-bottom: 40px; }
-  @media (max-width: 768px) {
+  @media (max-width: 767px) {
     .rnd {
       padding-bottom: 0; } }
   .rnd .section-content .rnd-txt {
@@ -16,13 +16,13 @@
     line-height: 29px;
     text-align: center;
     margin-bottom: 50px; }
-    @media (max-width: 768px) {
+    @media (max-width: 767px) {
       .rnd .section-content .rnd-txt {
         font-size: 14px;
         line-height: 20px;
         text-align: left;
         margin-bottom: 30px; } }
-  @media (max-width: 768px) {
+  @media (max-width: 767px) {
     .rnd .section-content .rnd-img {
       padding: 0 15px; } }
   .rnd .section-content .rnd-img img {
@@ -30,7 +30,7 @@
 
 .partner {
   padding-bottom: 40px; }
-  @media (max-width: 768px) {
+  @media (max-width: 767px) {
     .partner {
       padding-bottom: 0; } }
   .partner .partner-relative h4 {
@@ -39,7 +39,7 @@
     padding-left: 30px;
     border-left: 4px solid #d90c1c;
     margin-bottom: 20px; }
-    @media (max-width: 768px) {
+    @media (max-width: 767px) {
       .partner .partner-relative h4 {
         font-size: 18px;
         margin-bottom: 15px;
@@ -47,19 +47,19 @@
         border-left: 2px solid #d90c1c; } }
   .partner .partner-relative .partner-info {
     margin-bottom: 70px; }
-    @media (max-width: 992px) {
+    @media (max-width: 991px) {
       .partner .partner-relative .partner-info {
         margin-bottom: 40px; } }
     .partner .partner-relative .partner-info:last-child {
       margin-bottom: 0; }
-    @media (max-width: 992px) {
+    @media (max-width: 991px) {
       .partner .partner-relative .partner-info .table-wrap {
         margin-bottom: 30px; } }
     .partner .partner-relative .partner-info .table-wrap .table {
       margin-bottom: 0;
       border: 0;
       border-top: 3px solid #333; }
-      @media (max-width: 768px) {
+      @media (max-width: 767px) {
         .partner .partner-relative .partner-info .table-wrap .table {
           border-top: 2px solid #333; } }
       .partner .partner-relative .partner-info .table-wrap .table tbody tr th {
@@ -72,7 +72,7 @@
         border-right: 0;
         border-color: #bbb;
         background-color: #fafafa; }
-        @media (max-width: 768px) {
+        @media (max-width: 767px) {
           .partner .partner-relative .partner-info .table-wrap .table tbody tr th {
             font-size: 12px; } }
       .partner .partner-relative .partner-info .table-wrap .table tbody tr td {
@@ -82,7 +82,7 @@
         border-right: 0;
         vertical-align: middle;
         border-color: #bbb; }
-        @media (max-width: 768px) {
+        @media (max-width: 767px) {
           .partner .partner-relative .partner-info .table-wrap .table tbody tr td {
             font-size: 12px;
             padding: 5px;
@@ -126,5 +126,16 @@
         .partner .partner-relative .partner-info .bx-pager-img-2 a img {
           width: 86px;
           height: 52px; }
+
+.geumdo-ci .section-content > p {
+  font-size: 16px;
+  color: #6c6c6c;
+  line-height: 29px; }
+.geumdo-ci .section-content .ci-rogo {
+  width: 100%;
+  height: 440px;
+  margin-top: 70px;
+  border: 1px solid #ddd;
+  background-image: url(/assets/images/promotion/ci_bg.gif); }
 
 /*# sourceMappingURL=promotion.css.map */

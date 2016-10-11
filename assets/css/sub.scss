@@ -5,7 +5,7 @@
     background-image: url(/assets/images/sub/sub_visual01.jpg);
     background-repeat: no-repeat;
     background-position: 50% 0;
-    @media (max-width: $md) {
+    @media (max-width: $md - 1) {
         background-position: 50% -50px;
     }
     .page-header {
@@ -19,7 +19,7 @@
             font-weight: bold;
             letter-spacing: -1px;
             vertical-align: top;
-            @media (max-width: $sm) {
+            @media (max-width: $sm - 1) {
                 font-size: 26px;
             }
         }
@@ -35,7 +35,7 @@
             font-weight: bold;
             line-height: 22px;
             @extend .lato;
-            @media (max-width: $sm) {
+            @media (max-width: $sm - 1) {
                 font-size: 12px;
                 line-height: 16px;
             }
@@ -46,7 +46,7 @@
         padding: 30px 0;
         margin: 0 auto;
         background-color: #fff;
-        @media (max-width: $sm) {
+        @media (max-width: $sm - 1) {
             padding: 20px 0;
         }
         section {
@@ -54,7 +54,7 @@
                 width: 100%;
                 height: 40px;
                 border: 1px solid #ccc;
-                @media (max-width: $sm) {
+                @media (max-width: $sm - 1) {
                     height: 30px;
                 }
                 > ul {
@@ -76,7 +76,7 @@
                                 &:focus {
                                     text-decoration: none;
                                 }
-                                @media (max-width: $sm) {
+                                @media (max-width: $sm - 1) {
                                     height: 28px;
                                     font-size: 13px;
                                     padding: 5px 0;
@@ -118,7 +118,7 @@
                                 opacity: 1;
                                 background-color: #fff;
                             }
-                            @media (max-width: $sm) {
+                            @media (max-width: $sm - 1) {
                                 width: 130px;
                                 height: 28px;
                                 font-size: 13px;
@@ -139,19 +139,19 @@
                             margin: 0;
                             margin-left: -1px;
                             border-color: #ccc;
-                            @media (max-width: $sm) {
+                            @media (max-width: $sm - 1) {
                                 width: 132px !important;
                                 padding: 0 !important;
                             }
                             li {
                                 font-size: 14px;
                                 color: #333;
-                                @media (max-width: $sm) {
+                                @media (max-width: $sm - 1) {
                                     font-size: 12px;
                                 }
                                 a {
                                     line-height: 26px;
-                                    @media (max-width: $sm) {
+                                    @media (max-width: $sm - 1) {
                                         line-height: 16px;
                                     }
                                 }
@@ -166,7 +166,7 @@
                     font-size: 42px;
                     color: #333;
                     font-weight: 400;
-                    @media (max-width: $sm) {
+                    @media (max-width: $sm - 1) {
                         font-size: 22px;
                         margin: 30px 0 20px;
                     }
