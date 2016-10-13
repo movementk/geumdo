@@ -420,6 +420,12 @@
   .news .section-content .news-header {
     padding-bottom: 20px;
     border-bottom: 2px solid #d90c1c; }
+    @media (max-width: 1199px) {
+      .news .section-content .news-header .news-list {
+        text-align: center; }
+        .news .section-content .news-header .news-list ul {
+          display: inline-block;
+          margin-bottom: 10px; } }
     .news .section-content .news-header .news-list ul {
       overflow: hidden; }
       .news .section-content .news-header .news-list ul li {
