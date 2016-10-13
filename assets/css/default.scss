@@ -45,7 +45,7 @@ label {
 }
 .container,
 .container-fluid {
-    max-width: 1200px !important;
+    //max-width: 1170px !important;
     padding-left: 10px;
     padding-right: 10px;
     .row {
@@ -62,7 +62,7 @@ label {
         }
     }
     @media (min-width: $lg) {
-        width: 1200px;
+        //width: 1170px;
         padding-left: 15px;
         padding-right: 15px;
         .row {

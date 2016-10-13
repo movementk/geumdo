@@ -737,7 +737,184 @@
         }
     }
 }
-
+.information.list {
+    padding-bottom: 40px;
+    @media (max-width: $sm - 1) {
+        padding-bottom: 0;
+    }
+    .section-content {
+        .table-wrap {
+            .table {
+                border: 0;
+                margin-bottom: 0;
+                thead {
+                    tr {
+                        th {
+                            font-size: 16px;
+                            color: #333;
+                            font-weight: 400;
+                            text-align: center;
+                            vertical-align: middle;
+                            padding: 14px 0;
+                            border: 0;
+                            border-top: 2px solid #333;
+                            border-bottom: 1px solid #333;
+                            background-color: #f6f6f6;
+                            &:nth-of-type(2) {
+                                border-top-color: $rc;
+                            }
+                            @media (max-width: $lg - 1) {
+                                font-size: 14px;
+                                padding: 10px;
+                            }
+                            @media (max-width: $md - 1) {
+                                font-family: 13px;
+                            }
+                            @media (max-width: $sm - 1) {
+                                font-size: 12px;
+                            }
+                        }
+                    }
+                }
+                tbody {
+                    tr {
+                        td {
+                            font-size: 16px;
+                            color: #6b6b6b;
+                            vertical-align: middle;
+                            text-align: center;
+                            padding: 12px 0;
+                            border: 0;
+                            border-bottom: 1px solid #dadada;
+                            @media (max-width: $lg - 1) {
+                                padding: 10px 0;
+                                font-size: 14px;
+                            }
+                            @media (max-width: $md - 1) {
+                                font-size: 13px;
+                                padding-right: 10px;
+                            }
+                            @media (max-width: $sm - 1) {
+                                font-size: 11px;
+                            }
+                            &:nth-of-type(2) {
+                                padding-left: 10px;
+                                text-align: left;
+                                @media (max-width: $md - 1) {
+                                    padding-left: 5px;
+                                }
+                                @media (max-width: $sm - 1) {
+                                    padding-left: 5px;
+                                }
+                            }
+                            a {
+                                font-size: 16px;
+                                color: #6c6c6c;
+                                display: inline-block;
+                                width: 100%;
+                                max-width: 600px;
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                                white-space: nowrap;
+                                @media (max-width: $lg - 1) {
+                                    font-size: 14px;
+                                    white-space: inherit;
+                                    text-overflow: ellipsis;
+                                }
+                                @media (max-width: $md - 1) {
+                                    font-size: 13px;
+                                }
+                                @media (max-width: $sm - 1) {
+                                    position: relative;
+                                    font-size: 11px;
+                                    padding-left: 40px;
+                                    line-height: 23px;
+                                }
+                                span {
+                                    display: inline-block;
+                                    width: 45px;
+                                    height: 23px;
+                                    font-size: 13px;
+                                    color: #fff;
+                                    line-height: 23px;
+                                    text-align: center;
+                                    vertical-align: middle;
+                                    margin-right: 40px;
+                                    @media (max-width: $lg - 1) {
+                                        margin-right: 20px;
+                                        display: block;
+                                        float: left;
+                                    }
+                                    @media (max-width: $md - 1) {
+                                        width: 30px;
+                                        height: 23px;
+                                        line-height: 23px;
+                                        font-size: 12px;
+                                    }
+                                    @media (max-width: $sm - 1) {
+                                        position: absolute;
+                                        top: 0;
+                                        left: 0;
+                                        margin-right: 10px;
+                                    }
+                                }
+                                .accept {
+                                    background-color: $rc;
+                                }
+                                .deadline {
+                                    background-color: #999;
+                                }
+                            }
+                        }
+                        .receive {
+                            a {
+                                color: #333;
+                                font-weight: bold;
+//                                overflow: hidden;
+//                                text-overflow: ellipsis;
+//                                white-space: nowrap;
+                                span {
+                                    font-weight: 400;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .paging {
+            text-align: center;
+            margin-top: 30px;
+            .pagination {
+                margin: 0;
+                li {
+                    a {
+                        font-size: 16px;
+                        color: #6c6c6c;
+                        padding: 8px 14px;
+                        border-radius: 0;
+                        border: 1px solid #dadada;
+                        @media (max-width: $md - 1) {
+                            font-size: 14px;
+                            padding: 6px 12px;
+                        }
+                        @media (max-width: $sm - 1) {
+                            font-size: 12px;
+                            padding: 4px 10px;
+                        }
+                    }
+                }
+                .active {
+                    a {
+                        color: #fff;
+                        border-color: $rc;
+                        background-color: $rc;
+                    }
+                }
+            }
+        }
+    }
+}
 
 
 

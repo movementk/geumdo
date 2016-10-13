@@ -29,9 +29,9 @@
                                     <span class="glyphicon glyphicon-menu-down"></span>
                                 </button>
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                                    <li><a href="#">CI소개</a></li>
+                                    <li><a href="/promotion/geumdo_ci.php">CI소개</a></li>
                                     <li><a href="/promotion/rnd.php">R&amp;D센터</a></li>
-                                    <li><a href="#">인증 및 상호</a></li>
+                                    <li><a href="/promotion/certificate.php">인증 및 상훈</a></li>
                                     <li><a href="/promotion/partner.php">관계사 현황</a></li>
                                 </ul>
                             </li>

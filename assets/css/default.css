@@ -48,7 +48,6 @@ label {
 
 .container,
 .container-fluid {
-  max-width: 1200px !important;
   padding-left: 10px;
   padding-right: 10px; }
   .container .row,
@@ -178,7 +177,6 @@ label {
   @media (min-width: 1200px) {
     .container,
     .container-fluid {
-      width: 1200px;
       padding-left: 15px;
       padding-right: 15px; }
       .container .row,

@@ -34,7 +34,7 @@
                                     <li><a href="/employment/welfare.php">복리후생</a></li>
                                     <li><a href="/employment/resume.php">이력서 등록</a></li>
                                     <li><a href="/employment/recruit.php">입사지원</a></li>
-                                    <li><a href="#">채용정보</a></li>
+                                    <li><a href="/employment/information.php">채용정보</a></li>
                                     <li><a href="#">채용결과확인</a></li>
                                 </ul>
                             </li>

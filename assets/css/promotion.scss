@@ -172,23 +172,276 @@
     }
 }
 .geumdo-ci {
+    padding-bottom: 40px;
+    @media (max-width: $sm - 1) {
+        padding-bottom: 0;
+    }
     .section-content {
         > p {
             font-size: 16px;
             color: #6c6c6c;
             line-height: 29px;
+            @media (max-width: $sm - 1) {
+                font-size: 14px;
+                line-height: 24px;
+            }
         }
         .ci-rogo {
             width: 100%;
-            height: 440px;
+            text-align: center;
             margin-top: 70px;
+            padding-bottom: 70px;
             border: 1px solid #ddd;
             background-image: url(/assets/images/promotion/ci_bg.gif);
+            @media (max-width: $sm - 1) {
+                margin-top: 30px;
+                padding-bottom: 30px;
+            }
+            h4 {
+                font-size: 24px;
+                color: #333;
+                padding: 68px 0 38px;
+                @media (max-width: $sm - 1) {
+                    padding: 30px 0 20px;
+                    font-size: 16px;
+                }
+            }
+            .logo-img {
+                margin-bottom: 30px;
+                @media (max-width: $sm - 1) {
+                    margin-bottom: 25px;
+                }
+                img {
+                    display: inline-block;
+                }
+            }
+            .btn-area {
+                p {
+                    .btn-down {
+                        position: relative;
+                        width: 190px;
+                        height: 40px;
+                        font-size: 13px;
+                        color: #333;
+                        font-weight: 400;
+                        text-align: center;
+                        border: 1px solid #b7b7b7;
+                        background-color: #fff;
+                        padding: 10px 44px 10px 0;
+                        @media (max-width: $sm - 1) {
+                            width: 150px;
+                            height: 30px;
+                            padding: 7px 0;
+                            padding-right: 32px;
+                        }
+                        span {
+                            position: absolute;
+                            top: -1px;
+                            right: -1px;
+                            width: 44px;
+                            height: 40px;
+                            background-color: $rc;
+                            background-image: url(/assets/images/promotion/down_btn.png);
+                            background-repeat: no-repeat;
+                            background-position: 50% 50%;
+                            @media (max-width: $sm - 1) {
+                                width: 32px;
+                                height: 30px;
+                                background-size: 12px;
+                            }
+                        }
+                    }
+                }
+            }
+            .english-ci {
+                @media (max-width: $sm - 1) {
+                    margin-top: 30px;
+                }
+                .logo-img {
+                    margin-bottom: 50px;
+                    @media (max-width: $sm - 1) {
+                        margin-bottom: 25px;
+                    }
+                }
+            }
         }
     }
 }
+.certificate-menu {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 30px;
+    @media(max-width: $sm - 1) {
+        margin-bottom: 20px;
+    }
+    ul {
+        overflow: hidden;
+        position: absolute;
+        top: 0;
+        left: 0;
+        @media(max-width: $md - 1) {
+            width: 100%;
+        }
+        li {
+            float: left;
+            text-align: center;
+            @media(max-width: $md - 1) {
+                width: 25%;
+            }
+            &:first-child {
+                a {
+                    border-left: 1px solid #dadada;
+                }
+            }
+            a {
+                display: block;
+                width: 170px;
+                height: 40px;
+                line-height: 40px;
+                font-size: 16px;
+                color: #6c6c6c;
+                font-weight: 400;
+                background-color: #f2f2f2;
+                border-right: 1px solid #dadada;
+                border-top: 1px solid #dadada;
+                @media(max-width: $md - 1) {
+                    width: 100%;
+                }
+                @media(max-width: $sm - 1) {
+                    font-size: 13px;
+                }
+            }
+        }
+        .active {
+            a {
+                position: relative;
+                z-index: 99;
+                color: #333;
+                margin-bottom: 1px;
+                border-top: 2px solid #333;
+                border-left: 2px solid #333 !important;
+                border-right: 2px solid #333;
+                background-color: #fff;
+            }
+        }
+    }
+    .border-line {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 1px;
+        border-top: 1px solid #333;
+        z-index: 9;
+    }
+}
+.certificate {
+    padding-bottom: 40px;
+    @media (max-width: $md - 1) {
+        padding-bottom: 0;
+    }
+    .section-content {
+        .certificate-list {
+            ul {
+                margin-left: -15px;
+                margin-right: -15px;
+                overflow: hidden;
+                @media (max-width: $md - 1) {
+                    margin-left: -10px;
+                    margin-right: -10px;
+                }
+                @media (max-width: $sm - 1) {
+                    margin-left: -5px;
+                    margin-right: -5px;
+                }
+                li {
+                    float: left;
+                    width: 20%;
+                    .fixed-box {
+                        position: relative;
+                        display: block;
+                        border: 1px solid #dadada;
+                        margin: 0 15px;
+                        img {
+                            width: 100%;
+                        }
+                        .hover-box {
+                            display: none;
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            width: 100%;
+                            height: 100%;
+                            padding: 29px;
+                            background-color: rgba(0, 0, 0, 0.6);
+                            > p {
+                                display: inline-block;
+                                font-size: 13px;
+                                color: #fff;
+                                margin-bottom: 15px;
+                                border-top: 1px solid #fff;
+                                border-bottom: 1px solid #fff;
+                            }
+                            .title {
+                                font-size: 20px;
+                                color: #fff;
+                                font-weight: 300;
+                                span {
+                                    margin-top: 5px;
+                                    display: block;
+                                }
+                            }
+                            @media (max-width: $sm - 1) {
+                                padding: 15px;
+                                p {
+                                    font-size: 12px;
+                                    margin-bottom: 10px;
+                                }
+                                .title {
+                                    letter-spacing: -.5px;
+                                    font-size: 16px;
+                                }
+                            }
+                        }
+                        &:hover {
+                            border: 1px solid #181818;
+                            .hover-box {
+                                display: block;
+                            }
+                        }
+                    }
+                    @media (max-width: $lg - 1) {
+                        width: 33.33%;
+                        margin-bottom: 30px;
+                    }
+                    @media (max-width: $md - 1) {
+                        width: 50%;
+                        margin-bottom: 20px;
+                        a {
+                            margin: 0 10px;
+                        }
+                    }
+                    @media (max-width: $sm - 1) {
+                        margin-bottom: 10px;
+                        a {
+                            margin: 0 5px;
+                        }
+                    }
+                }
+                @media (max-width: $lg - 1) {
 
+                    li {
 
+                        a {
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 
 
 

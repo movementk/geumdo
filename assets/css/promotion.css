@@ -127,15 +127,222 @@
           width: 86px;
           height: 52px; }
 
-.geumdo-ci .section-content > p {
-  font-size: 16px;
-  color: #6c6c6c;
-  line-height: 29px; }
-.geumdo-ci .section-content .ci-rogo {
+.geumdo-ci {
+  padding-bottom: 40px; }
+  @media (max-width: 767px) {
+    .geumdo-ci {
+      padding-bottom: 0; } }
+  .geumdo-ci .section-content > p {
+    font-size: 16px;
+    color: #6c6c6c;
+    line-height: 29px; }
+    @media (max-width: 767px) {
+      .geumdo-ci .section-content > p {
+        font-size: 14px;
+        line-height: 24px; } }
+  .geumdo-ci .section-content .ci-rogo {
+    width: 100%;
+    text-align: center;
+    margin-top: 70px;
+    padding-bottom: 70px;
+    border: 1px solid #ddd;
+    background-image: url(/assets/images/promotion/ci_bg.gif); }
+    @media (max-width: 767px) {
+      .geumdo-ci .section-content .ci-rogo {
+        margin-top: 30px;
+        padding-bottom: 30px; } }
+    .geumdo-ci .section-content .ci-rogo h4 {
+      font-size: 24px;
+      color: #333;
+      padding: 68px 0 38px; }
+      @media (max-width: 767px) {
+        .geumdo-ci .section-content .ci-rogo h4 {
+          padding: 30px 0 20px;
+          font-size: 16px; } }
+    .geumdo-ci .section-content .ci-rogo .logo-img {
+      margin-bottom: 30px; }
+      @media (max-width: 767px) {
+        .geumdo-ci .section-content .ci-rogo .logo-img {
+          margin-bottom: 25px; } }
+      .geumdo-ci .section-content .ci-rogo .logo-img img {
+        display: inline-block; }
+    .geumdo-ci .section-content .ci-rogo .btn-area p .btn-down {
+      position: relative;
+      width: 190px;
+      height: 40px;
+      font-size: 13px;
+      color: #333;
+      font-weight: 400;
+      text-align: center;
+      border: 1px solid #b7b7b7;
+      background-color: #fff;
+      padding: 10px 44px 10px 0; }
+      @media (max-width: 767px) {
+        .geumdo-ci .section-content .ci-rogo .btn-area p .btn-down {
+          width: 150px;
+          height: 30px;
+          padding: 7px 0;
+          padding-right: 32px; } }
+      .geumdo-ci .section-content .ci-rogo .btn-area p .btn-down span {
+        position: absolute;
+        top: -1px;
+        right: -1px;
+        width: 44px;
+        height: 40px;
+        background-color: #d90c1c;
+        background-image: url(/assets/images/promotion/down_btn.png);
+        background-repeat: no-repeat;
+        background-position: 50% 50%; }
+        @media (max-width: 767px) {
+          .geumdo-ci .section-content .ci-rogo .btn-area p .btn-down span {
+            width: 32px;
+            height: 30px;
+            background-size: 12px; } }
+    @media (max-width: 767px) {
+      .geumdo-ci .section-content .ci-rogo .english-ci {
+        margin-top: 30px; } }
+    .geumdo-ci .section-content .ci-rogo .english-ci .logo-img {
+      margin-bottom: 50px; }
+      @media (max-width: 767px) {
+        .geumdo-ci .section-content .ci-rogo .english-ci .logo-img {
+          margin-bottom: 25px; } }
+
+.certificate-menu {
+  position: relative;
   width: 100%;
-  height: 440px;
-  margin-top: 70px;
-  border: 1px solid #ddd;
-  background-image: url(/assets/images/promotion/ci_bg.gif); }
+  height: 40px;
+  margin-bottom: 30px; }
+  @media (max-width: 767px) {
+    .certificate-menu {
+      margin-bottom: 20px; } }
+  .certificate-menu ul {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0; }
+    @media (max-width: 991px) {
+      .certificate-menu ul {
+        width: 100%; } }
+    .certificate-menu ul li {
+      float: left;
+      text-align: center; }
+      @media (max-width: 991px) {
+        .certificate-menu ul li {
+          width: 25%; } }
+      .certificate-menu ul li:first-child a {
+        border-left: 1px solid #dadada; }
+      .certificate-menu ul li a {
+        display: block;
+        width: 170px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 16px;
+        color: #6c6c6c;
+        font-weight: 400;
+        background-color: #f2f2f2;
+        border-right: 1px solid #dadada;
+        border-top: 1px solid #dadada; }
+        @media (max-width: 991px) {
+          .certificate-menu ul li a {
+            width: 100%; } }
+        @media (max-width: 767px) {
+          .certificate-menu ul li a {
+            font-size: 13px; } }
+    .certificate-menu ul .active a {
+      position: relative;
+      z-index: 99;
+      color: #333;
+      margin-bottom: 1px;
+      border-top: 2px solid #333;
+      border-left: 2px solid #333 !important;
+      border-right: 2px solid #333;
+      background-color: #fff; }
+  .certificate-menu .border-line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    border-top: 1px solid #333;
+    z-index: 9; }
+
+.certificate {
+  padding-bottom: 40px; }
+  @media (max-width: 991px) {
+    .certificate {
+      padding-bottom: 0; } }
+  .certificate .section-content .certificate-list ul {
+    margin-left: -15px;
+    margin-right: -15px;
+    overflow: hidden; }
+    @media (max-width: 991px) {
+      .certificate .section-content .certificate-list ul {
+        margin-left: -10px;
+        margin-right: -10px; } }
+    @media (max-width: 767px) {
+      .certificate .section-content .certificate-list ul {
+        margin-left: -5px;
+        margin-right: -5px; } }
+    .certificate .section-content .certificate-list ul li {
+      float: left;
+      width: 20%; }
+      .certificate .section-content .certificate-list ul li .fixed-box {
+        position: relative;
+        display: block;
+        border: 1px solid #dadada;
+        margin: 0 15px; }
+        .certificate .section-content .certificate-list ul li .fixed-box img {
+          width: 100%; }
+        .certificate .section-content .certificate-list ul li .fixed-box .hover-box {
+          display: none;
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          padding: 29px;
+          background-color: rgba(0, 0, 0, 0.6); }
+          .certificate .section-content .certificate-list ul li .fixed-box .hover-box > p {
+            display: inline-block;
+            font-size: 13px;
+            color: #fff;
+            margin-bottom: 15px;
+            border-top: 1px solid #fff;
+            border-bottom: 1px solid #fff; }
+          .certificate .section-content .certificate-list ul li .fixed-box .hover-box .title {
+            font-size: 20px;
+            color: #fff;
+            font-weight: 300; }
+            .certificate .section-content .certificate-list ul li .fixed-box .hover-box .title span {
+              margin-top: 5px;
+              display: block; }
+          @media (max-width: 767px) {
+            .certificate .section-content .certificate-list ul li .fixed-box .hover-box {
+              padding: 15px; }
+              .certificate .section-content .certificate-list ul li .fixed-box .hover-box p {
+                font-size: 12px;
+                margin-bottom: 10px; }
+              .certificate .section-content .certificate-list ul li .fixed-box .hover-box .title {
+                letter-spacing: -.5px;
+                font-size: 16px; } }
+        .certificate .section-content .certificate-list ul li .fixed-box:hover {
+          border: 1px solid #181818; }
+          .certificate .section-content .certificate-list ul li .fixed-box:hover .hover-box {
+            display: block; }
+      @media (max-width: 1199px) {
+        .certificate .section-content .certificate-list ul li {
+          width: 33.33%;
+          margin-bottom: 30px; } }
+      @media (max-width: 991px) {
+        .certificate .section-content .certificate-list ul li {
+          width: 50%;
+          margin-bottom: 20px; }
+          .certificate .section-content .certificate-list ul li a {
+            margin: 0 10px; } }
+      @media (max-width: 767px) {
+        .certificate .section-content .certificate-list ul li {
+          margin-bottom: 10px; }
+          .certificate .section-content .certificate-list ul li a {
+            margin: 0 5px; } }
 
 /*# sourceMappingURL=promotion.css.map */
